@@ -1,0 +1,21 @@
+com/scandit/datacapture/textcapturesample/TextCaptureFragment.java
+ com.scandit.datacapture.textcapturesample.TextCaptureFragment
+com/scandit/datacapture/textcapturesample/CameraPermissionFragment.java
+ com.scandit.datacapture.textcapturesample.CameraPermissionFragment
+com/scandit/datacapture/textcapturesample/TextCaptureResultDialogFragment.java
+ com.scandit.datacapture.textcapturesample.TextCaptureResultDialogFragment
+ com.scandit.datacapture.textcapturesample.TextCaptureResultDialogFragment$Callbacks
+com/scandit/datacapture/textcapturesample/MainActivity.java
+ com.scandit.datacapture.textcapturesample.MainActivity
+com/scandit/datacapture/textcapturesample/TextType.java
+ com.scandit.datacapture.textcapturesample.TextType
+com/scandit/datacapture/textcapturesample/RecognitionArea.java
+ com.scandit.datacapture.textcapturesample.RecognitionArea
+com/scandit/datacapture/textcapturesample/DataCaptureManager.java
+ com.scandit.datacapture.textcapturesample.DataCaptureManager
+com/scandit/datacapture/textcapturesample/SettingsFragment.java
+ com.scandit.datacapture.textcapturesample.SettingsFragment
+com/scandit/datacapture/textcapturesample/BuildConfig.java
+ com.scandit.datacapture.textcapturesample.BuildConfig
+com/scandit/datacapture/textcapturesample/SettingsPrefs.java
+ com.scandit.datacapture.textcapturesample.SettingsPrefs

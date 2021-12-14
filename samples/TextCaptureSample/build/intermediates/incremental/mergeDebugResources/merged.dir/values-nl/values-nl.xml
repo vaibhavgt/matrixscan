@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"UIT"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"AAN"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Functie +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"spatie"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Delen met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string name="mb_action_hold_steady">Houd stil</string>
+    <string name="mb_action_move_closer">Beweeg dichterbij</string>
+    <string name="mb_action_searching_document">Op zoek naar een document…</string>
+    <string name="mb_activity_title_step_back_side">Achterzijde</string>
+    <string name="mb_activity_title_step_front_side">Voorzijde</string>
+    <string name="mb_autofocus_fail">Camera kan niet scherpstellen. Probeer onder andere lichtomstandigheden te scannen.</string>
+    <string name="mb_blink_card_glare">Pas op voor schittering van de flitser.\nVerplaats uw kaart voorzichtig om dit te voorkomen.</string>
+    <string name="mb_blinkcard_card_not_fully_visible">Houd de kaart volledig zichtbaar</string>
+    <string name="mb_blinkid_back_instructions_barcode">Scan de barcode</string>
+    <string name="mb_blinkid_camera_flip_document">Draai het document om</string>
+    <string name="mb_blinkid_document_not_fully_visible">Het document volledig zichtbaar houden</string>
+    <string name="mb_blinkid_document_too_close_to_edge">Verplaats het document weg van de rand</string>
+    <string name="mb_blinkid_front_instructions">Scan de voorzijde\nvan een document</string>
+    <string name="mb_camera_not_allowed">Camera niet toegestaan in de toegangsinstellingen.</string>
+    <string name="mb_camera_not_ready">Camera niet klaar.</string>
+    <string name="mb_camera_permission_required">Cameratoegang is vereist.</string>
+    <string name="mb_custom_ui_forbidden">Licentie staat geen aangepaste camera-activiteit toe!</string>
+    <string name="mb_data_not_match_msg">Begin het scanproces alstublieft nogmaals.</string>
+    <string name="mb_data_not_match_retry_button">Probeer opnieuw</string>
+    <string name="mb_data_not_match_title">Zijdes komen niet overeen</string>
+    <string name="mb_dismiss_error_dialog">Sluiten</string>
+    <string name="mb_edit_default_hint">VEREIST</string>
+    <string name="mb_edit_error_dialog_msg">Vul alle vereiste gegevens in.</string>
+    <string name="mb_edit_error_expired">Uw kaart is verlopen.</string>
+    <string name="mb_edit_error_invalid_card_number">Vul een geldig kaartnummer in.</string>
+    <string name="mb_edit_error_invalid_expiry_date">Vul een geldige datum in.</string>
+    <string name="mb_edit_error_invalid_iban">Vul een geldig IBAN-nummer in.</string>
+    <string name="mb_edit_error_invalid_security_code">Vul de volledige beveiligingscode in.</string>
+    <string name="mb_edit_error_required_field">Dit veld is vereist.</string>
+    <string name="mb_edit_results_card_number">Kaartnummer</string>
+    <string name="mb_edit_results_confirm">Toevoegen</string>
+    <string name="mb_edit_results_expiry">Vervaldatum</string>
+    <string name="mb_edit_results_iban">IBAN</string>
+    <string name="mb_edit_results_owner">Naam kaarthouder</string>
+    <string name="mb_edit_results_security_code">Beveiligingscode</string>
+    <string name="mb_edit_results_title">Uw kaartgegevens</string>
+    <string name="mb_enable_camera">Camera inschakelen</string>
+    <string name="mb_enable_permission_help">U wordt nu omgeleid naar de toegangsinstellingen waar u de app toegangsrechten tot de camera moet geven.</string>
+    <string name="mb_enable_permission_help_instant_app">Geef alstublieft cameratoegang via de toegangsinstellingen van de app.</string>
+    <string name="mb_error_camera_high">Beweeg dichterbij</string>
+    <string name="mb_error_camera_near">Beweeg verder weg</string>
+    <string name="mb_error_initializing">Kon de native bibliotheek niet initialiseren. Controleer alstublieft het ADB-foutenlogboek voor meer gegevens.</string>
+    <string name="mb_feature_unsupported_android_version">Deze functie wordt ondersteund voor Android 2.1 en nieuwer</string>
+    <string name="mb_feature_unsupported_autofocus">Deze functie wordt niet ondersteund op een camera zonder autofocus</string>
+    <string name="mb_feature_unsupported_device">Deze functie wordt niet ondersteund vanwege de technische specificaties van uw apparaat </string>
+    <string name="mb_flashlight_warning_message">Pas op voor schittering van de flitser.\nVerplaats uw ID voorzichtig om dit te voorkomen.</string>
+    <string name="mb_instructions_flip_card">Draai de kaart om</string>
+    <string name="mb_instructions_scan_front_side">Scan het kaartnummer</string>
+    <string name="mb_invalid_license">Ongeldige licentiesleutel! Controleer alstublieft het ADB-foutenlogboek voor meer gegevens.</string>
+    <string name="mb_licence_check_device_offline">Controleer de internetverbinding</string>
+    <string name="mb_licence_check_failed">Netwerkfout</string>
+    <string name="mb_licence_locked">Scannen niet beschikbaar</string>
+    <string name="mb_manual_entry">U kunt ook typen</string>
+    <string name="mb_recognition_timeout_dialog_message">Kon het document niet lezen. Probeer het alstublieft opnieuw.</string>
+    <string name="mb_recognition_timeout_dialog_retry_button">Probeer opnieuw</string>
+    <string name="mb_recognition_timeout_dialog_title">Scan niet gelukt</string>
+    <string name="mb_skip">Overslaan</string>
+    <string name="mb_splash_msg_id_back">Achterzijde van ID-kaart</string>
+    <string name="mb_splash_msg_id_front">Voorzijde van ID-kaart</string>
+    <string name="mb_tooltip_back_id">Plaats de <b>ACHTERZIJDE</b> van de ID-kaart in het kader en wacht op een automatische scan</string>
+    <string name="mb_tooltip_front_id">Plaats de <b>VOORZIJDE</b> van de ID-kaart in het kader en wacht op een automatische scan</string>
+    <string name="mb_tooltip_glare">Verplaats het ID een beetje om weerspiegeling te voorkomen.</string>
+    <string name="mb_unsupported_document_message">Scan de voorzijde van een ondersteund document.</string>
+    <string name="mb_unsupported_document_title">Document niet herkend</string>
+    <string name="mb_warning_title">Waarschuwing</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Zoeken"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

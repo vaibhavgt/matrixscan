@@ -1,0 +1,15 @@
+com/scandit/datacapture/matrixscanrejectsample/MatrixScanActivity.java
+ com.scandit.datacapture.matrixscanrejectsample.MatrixScanActivity
+ com.scandit.datacapture.matrixscanrejectsample.MatrixScanActivity$1
+ com.scandit.datacapture.matrixscanrejectsample.MatrixScanActivity$2
+com/scandit/datacapture/matrixscanrejectsample/CameraPermissionActivity.java
+ com.scandit.datacapture.matrixscanrejectsample.CameraPermissionActivity
+com/scandit/datacapture/matrixscanrejectsample/data/ScanResult.java
+ com.scandit.datacapture.matrixscanrejectsample.data.ScanResult
+com/scandit/datacapture/matrixscanrejectsample/BuildConfig.java
+ com.scandit.datacapture.matrixscanrejectsample.BuildConfig
+com/scandit/datacapture/matrixscanrejectsample/ResultsActivity.java
+ com.scandit.datacapture.matrixscanrejectsample.ResultsActivity
+ com.scandit.datacapture.matrixscanrejectsample.ResultsActivity$1
+ com.scandit.datacapture.matrixscanrejectsample.ResultsActivity$ScanResultsAdapter
+ com.scandit.datacapture.matrixscanrejectsample.ResultsActivity$ViewHolder

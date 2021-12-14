@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Идите на почетну"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Идите нагоре"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Још опција"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Прикажи све"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Изаберите апликацију"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ИСКЉУЧЕНО"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"УКЉУЧЕНО"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"тастер за размак"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Претражите…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Обришите упит"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Претражите упит"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Претражите"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Пошаљите упит"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Гласовна претрага"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Делите помоћу"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Делите помоћу апликације <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Скупи"</string>
+    <string name="mb_action_hold_steady">Ne mrdajte</string>
+    <string name="mb_action_move_closer">Približite se</string>
+    <string name="mb_action_searching_document">Tražim dokument…</string>
+    <string name="mb_activity_title_step_back_side">Zadnja strana</string>
+    <string name="mb_activity_title_step_front_side">Prednja strana</string>
+    <string name="mb_autofocus_fail">Kamera ne može da fokusira. Pokušajte da skenirate pod drugačijim svetlom.</string>
+    <string name="mb_blink_card_glare">Pazite na odsjaj blica.\nNežno pomerajte svoju karticu da biste ga izbegli.</string>
+    <string name="mb_blinkcard_card_not_fully_visible">Vodite računa da cela kartica bude vidljiva</string>
+    <string name="mb_blinkid_back_instructions_barcode">Skenirajte bar kod</string>
+    <string name="mb_blinkid_camera_flip_document">Preokrenite dokument</string>
+    <string name="mb_blinkid_document_not_fully_visible">Neka dokument bude u potpunosti vidljiv</string>
+    <string name="mb_blinkid_document_too_close_to_edge">Pomerite dokument sa ivice</string>
+    <string name="mb_blinkid_front_instructions">Skenirajte prednju stranu\ndokumenta</string>
+    <string name="mb_camera_not_allowed">Kamera nije dozvoljena u podešavanjima dozvole.</string>
+    <string name="mb_camera_not_ready">Kamera nije spremna.</string>
+    <string name="mb_camera_permission_required">Potrebna je dozvola za kameru.</string>
+    <string name="mb_custom_ui_forbidden">Licenca ne dozvoljava prilagođenu aktivnost  kamere!</string>
+    <string name="mb_data_not_match_msg">Molimo Vas ponovo započnite postupak skeniranja.</string>
+    <string name="mb_data_not_match_retry_button">Pokušajte ponovo</string>
+    <string name="mb_data_not_match_title">Strane se ne podudaraju</string>
+    <string name="mb_dismiss_error_dialog">Zatvori</string>
+    <string name="mb_edit_default_hint">POTREBAN</string>
+    <string name="mb_edit_error_dialog_msg">Molimo popunite sve potrebne podatke.</string>
+    <string name="mb_edit_error_expired">Vaša kartica je istekla.</string>
+    <string name="mb_edit_error_invalid_card_number">Unesite važeći broj kartice.</string>
+    <string name="mb_edit_error_invalid_expiry_date">Unesite važeći datum.</string>
+    <string name="mb_edit_error_invalid_iban">Unesite važeći IBAN.</string>
+    <string name="mb_edit_error_invalid_security_code">Unesite puni sigurnosni kod.</string>
+    <string name="mb_edit_error_required_field">Ovo polje je obavezno.</string>
+    <string name="mb_edit_results_card_number">Broj kartice</string>
+    <string name="mb_edit_results_confirm">Dodaj</string>
+    <string name="mb_edit_results_expiry">Datum isteka</string>
+    <string name="mb_edit_results_iban">IBAN</string>
+    <string name="mb_edit_results_owner">Ime vlasnika kartice</string>
+    <string name="mb_edit_results_security_code">Sigurnosni kod</string>
+    <string name="mb_edit_results_title">Podaci o vašoj kartici</string>
+    <string name="mb_enable_camera">Omogući kameru</string>
+    <string name="mb_enable_permission_help">Sada ćete biti preusmereni u podešavanja dozvola u kojima morate aplikaciji dati dozvolu za  kameru.</string>
+    <string name="mb_enable_permission_help_instant_app">Dajte dozvolu za kameru u podešavanjima dozvole za aplikaciju.</string>
+    <string name="mb_error_camera_high">Približite</string>
+    <string name="mb_error_camera_near">Udaljite</string>
+    <string name="mb_error_initializing">Inicijalizacija matične biblioteke nije uspela. Molimo proverite ADB dnevnik grešaka za više detalja.</string>
+    <string name="mb_feature_unsupported_android_version">Ova funkcija je podržana za Android 4.1 i novije verzije</string>
+    <string name="mb_feature_unsupported_autofocus">Ova funkcija nije podržana na kameri bez autofokusa</string>
+    <string name="mb_feature_unsupported_device">Ova funkcija nije podržana zbog tehničkih svojstava Vašeg uređaja</string>
+    <string name="mb_flashlight_warning_message">Pazite na odsjaj blica.\nNežno pomerajte ličnu kartu okolo da biste ga izbegli.</string>
+    <string name="mb_instructions_flip_card">Preokrenite karticu</string>
+    <string name="mb_instructions_scan_front_side">Skenirajte broj kartice</string>
+    <string name="mb_invalid_license">Nevažeći licencni ključ! Molimo proverite ADB dnevnik grešaka za više detalja.</string>
+    <string name="mb_licence_check_device_offline">Proverite internet vezu</string>
+    <string name="mb_licence_check_failed">Mrežna greška</string>
+    <string name="mb_licence_locked">Skeniranje nije dostupno</string>
+    <string name="mb_manual_entry">Ukucajte je umesto toga?</string>
+    <string name="mb_recognition_timeout_dialog_message">Nije moguće pročitati dokument. Molimo Vas, pokušajte ponovo.</string>
+    <string name="mb_recognition_timeout_dialog_retry_button">Pokušaj ponovo</string>
+    <string name="mb_recognition_timeout_dialog_title">Skeniranje neuspešno</string>
+    <string name="mb_skip">Preskoči</string>
+    <string name="mb_splash_msg_id_back">Poleđina lične karte</string>
+    <string name="mb_splash_msg_id_front">Prednja strana lične karte</string>
+    <string name="mb_tooltip_back_id">Postavite <b>ZADNJU STRANU</b> lične karte u okvir i sačekajte automatsko skeniranje</string>
+    <string name="mb_tooltip_front_id">Postavite <b> PREDNJU STRANU </b> lične karte u okvir i sačekajte automatsko skeniranje</string>
+    <string name="mb_tooltip_glare">Blago pomerite ličnu kartu da biste uklonili odsjaj.</string>
+    <string name="mb_unsupported_document_message">Skenirajte prednju stranu podržanog dokumenta.</string>
+    <string name="mb_unsupported_document_title">Dokument nije prepoznat</string>
+    <string name="mb_warning_title">Upozorenje</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Претражите"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

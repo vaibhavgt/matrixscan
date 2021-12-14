@@ -1,0 +1,9 @@
+com/scandit/datacapture/mrzscanneresample/MRZScannerActivity.java
+ com.scandit.datacapture.mrzscanneresample.MRZScannerActivity
+ com.scandit.datacapture.mrzscanneresample.MRZScannerActivity$1
+ com.scandit.datacapture.mrzscanneresample.MRZScannerActivity$2
+ com.scandit.datacapture.mrzscanneresample.MRZScannerActivity$3
+com/scandit/datacapture/mrzscanneresample/BuildConfig.java
+ com.scandit.datacapture.mrzscanneresample.BuildConfig
+com/scandit/datacapture/mrzscanneresample/CameraPermissionActivity.java
+ com.scandit.datacapture.mrzscanneresample.CameraPermissionActivity

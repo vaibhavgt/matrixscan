@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Advanced Camera Functionality &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Set up the Active Scan Area and Location Selection" href="scan-area.html" />
+    <link rel="prev" title="List of supported documents" href="id-capture/supported-documents.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-id-capture.html">Get Started With ID Capture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="id-capture/supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Advanced Camera Functionality</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#switching-between-world-facing-and-user-facing">Switching between World-Facing and User-Facing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-standby-state">Using the Standby State</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#app-flow-with-standby-state">App Flow with Standby State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setting-the-standby-state">Setting the Standby State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="label-capture/overview.html">ScanditLabelCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="id-capture/overview.html">ScanditIdCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="release-notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Advanced Camera Functionality</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="advanced-camera-functionality">
+<h1>Advanced Camera Functionality<a class="headerlink" href="#advanced-camera-functionality" title="Permalink to this headline">#</a></h1>
+<p>In this guide, you will learn about advanced camera functionality not explained in the “Getting Started” guides.</p>
+<div class="admonition-before-you-start admonition">
+<p class="admonition-title">Before you start…</p>
+<p>To get the most out of this guide, we recommend that you first take a look at the following guides:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="add-sdk.html"><span class="doc">Add the SDK to Your App</span></a></p></li>
+<li><p>One of the “Getting Started” guides for <a class="reference internal" href="get-started-barcode.html"><span class="doc">barcode capture</span></a>, <a class="reference internal" href="get-started-matrixscan.html"><span class="doc">barcode tracking</span></a> or <a class="reference internal" href="get-started-text-capture.html"><span class="doc">text capture</span></a></p></li>
+</ul>
+</div>
+<p>The data capture context supports using different frame sources to perform recognition on. Most applications will use the built-in camera of the device, e.g. the world-facing camera of a device. The remainder of this guide will assume that you use the built-in camera.</p>
+<div class="section" id="switching-between-world-facing-and-user-facing">
+<h2>Switching between World-Facing and User-Facing<a class="headerlink" href="#switching-between-world-facing-and-user-facing" title="Permalink to this headline">#</a></h2>
+<p>In your app you might want to switch between using the world-facing and user-facing camera for different use cases. As these are different cameras entirely switching between them is done by instantiating an entirely new camera and setting it as the <a class="reference internal" href="core/api/data-capture-context.html#class-scandit.datacapture.core.DataCaptureContext" title="data capture context class">data capture context</a>’s new frame source.</p>
+<p>Let’s start with the world facing camera. What we do is very similar to the camera section in the “Getting Started” guides, but here we want to specifically use the world-facing camera. Remember to use the recommended camera settings for whichever data capture mode you are using.</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">CameraSettings</span> <span class="n">cameraSettings</span> <span class="o">=</span> <span class="p">...;</span>
+<span class="n">Camera</span> <span class="n">worldFacingCamera</span> <span class="o">=</span> <span class="n">Camera</span><span class="p">.</span><span class="na">getCamera</span><span class="p">(</span><span class="n">CameraPosition</span><span class="p">.</span><span class="na">WORLD_FACING</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">worldFacingCamera</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">worldFacingCamera</span><span class="p">.</span><span class="na">applySettings</span><span class="p">(</span><span class="n">cameraSettings</span><span class="p">);</span>
+
+  <span class="c1">// Set the camera as the frame source and turn it on.</span>
+  <span class="n">dataCaptureContext</span><span class="p">.</span><span class="na">setFrameSource</span><span class="p">(</span><span class="n">worldFacingCamera</span><span class="p">);</span>
+  <span class="n">worldFacingCamera</span><span class="p">.</span><span class="na">switchToDesiredState</span><span class="p">(</span><span class="n">FrameSourceState</span><span class="p">.</span><span class="na">ON</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>At this point we have a running world-facing camera that is used by the context. Whenever we want to switch to a user-facing camera, we simply turn off the world-facing camera and create a new user-facing camera that we set as the new frame source.</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">worldFacingCamera</span><span class="p">.</span><span class="na">switchToDesiredState</span><span class="p">(</span><span class="n">FrameSourceState</span><span class="p">.</span><span class="na">OFF</span><span class="p">);</span>
+
+<span class="n">Camera</span> <span class="n">userFacingCamera</span> <span class="o">=</span> <span class="n">Camera</span><span class="p">.</span><span class="na">getCamera</span><span class="p">(</span><span class="n">CameraPosition</span><span class="p">.</span><span class="na">USER_FACING</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">userFacingCamera</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">userFacingCamera</span><span class="p">.</span><span class="na">applySettings</span><span class="p">(</span><span class="n">cameraSettings</span><span class="p">);</span>
+
+  <span class="c1">// Set the new camera as the frame source and turn it on.</span>
+  <span class="n">dataCaptureContext</span><span class="p">.</span><span class="na">setFrameSource</span><span class="p">(</span><span class="n">userFacingCamera</span><span class="p">);</span>
+  <span class="n">userFacingCamera</span><span class="p">.</span><span class="na">switchToDesiredState</span><span class="p">(</span><span class="n">FrameSourceState</span><span class="p">.</span><span class="na">ON</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="using-the-standby-state">
+<span id="camera-advanced-standby"></span><h2>Using the Standby State<a class="headerlink" href="#using-the-standby-state" title="Permalink to this headline">#</a></h2>
+<p>The standby state is an addition in between the states <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Off" title="OFF value">OFF</a> and <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.On" title="ON value">ON</a>.</p>
+<p>While in <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Standby" title="STANDBY value">STANDBY</a>, the camera is not producing any frames just like during <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Off" title="OFF value">OFF</a> but certain parts of the camera are already initialized to be able to switch to <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.On" title="ON value">ON</a> much quicker.
+We recommend to use this mode when the user is likely scanning in quick succession and you want to avoid delays when starting the camera.</p>
+<p>As the camera is not fully turned off during <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Standby" title="STANDBY value">STANDBY</a> the battery usage will slightly increase.</p>
+<p>Because of this, it is important to be selective about the usage of the standby state and avoid keeping the camera in standby throughout the entire app. To minimize the additional battery usage it is better to go into standby only on certain screens where repeated scanning is expected. In rare cases where the entire app does repeated scanning, keeping the camera in standby throughout the entire app might be worth the additional battery usage.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When using Camera API 1 (the default) it is currently not possible to switch the resolution of the preview while the camera is running. This restriction also counts for the standby state but will be addressed for 6.7.0.</p>
+</div>
+</div></blockquote>
+<div class="section" id="app-flow-with-standby-state">
+<h3>App Flow with Standby State<a class="headerlink" href="#app-flow-with-standby-state" title="Permalink to this headline">#</a></h3>
+<p>When using the standby state the typical app flow will be along the following lines:</p>
+<ul class="simple">
+<li><p>Move to a screen in the app that has scanning capabilities</p></li>
+<li><p>Change the camera’s state to <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Standby" title="STANDBY value">STANDBY</a></p></li>
+<li><p>Repeatedly change to <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.On" title="ON value">ON</a> and back to <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Standby" title="STANDBY value">STANDBY</a> as the user starts and stops scanning</p></li>
+<li><p>Move away from the screen and change the camera state back to <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Off" title="OFF value">OFF</a></p></li>
+</ul>
+<p>For apps that are fully centered around scanning it might be a better option to stay in standby throughout at the cost of the slight battery usage increase:</p>
+<ul class="simple">
+<li><p>Start with the camera’s state at <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Standby" title="STANDBY value">STANDBY</a></p></li>
+<li><p>Repeatedly change to <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.On" title="ON value">ON</a> and back to <a class="reference internal" href="core/api/frame-source.html#value-scandit.datacapture.core.FrameSourceState.Standby" title="STANDBY value">STANDBY</a> as the user starts and stops scanning</p></li>
+</ul>
+</div>
+<div class="section" id="setting-the-standby-state">
+<h3>Setting the Standby State<a class="headerlink" href="#setting-the-standby-state" title="Permalink to this headline">#</a></h3>
+<p>Setting the standby state is very straight forward and works just like any other settable <a class="reference internal" href="core/api/frame-source.html#enum-scandit.datacapture.core.FrameSourceState" title="FrameSourceState enum">FrameSourceState</a>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">camera</span><span class="p">.</span><span class="na">switchToDesiredState</span><span class="p">(</span><span class="n">FrameSourceState</span><span class="p">.</span><span class="na">STANDBY</span><span class="p">);</span>
+
+<span class="c1">// Time passes until the scanner should become active</span>
+<span class="n">camera</span><span class="p">.</span><span class="na">switchToDesiredState</span><span class="p">(</span><span class="n">FrameSourceState</span><span class="p">.</span><span class="na">ON</span><span class="p">);</span>
+
+<span class="c1">// After scanning the camera can go to standby again</span>
+<span class="n">camera</span><span class="p">.</span><span class="na">switchToDesiredState</span><span class="p">(</span><span class="n">FrameSourceState</span><span class="p">.</span><span class="na">STANDBY</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

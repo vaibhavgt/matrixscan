@@ -1,0 +1,71 @@
+com/scandit/datacapture/idcaptureextendedsample/ui/result/ResultViewModel.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultViewModel
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultViewModel$1
+com/scandit/datacapture/idcaptureextendedsample/mappers/VizResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.VizResultMapper
+com/scandit/datacapture/idcaptureextendedsample/mappers/UsUniformedServicesResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.UsUniformedServicesResultMapper
+com/scandit/datacapture/idcaptureextendedsample/ui/result/ResultEntry.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultEntry
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultEntry$1
+com/scandit/datacapture/idcaptureextendedsample/data/IdCaptureRepository.java
+ com.scandit.datacapture.idcaptureextendedsample.data.IdCaptureRepository
+ com.scandit.datacapture.idcaptureextendedsample.data.IdCaptureRepository$1
+com/scandit/datacapture/idcaptureextendedsample/ui/result/ResultUiState.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultUiState
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultUiState$1
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultUiState$Builder
+com/scandit/datacapture/idcaptureextendedsample/ui/scan/AskScanBackSide.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.AskScanBackSide
+com/scandit/datacapture/idcaptureextendedsample/ui/MainActivity.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.MainActivity
+com/scandit/datacapture/idcaptureextendedsample/ui/scan/ScanUiState.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.ScanUiState
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.ScanUiState$1
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.ScanUiState$Builder
+com/scandit/datacapture/idcaptureextendedsample/mappers/ColombiaIdResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.ColombiaIdResultMapper
+com/scandit/datacapture/idcaptureextendedsample/mappers/SouthAfricaIdResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.SouthAfricaIdResultMapper
+com/scandit/datacapture/idcaptureextendedsample/ui/result/ResultList.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ItemCallback
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultListAdapter
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultListViewHolder
+com/scandit/datacapture/idcaptureextendedsample/data/CapturedDataType.java
+ com.scandit.datacapture.idcaptureextendedsample.data.CapturedDataType
+com/scandit/datacapture/idcaptureextendedsample/ui/scan/GoToIdNotSupported.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.GoToIdNotSupported
+com/scandit/datacapture/idcaptureextendedsample/BuildConfig.java
+ com.scandit.datacapture.idcaptureextendedsample.BuildConfig
+com/scandit/datacapture/idcaptureextendedsample/ui/scan/GoToResult.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.GoToResult
+com/scandit/datacapture/idcaptureextendedsample/data/CameraRepository.java
+ com.scandit.datacapture.idcaptureextendedsample.data.CameraRepository
+com/scandit/datacapture/idcaptureextendedsample/ui/scan/ScanViewModel.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.ScanViewModel
+com/scandit/datacapture/idcaptureextendedsample/data/DataCaptureContextProvider.java
+ com.scandit.datacapture.idcaptureextendedsample.data.DataCaptureContextProvider
+com/scandit/datacapture/idcaptureextendedsample/mappers/MrzResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.MrzResultMapper
+com/scandit/datacapture/idcaptureextendedsample/mappers/SouthAfricaDlResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.SouthAfricaDlResultMapper
+com/scandit/datacapture/idcaptureextendedsample/di/Injector.java
+ com.scandit.datacapture.idcaptureextendedsample.di.Injector
+com/scandit/datacapture/idcaptureextendedsample/ui/util/AlertDialogFragment.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.util.AlertDialogFragment
+ com.scandit.datacapture.idcaptureextendedsample.ui.util.AlertDialogFragment$Callbacks
+com/scandit/datacapture/idcaptureextendedsample/mappers/ResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.ResultMapper
+com/scandit/datacapture/idcaptureextendedsample/mappers/AamvaResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.AamvaResultMapper
+com/scandit/datacapture/idcaptureextendedsample/ui/result/ResultFragment.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.result.ResultFragment
+com/scandit/datacapture/idcaptureextendedsample/ui/scan/ScanFragment.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.ScanFragment
+com/scandit/datacapture/idcaptureextendedsample/ui/scan/AskScanBackSideDialogFragment.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.AskScanBackSideDialogFragment
+ com.scandit.datacapture.idcaptureextendedsample.ui.scan.AskScanBackSideDialogFragment$Callbacks
+com/scandit/datacapture/idcaptureextendedsample/mappers/ArgentinaIdResultMapper.java
+ com.scandit.datacapture.idcaptureextendedsample.mappers.ArgentinaIdResultMapper
+com/scandit/datacapture/idcaptureextendedsample/ui/Event.java
+ com.scandit.datacapture.idcaptureextendedsample.ui.Event

@@ -1,0 +1,552 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Aamva Barcode Result &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Argentina ID Barcode Result" href="argentina-id-barcode-result.html" />
+    <link rel="prev" title="ScanditIdCapture API" href="../api.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-id-capture.html">Get Started With ID Capture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../camera-advanced.html">Advanced Camera Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../label-capture/overview.html">ScanditLabelCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../overview.html">ScanditIdCapture</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../api.html">API</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Aamva Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="argentina-id-barcode-result.html">Argentina ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="captured-id.html">Captured Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="captured-result-type.html">Captured Result Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colombia-id-barcode-result.html">Colombia ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="date-result.html">Date Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="document-type.html">Document Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture.html">Id Capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-exception.html">Id Capture Exception</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-listener.html">Id Capture Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-session.html">Id Capture Session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-settings.html">Id Capture Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-document-type.html">ID Document Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-image-type.html">Id Image Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-supported-document-sides.html">ID Supported Sides</a></li>
+<li class="toctree-l3"><a class="reference internal" href="localized-only-id.html">Localized Only Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mrz-result.html">Mrz Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rejected-id.html">Rejected Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="south-africa-dl-barcode-result.html">South Africa DL Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="south-africa-id-barcode-result.html">South Africa ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="us-uniformed-services-barcode-result.html">Us Uniformed Services Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viz-result.html">Viz Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deserialization/id-capture-deserializer.html">ID Capture Deserializer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deserialization/id-capture-deserializer-listener.html">ID Capture Deserializer Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ui/id-capture-overlay.html">Id Capture Overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ui/id-layout.html">Id Layout</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api.html#deserialization">Deserialization</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../release-notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../overview.html">ScanditIdCapture</a> &raquo;</li>
+        
+          <li><a href="../api.html">ScanditIdCapture API</a> &raquo;</li>
+        
+      <li>Aamva Barcode Result</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="aamva-barcode-result">
+<h1>Aamva Barcode Result<a class="headerlink" href="#aamva-barcode-result" title="Permalink to this headline">#</a></h1>
+<p>Defined in package <em>com.scandit.datacapture.id.capture</em></p>
+<dl class="class">
+<dt id="class-scandit.datacapture.id.AamvaBarcodeResult">
+<code class="sig-name descname">AamvaBarcodeResult</code><a class="headerlink" href="#class-scandit.datacapture.id.AamvaBarcodeResult" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="sig-name descname">class AamvaBarcodeResult</code></pre><p><span class="versionmodified versionadded">Added in version 6.6.0</span></p>
+<p>The ID Capture supports scanning all versions of the AAMVA Driver License/Identification specification (2000, 2003, 2005, 2009, 2010, 2011, 2012, 2013, 2016) used for example in USA or Canada. Some pre-specification codes (before 2000) can also be parsed if they are not far from version 1 standard. Encrypted codes issued in Georgia before 2012 are also currently not supported. More information you can find in <a class="reference external" href="http://www.aamva.org/">http://www.aamva.org/</a>.</p>
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.AamvaVersion">
+<code class="sig-name descname">aamvaVersion</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.AamvaVersion" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getAamvaVersion</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Corresponds to the version of the specifications that is implemented in the code: 0=pre-specification, 1=2000, 2=2003, 3=2005, 4=2009, 5=2010, 6=2011, 7=2012, 8=2013, 9=2016.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.JurisdictionVersion">
+<code class="sig-name descname">jurisdictionVersion</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.JurisdictionVersion" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getJurisdictionVersion</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>A jurisdiction specific version number of the implementation.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.IIN">
+<code class="sig-name descname">iin</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.IIN" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getIin</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Issuer Identification Number which uniquely identifies the issuing jurisdiction.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.IssuingJurisdiction">
+<code class="sig-name descname">issuingJurisdiction</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.IssuingJurisdiction" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getIssuingJurisdiction</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>A human readable name of the issuing jurisdiction (for example: an issuing state, territory or federal district for USA, or an issuing province or territory for Canada ).</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.IssuingJurisdictionIso">
+<code class="sig-name descname">issuingJurisdictionIso</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.IssuingJurisdictionIso" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getIssuingJurisdictionIso</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>An ISO code of the issuing jurisdiction (for example: an issuing state, territory or federal district for USA, or an issuing province or territory for Canada).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The returned value will only contain the jurisdiction specific code: for instance for California the returned value would be “CA” and not “US-CA”.</p>
+</div>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.EyeColor">
+<code class="sig-name descname">eyeColor</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.EyeColor" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getEyeColor</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The eye color of the card holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.HairColor">
+<code class="sig-name descname">hairColor</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.HairColor" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getHairColor</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The hair color of the card holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.HeightInch">
+<code class="sig-name descname">heightInch</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.HeightInch" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><a class="reference external" href="https://developer.android.com/reference/java/lang/Integer.html" title="Integer">Integer</a> <code class="sig-name descname">getHeightInch</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The height of the card holder in inches.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.HeightCm">
+<code class="sig-name descname">heightCm</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.HeightCm" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><a class="reference external" href="https://developer.android.com/reference/java/lang/Integer.html" title="Integer">Integer</a> <code class="sig-name descname">getHeightCm</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The height of the card holder in centimeters.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.WeightLbs">
+<code class="sig-name descname">weightLbs</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.WeightLbs" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><a class="reference external" href="https://developer.android.com/reference/java/lang/Integer.html" title="Integer">Integer</a> <code class="sig-name descname">getWeightLbs</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Thw weight of the card holder in pounds.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.WeightKg">
+<code class="sig-name descname">weightKg</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.WeightKg" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><a class="reference external" href="https://developer.android.com/reference/java/lang/Integer.html" title="Integer">Integer</a> <code class="sig-name descname">getWeightKg</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The weight of the card holder in kilograms.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.PlaceOfBirth">
+<code class="sig-name descname">placeOfBirth</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.PlaceOfBirth" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getPlaceOfBirth</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The place of birth of the card holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.Race">
+<code class="sig-name descname">race</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.Race" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getRace</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The race of the card holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.DocumentDiscriminatorNumber">
+<code class="sig-name descname">documentDiscriminatorNumber</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.DocumentDiscriminatorNumber" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getDocumentDiscriminatorNumber</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The document discriminator number.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.VehicleClass">
+<code class="sig-name descname">vehicleClass</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.VehicleClass" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getVehicleClass</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The vehicle classification.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.RestrictionsCode">
+<code class="sig-name descname">restrictionsCode</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.RestrictionsCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getRestrictionsCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The restriction code.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.EndorsementsCode">
+<code class="sig-name descname">endorsementsCode</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.EndorsementsCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getEndorsementsCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The endorsement code.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.CardRevisionDate">
+<code class="sig-name descname">cardRevisionDate</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.CardRevisionDate" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="date-result.html#class-scandit.datacapture.id.DateResult" title="DateResult class">DateResult</a> <code class="sig-name descname">getCardRevisionDate</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Card revision date.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.MiddleName">
+<code class="sig-name descname">middleName</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.MiddleName" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getMiddleName</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The middle name of the card holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.DriverNameSuffix">
+<code class="sig-name descname">driverNameSuffix</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.DriverNameSuffix" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getDriverNameSuffix</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The name suffix of the card holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.DriverNamePrefix">
+<code class="sig-name descname">driverNamePrefix</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.DriverNamePrefix" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getDriverNamePrefix</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The name prefix of the card holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.LastNameTruncation">
+<code class="sig-name descname">lastNameTruncation</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.LastNameTruncation" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getLastNameTruncation</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The last name truncation. A code that indicates whether a field has been truncated (‘T’), has not been truncated (‘N’), unknown whether truncated (‘U’), or the information is not present in the document (<em>null</em>).</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.FirstNameTruncation">
+<code class="sig-name descname">firstNameTruncation</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.FirstNameTruncation" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getFirstNameTruncation</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The first name truncation. A code that indicates whether a field has been truncated (‘T’), has not been truncated (‘N’), unknown whether truncated (‘U’), or the information is not present in the document (<em>null</em>).</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.MiddleNameTruncation">
+<code class="sig-name descname">middleNameTruncation</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.MiddleNameTruncation" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getMiddleNameTruncation</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The middle name truncation. A code that indicates whether a field has been truncated (‘T’), has not been truncated (‘N’), unknown whether truncated (‘U’), or the information is not present in the document (<em>null</em>).</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.AliasFamilyName">
+<code class="sig-name descname">aliasFamilyName</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.AliasFamilyName" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getAliasFamilyName</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Other family name by which cardholder is known.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.AliasGivenName">
+<code class="sig-name descname">aliasGivenName</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.AliasGivenName" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getAliasGivenName</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Other given name by which cardholder is known.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.AliasSuffixName">
+<code class="sig-name descname">aliasSuffixName</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.AliasSuffixName" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getAliasSuffixName</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Other suffix name by which cardholder is known.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.AamvaBarcodeResult.BarcodeDataElements">
+<code class="sig-name descname">barcodeDataElements</code><a class="headerlink" href="#property-scandit.datacapture.id.AamvaBarcodeResult.BarcodeDataElements" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/util/Map.html" title="Map">Map</a>&lt;&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a>, &#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a>&gt; <code class="sig-name descname">getBarcodeDataElements</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.6.0</span></p>
+<p>The mappings between all the barcode data element IDs and their values. The keys of this collection are the element IDs as defined in the AAMVA Driver License/Identification specification. For example, the specification defines a data element “Customer First Name” with the ID “DAC”. Therefore if a scanned barcode contains a string “DACMICHAEL”, then this collection will contain a mapping with “DAC” as the key and “MICHAEL” as the value. This collection contains all the data elements of the barcode - including those that are exposed also explicitly as fields of this class.</p>
+<p>See <a class="reference internal" href="../../parser/dlid.html"><span class="doc">DL/ID</span></a> for all the possible keys and their meaning.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.id.AamvaBarcodeResult.Equals">
+<code class="sig-name descname">equals(obj)</code><a class="headerlink" href="#method-scandit.datacapture.id.AamvaBarcodeResult.Equals" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">boolean</span></code> <code class="sig-name descname">equals</code>(&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/Object.html" title="Object">Object</a> <em>obj</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Indicates whether some other object is equal to this one.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.id.AamvaBarcodeResult.HashCode">
+<code class="sig-name descname">hashCode()</code><a class="headerlink" href="#method-scandit.datacapture.id.AamvaBarcodeResult.HashCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">hashCode</code>()</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Returns a hash code value for the object.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

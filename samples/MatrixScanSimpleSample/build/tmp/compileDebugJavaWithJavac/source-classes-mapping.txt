@@ -1,0 +1,91 @@
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/Mesh.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Mesh
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Mesh$PrimitiveMode
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/arcore/SpecularCubemapFilter.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.SpecularCubemapFilter
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.SpecularCubemapFilter$1
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.SpecularCubemapFilter$Chunk
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.SpecularCubemapFilter$ChunkIterable
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.SpecularCubemapFilter$ChunkIterable$1
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.SpecularCubemapFilter$ImportanceSampleCacheEntry
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/VertexBuffer.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.VertexBuffer
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/IndexBuffer.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.IndexBuffer
+com/scandit/datacapture/matrixscansimplesample/CameraPermissionActivity.java
+ com.scandit.datacapture.matrixscansimplesample.CameraPermissionActivity
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/Framebuffer.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Framebuffer
+com/scandit/datacapture/matrixscansimplesample/common/helpers/SnackbarHelper.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.SnackbarHelper
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.SnackbarHelper$1
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.SnackbarHelper$2
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.SnackbarHelper$2$1
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.SnackbarHelper$2$2
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.SnackbarHelper$DismissBehavior
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/GpuBuffer.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.GpuBuffer
+com/scandit/datacapture/matrixscansimplesample/helloar/HelloArActivity.java
+ com.scandit.datacapture.matrixscansimplesample.helloar.HelloArActivity
+ com.scandit.datacapture.matrixscansimplesample.helloar.HelloArActivity$1
+ com.scandit.datacapture.matrixscansimplesample.helloar.HelloArActivity$2
+ com.scandit.datacapture.matrixscansimplesample.helloar.HelloArActivity$3
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/arcore/PlaneRenderer.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.PlaneRenderer
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.PlaneRenderer$1
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.PlaneRenderer$SortablePlane
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/SampleRender.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.SampleRender
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.SampleRender$1
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.SampleRender$Renderer
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/Shader.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$BlendFactor
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$Uniform
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$Uniform1f
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$Uniform2f
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$Uniform3f
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$Uniform4f
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$UniformInt
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$UniformMatrix2f
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$UniformMatrix3f
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$UniformMatrix4f
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Shader$UniformTexture
+com/scandit/datacapture/matrixscansimplesample/common/helpers/DepthSettings.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.DepthSettings
+com/scandit/datacapture/matrixscansimplesample/common/helpers/TrackingStateHelper.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.TrackingStateHelper
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.TrackingStateHelper$1
+com/scandit/datacapture/matrixscansimplesample/BuildConfig.java
+ com.scandit.datacapture.matrixscansimplesample.BuildConfig
+com/scandit/datacapture/matrixscansimplesample/data/ScanResult.java
+ com.scandit.datacapture.matrixscansimplesample.data.ScanResult
+com/scandit/datacapture/matrixscansimplesample/ResultsActivity.java
+ com.scandit.datacapture.matrixscansimplesample.ResultsActivity
+ com.scandit.datacapture.matrixscansimplesample.ResultsActivity$1
+ com.scandit.datacapture.matrixscansimplesample.ResultsActivity$ScanResultsAdapter
+ com.scandit.datacapture.matrixscansimplesample.ResultsActivity$ViewHolder
+com/scandit/datacapture/matrixscansimplesample/common/helpers/FullScreenHelper.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.FullScreenHelper
+com/scandit/datacapture/matrixscansimplesample/common/helpers/DisplayRotationHelper.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.DisplayRotationHelper
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/GLError.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.GLError
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/arcore/BackgroundRenderer.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.arcore.BackgroundRenderer
+com/scandit/datacapture/matrixscansimplesample/MatrixScanActivity.java
+ com.scandit.datacapture.matrixscansimplesample.MatrixScanActivity
+ com.scandit.datacapture.matrixscansimplesample.MatrixScanActivity$1
+ com.scandit.datacapture.matrixscansimplesample.MatrixScanActivity$2
+com/scandit/datacapture/matrixscansimplesample/common/helpers/InstantPlacementSettings.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.InstantPlacementSettings
+com/scandit/datacapture/matrixscansimplesample/common/helpers/TapHelper.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.TapHelper
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.TapHelper$1
+com/scandit/datacapture/matrixscansimplesample/common/samplerender/Texture.java
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Texture
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Texture$ColorFormat
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Texture$Target
+ com.scandit.datacapture.matrixscansimplesample.common.samplerender.Texture$WrapMode
+com/scandit/datacapture/matrixscansimplesample/common/helpers/CameraPermissionHelper.java
+ com.scandit.datacapture.matrixscansimplesample.common.helpers.CameraPermissionHelper

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples.iml" filepath="$PROJECT_DIR$/.idea/modules/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AgeVerifiedDeliverySample/samples.AgeVerifiedDeliverySample.iml" filepath="$PROJECT_DIR$/.idea/modules/AgeVerifiedDeliverySample/samples.AgeVerifiedDeliverySample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BarcodeCaptureRejectSample/samples.BarcodeCaptureRejectSample.iml" filepath="$PROJECT_DIR$/.idea/modules/BarcodeCaptureRejectSample/samples.BarcodeCaptureRejectSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BarcodeCaptureSettingsSample/samples.BarcodeCaptureSettingsSample.iml" filepath="$PROJECT_DIR$/.idea/modules/BarcodeCaptureSettingsSample/samples.BarcodeCaptureSettingsSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BarcodeCaptureSimpleSample/samples.BarcodeCaptureSimpleSample.iml" filepath="$PROJECT_DIR$/.idea/modules/BarcodeCaptureSimpleSample/samples.BarcodeCaptureSimpleSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BarcodeCaptureViewsSample/samples.BarcodeCaptureViewsSample.iml" filepath="$PROJECT_DIR$/.idea/modules/BarcodeCaptureViewsSample/samples.BarcodeCaptureViewsSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BarcodeSelectionSettingsSample/samples.BarcodeSelectionSettingsSample.iml" filepath="$PROJECT_DIR$/.idea/modules/BarcodeSelectionSettingsSample/samples.BarcodeSelectionSettingsSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GS1ParserSample/samples.GS1ParserSample.iml" filepath="$PROJECT_DIR$/.idea/modules/GS1ParserSample/samples.GS1ParserSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdCaptureExtendedSample/samples.IdCaptureExtendedSample.iml" filepath="$PROJECT_DIR$/.idea/modules/IdCaptureExtendedSample/samples.IdCaptureExtendedSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdCaptureSettingsSample/samples.IdCaptureSettingsSample.iml" filepath="$PROJECT_DIR$/.idea/modules/IdCaptureSettingsSample/samples.IdCaptureSettingsSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdCaptureSimpleSample/samples.IdCaptureSimpleSample.iml" filepath="$PROJECT_DIR$/.idea/modules/IdCaptureSimpleSample/samples.IdCaptureSimpleSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InventoryAuditSample/samples.InventoryAuditSample.iml" filepath="$PROJECT_DIR$/.idea/modules/InventoryAuditSample/samples.InventoryAuditSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MRZScannerSample/samples.MRZScannerSample.iml" filepath="$PROJECT_DIR$/.idea/modules/MRZScannerSample/samples.MRZScannerSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MatrixScanBubblesSample/samples.MatrixScanBubblesSample.iml" filepath="$PROJECT_DIR$/.idea/modules/MatrixScanBubblesSample/samples.MatrixScanBubblesSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MatrixScanRejectSample/samples.MatrixScanRejectSample.iml" filepath="$PROJECT_DIR$/.idea/modules/MatrixScanRejectSample/samples.MatrixScanRejectSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MatrixScanSimpleSample/samples.MatrixScanSimpleSample.iml" filepath="$PROJECT_DIR$/.idea/modules/MatrixScanSimpleSample/samples.MatrixScanSimpleSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SearchAndFindSample/samples.SearchAndFindSample.iml" filepath="$PROJECT_DIR$/.idea/modules/SearchAndFindSample/samples.SearchAndFindSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TextCaptureSample/samples.TextCaptureSample.iml" filepath="$PROJECT_DIR$/.idea/modules/TextCaptureSample/samples.TextCaptureSample.iml" />
+    </modules>
+  </component>
+</project>

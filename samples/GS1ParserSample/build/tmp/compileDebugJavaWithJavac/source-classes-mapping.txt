@@ -1,0 +1,10 @@
+com/scandit/datacapture/gs1parsersample/CameraPermissionActivity.java
+ com.scandit.datacapture.gs1parsersample.CameraPermissionActivity
+com/scandit/datacapture/gs1parsersample/ParsedDataPrettyPrinter.java
+ com.scandit.datacapture.gs1parsersample.ParsedDataPrettyPrinter
+com/scandit/datacapture/gs1parsersample/GS1ParserActivity.java
+ com.scandit.datacapture.gs1parsersample.GS1ParserActivity
+ com.scandit.datacapture.gs1parsersample.GS1ParserActivity$1
+ com.scandit.datacapture.gs1parsersample.GS1ParserActivity$2
+com/scandit/datacapture/gs1parsersample/BuildConfig.java
+ com.scandit.datacapture.gs1parsersample.BuildConfig

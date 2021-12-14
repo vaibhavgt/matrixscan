@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.scandit.datacapture.ageverifieddeliverysample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:5:5-64
+11-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:5:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:7:5-60
+13-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:7:19-57
+14
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:5-79
+15-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:12:5-67
+16-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:5-66
+17-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:22-63
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:5-54
+19-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:19-51
+20
+21    <supports-screens
+21-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:12:5-17:39
+22        android:anyDensity="true"
+22-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:13:9-34
+23        android:largeScreens="true"
+23-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:14:9-36
+24        android:normalScreens="true"
+24-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:15:9-37
+25        android:resizeable="true"
+25-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:16:9-34
+26        android:smallScreens="true" />
+26-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:17:9-36
+27
+28    <uses-permission android:name="android.permission.FLASHLIGHT" />
+28-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:20:5-69
+28-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:20:22-66
+29
+30    <uses-feature
+30-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:25:5-27:36
+31        android:name="android.hardware.camera.autofocus"
+31-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:26:9-57
+32        android:required="false" />
+32-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:27:9-33
+33    <uses-feature
+33-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:28:5-30:36
+34        android:name="android.hardware.camera.flash"
+34-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:29:9-53
+35        android:required="false" />
+35-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:30:9-33
+36
+37    <application
+37-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:9:5-25:19
+38        android:allowBackup="true"
+38-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:10:13-39
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.5.0] /home/vaibhav/.gradle/caches/transforms-3/7f52aa5ab254ab9fba57e8ad5b9464da/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:11:13-47
+42        android:label="@string/app_name"
+42-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:12:13-45
+43        android:largeHeap="true"
+43-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:37:9-33
+44        android:supportsRtl="true"
+44-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:13:13-39
+45        android:theme="@style/AppTheme" >
+45-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:14:13-44
+46        <activity
+46-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:15:9-24:20
+47            android:name="com.scandit.datacapture.ageverifieddeliverysample.ui.MainActivity"
+47-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:16:17-48
+48            android:label="@string/app_name"
+48-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:17:17-49
+49            android:screenOrientation="portrait" >
+49-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:18:17-53
+50            <intent-filter>
+50-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:19:13-23:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:20:17-68
+51-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:20:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:22:17-76
+53-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/AgeVerifiedDeliverySample/src/main/AndroidManifest.xml:22:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <provider
+57-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:19:9-22:40
+58            android:name="com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider"
+58-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:20:13-107
+59            android:authorities="com.scandit.datacapture.ageverifieddeliverysample.corelibraryloadercontentprovider"
+59-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:21:13-84
+60            android:exported="false" />
+60-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:22:13-37
+61        <provider
+61-->[:ScanditIdCapture:] /home/vaibhav/.gradle/caches/transforms-3/f8d4b867c3ad1f7a5b0e5985555c54a2/transformed/jetified-ScanditIdCapture/AndroidManifest.xml:16:9-19:40
+62            android:name="com.scandit.datacapture.id.internal.sdk.init.IdLibraryLoaderContentProvider"
+62-->[:ScanditIdCapture:] /home/vaibhav/.gradle/caches/transforms-3/f8d4b867c3ad1f7a5b0e5985555c54a2/transformed/jetified-ScanditIdCapture/AndroidManifest.xml:17:13-103
+63            android:authorities="com.scandit.datacapture.ageverifieddeliverysample.idlibraryloadercontentprovider"
+63-->[:ScanditIdCapture:] /home/vaibhav/.gradle/caches/transforms-3/f8d4b867c3ad1f7a5b0e5985555c54a2/transformed/jetified-ScanditIdCapture/AndroidManifest.xml:18:13-82
+64            android:exported="false" />
+64-->[:ScanditIdCapture:] /home/vaibhav/.gradle/caches/transforms-3/f8d4b867c3ad1f7a5b0e5985555c54a2/transformed/jetified-ScanditIdCapture/AndroidManifest.xml:19:13-37
+65
+66        <activity
+66-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:40:9-44:20
+67            android:name="com.microblink.activity.DocumentScanActivity"
+67-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:41:13-72
+68            android:configChanges="orientation|screenSize"
+68-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:42:13-59
+69            android:screenOrientation="nosensor" >
+69-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:43:13-49
+70        </activity>
+71        <activity
+71-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:45:9-49:20
+72            android:name="com.microblink.activity.BarcodeScanActivity"
+72-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:46:13-71
+73            android:configChanges="orientation|screenSize"
+73-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:47:13-59
+74            android:screenOrientation="nosensor" >
+74-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:48:13-49
+75        </activity>
+76        <activity
+76-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:50:9-54:20
+77            android:name="com.microblink.activity.FieldByFieldScanActivity"
+77-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:51:13-76
+78            android:configChanges="orientation|screenSize"
+78-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:52:13-59
+79            android:screenOrientation="nosensor" >
+79-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:53:13-49
+80        </activity>
+81        <activity
+81-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:55:9-59:20
+82            android:name="com.microblink.activity.DocumentVerificationActivity"
+82-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:56:13-80
+83            android:configChanges="orientation|screenSize"
+83-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:57:13-59
+84            android:screenOrientation="nosensor" >
+84-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:58:13-49
+85        </activity>
+86        <activity
+86-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:60:9-64:20
+87            android:name="com.microblink.activity.BlinkCardActivity"
+87-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:61:13-69
+88            android:configChanges="orientation|screenSize"
+88-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:62:13-59
+89            android:screenOrientation="portrait" >
+89-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:63:13-49
+90        </activity>
+91        <activity
+91-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:65:9-69:20
+92            android:name="com.microblink.activity.BlinkIdActivity"
+92-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:66:13-67
+93            android:configChanges="orientation|screenSize"
+93-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:67:13-59
+94            android:screenOrientation="sensor" >
+94-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:68:13-47
+95        </activity>
+96        <activity
+96-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:70:9-74:20
+97            android:name="com.microblink.activity.DocumentCaptureActivity"
+97-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:71:13-75
+98            android:configChanges="orientation|screenSize"
+98-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:72:13-59
+99            android:screenOrientation="sensor" >
+99-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:73:13-47
+100        </activity>
+101        <activity
+101-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:75:9-78:70
+102            android:name="com.microblink.activity.edit.BlinkCardEditActivity"
+102-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:76:13-78
+103            android:screenOrientation="portrait"
+103-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:77:13-49
+104            android:theme="@style/MB_theme_blink_card_edit_screen" />
+104-->[:ScanditTextCaptureBase:] /home/vaibhav/.gradle/caches/transforms-3/1466984393fb9eeb7bbb7e22f57ca210/transformed/jetified-ScanditTextCaptureBase/AndroidManifest.xml:78:13-67
+105    </application>
+106
+107</manifest>

@@ -1,0 +1,619 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Us Uniformed Services Barcode Result &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Viz Result" href="viz-result.html" />
+    <link rel="prev" title="South Africa ID Barcode Result" href="south-africa-id-barcode-result.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-id-capture.html">Get Started With ID Capture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../camera-advanced.html">Advanced Camera Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../label-capture/overview.html">ScanditLabelCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../overview.html">ScanditIdCapture</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../api.html">API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="aamva-barcode-result.html">Aamva Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="argentina-id-barcode-result.html">Argentina ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="captured-id.html">Captured Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="captured-result-type.html">Captured Result Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colombia-id-barcode-result.html">Colombia ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="date-result.html">Date Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="document-type.html">Document Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture.html">Id Capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-exception.html">Id Capture Exception</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-listener.html">Id Capture Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-session.html">Id Capture Session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-settings.html">Id Capture Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-document-type.html">ID Document Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-image-type.html">Id Image Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-supported-document-sides.html">ID Supported Sides</a></li>
+<li class="toctree-l3"><a class="reference internal" href="localized-only-id.html">Localized Only Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mrz-result.html">Mrz Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rejected-id.html">Rejected Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="south-africa-dl-barcode-result.html">South Africa DL Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="south-africa-id-barcode-result.html">South Africa ID Barcode Result</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Us Uniformed Services Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viz-result.html">Viz Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deserialization/id-capture-deserializer.html">ID Capture Deserializer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deserialization/id-capture-deserializer-listener.html">ID Capture Deserializer Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ui/id-capture-overlay.html">Id Capture Overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ui/id-layout.html">Id Layout</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api.html#deserialization">Deserialization</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../release-notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../overview.html">ScanditIdCapture</a> &raquo;</li>
+        
+          <li><a href="../api.html">ScanditIdCapture API</a> &raquo;</li>
+        
+      <li>Us Uniformed Services Barcode Result</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="us-uniformed-services-barcode-result">
+<h1>Us Uniformed Services Barcode Result<a class="headerlink" href="#us-uniformed-services-barcode-result" title="Permalink to this headline">#</a></h1>
+<p>Defined in package <em>com.scandit.datacapture.id.capture</em></p>
+<dl class="class">
+<dt id="class-scandit.datacapture.id.UsUniformedServicesBarcodeResult">
+<code class="sig-name descname">UsUniformedServicesBarcodeResult</code><a class="headerlink" href="#class-scandit.datacapture.id.UsUniformedServicesBarcodeResult" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="sig-name descname">class UsUniformedServicesBarcodeResult</code></pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>ID Capture supports parsing Uniformed Services Identification Cards that are encoded in PDF417 barcodes. Both Sponsor and Dependant documents are supported (versions 1, 2 and 3). For the complete documentation of the standard please refer to <a class="reference external" href="https://web.archive.org/web/20160222013345/http://www.cac.mil/docs/DoD-ID-Bar-Code_SDK-Formats_v7-5-0_Sep2012.pdf">US Uniformed Services ID</a>.</p>
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Version">
+<code class="sig-name descname">version</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Version" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getVersion</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The version of the document. It can be 1, 2 or 3.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SponsorFlag">
+<code class="sig-name descname">sponsorFlag</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SponsorFlag" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getSponsorFlag</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Indicates whether the card holder is sponsor or dependent.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.PersonDesignatorDocument">
+<code class="sig-name descname">personDesignatorDocument</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.PersonDesignatorDocument" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getPersonDesignatorDocument</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Person’s designator identifier (usually, the cardholder’s SSN).</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.FamilySequenceNumber">
+<code class="sig-name descname">familySequenceNumber</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.FamilySequenceNumber" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getFamilySequenceNumber</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Used to distinguish among sponsors who have the same SSN.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DeersDependentSuffixCode">
+<code class="sig-name descname">deersDependentSuffixCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DeersDependentSuffixCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getDeersDependentSuffixCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The code of the relationship of a dependent to his or her sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DeersDependentSuffixDescription">
+<code class="sig-name descname">deersDependentSuffixDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DeersDependentSuffixDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getDeersDependentSuffixDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the relationship of a dependent to his or her sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Height">
+<code class="sig-name descname">height</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Height" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getHeight</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Person’s height in inches.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Weight">
+<code class="sig-name descname">weight</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Weight" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">getWeight</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Person’s weight in pounds.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.HairColor">
+<code class="sig-name descname">hairColor</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.HairColor" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getHairColor</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Person’s hair color</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.EyeColor">
+<code class="sig-name descname">eyeColor</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.EyeColor" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getEyeColor</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Person’s eye color.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DirectCareFlagCode">
+<code class="sig-name descname">directCareFlagCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DirectCareFlagCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getDirectCareFlagCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The code of the direct care privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DirectCareFlagDescription">
+<code class="sig-name descname">directCareFlagDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.DirectCareFlagDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getDirectCareFlagDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the direct care privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CivilianHealthCareFlagCode">
+<code class="sig-name descname">civilianHealthCareFlagCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CivilianHealthCareFlagCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getCivilianHealthCareFlagCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The code of the civilian health care privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CivilianHealthCareFlagDescription">
+<code class="sig-name descname">civilianHealthCareFlagDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CivilianHealthCareFlagDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getCivilianHealthCareFlagDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the civilian health care privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CommissaryFlagCode">
+<code class="sig-name descname">commissaryFlagCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CommissaryFlagCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getCommissaryFlagCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The code of the commisary privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CommissaryFlagDescription">
+<code class="sig-name descname">commissaryFlagDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.CommissaryFlagDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getCommissaryFlagDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the commisary privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.MwrFlagCode">
+<code class="sig-name descname">mwrFlagCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.MwrFlagCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getMwrFlagCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The code of the Morale, Welfare &amp; Recreation (MWR) privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.MwrFlagDescription">
+<code class="sig-name descname">mwrFlagDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.MwrFlagDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getMwrFlagDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the Morale, Welfare &amp; Recreation (MWR) privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ExchangeFlagCode">
+<code class="sig-name descname">exchangeFlagCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ExchangeFlagCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getExchangeFlagCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The code of the exchange privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ExchangeFlagDescription">
+<code class="sig-name descname">exchangeFlagDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ExchangeFlagDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getExchangeFlagDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the exchange privilege/benefit flag.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ChampusEffectiveDate">
+<code class="sig-name descname">champusEffectiveDate</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ChampusEffectiveDate" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="date-result.html#class-scandit.datacapture.id.DateResult" title="DateResult class">DateResult</a> <code class="sig-name descname">getChampusEffectiveDate</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Champus effective date.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ChampusExpiryDate">
+<code class="sig-name descname">champusExpiryDate</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ChampusExpiryDate" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="date-result.html#class-scandit.datacapture.id.DateResult" title="DateResult class">DateResult</a> <code class="sig-name descname">getChampusExpiryDate</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Champus expiration date.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.FormNumber">
+<code class="sig-name descname">formNumber</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.FormNumber" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getFormNumber</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Form number.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SecurityCode">
+<code class="sig-name descname">securityCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SecurityCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getSecurityCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Card security code.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ServiceCode">
+<code class="sig-name descname">serviceCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.ServiceCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getServiceCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Service code.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.StatusCode">
+<code class="sig-name descname">statusCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.StatusCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getStatusCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Status of the sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.StatusCodeDescription">
+<code class="sig-name descname">statusCodeDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.StatusCodeDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getStatusCodeDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the the code of the status of the sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.BranchOfService">
+<code class="sig-name descname">branchOfService</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.BranchOfService" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getBranchOfService</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>An organization with which the sponsor is affiliated.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Rank">
+<code class="sig-name descname">rank</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Rank" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;NonNull <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getRank</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Rank of the sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.PayGrade">
+<code class="sig-name descname">payGrade</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.PayGrade" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getPayGrade</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Pay grade of the sponsor. Available since version 2.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SponsorName">
+<code class="sig-name descname">sponsorName</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SponsorName" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getSponsorName</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Name of the sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SponsorPersonDesignatorIdentifier">
+<code class="sig-name descname">sponsorPersonDesignatorIdentifier</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.SponsorPersonDesignatorIdentifier" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><a class="reference external" href="https://developer.android.com/reference/java/lang/Integer.html" title="Integer">Integer</a> <code class="sig-name descname">getSponsorPersonDesignatorIdentifier</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Sponsor’s designator identifier (Usually, the cardholder’s SSN).</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.RelationshipCode">
+<code class="sig-name descname">relationshipCode</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.RelationshipCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getRelationshipCode</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The code of the dependent’s relationship to the sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.RelationshipDescription">
+<code class="sig-name descname">relationshipDescription</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.RelationshipDescription" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getRelationshipDescription</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The description of the dependent’s relationship to the sponsor.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.JpegData">
+<code class="sig-name descname">jpegData</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.JpegData" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getJpegData</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>A compressed version of the photograph printed on the front of the card.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.GenevaConventionCategory">
+<code class="sig-name descname">genevaConventionCategory</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.GenevaConventionCategory" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getGenevaConventionCategory</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Sponsor’s appropriate Geneva Convention Category.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.BloodType">
+<code class="sig-name descname">bloodType</code><a class="headerlink" href="#property-scandit.datacapture.id.UsUniformedServicesBarcodeResult.BloodType" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getBloodType</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Sponsor’s blood type.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Equals">
+<code class="sig-name descname">equals(obj)</code><a class="headerlink" href="#method-scandit.datacapture.id.UsUniformedServicesBarcodeResult.Equals" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">boolean</span></code> <code class="sig-name descname">equals</code>(&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/Object.html" title="Object">Object</a> <em>obj</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Indicates whether some other object is equal to this one.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.id.UsUniformedServicesBarcodeResult.HashCode">
+<code class="sig-name descname">hashCode()</code><a class="headerlink" href="#method-scandit.datacapture.id.UsUniformedServicesBarcodeResult.HashCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">hashCode</code>()</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Returns a hash code value for the object.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

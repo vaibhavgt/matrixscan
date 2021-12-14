@@ -1,0 +1,125 @@
+com/scandit/datacapture/idcapturesettingssample/data/IdCaptureRepository.java
+ com.scandit.datacapture.idcapturesettingssample.data.IdCaptureRepository
+com/scandit/datacapture/idcapturesettingssample/ui/result/ResultList.java
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ItemCallback
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultListAdapter
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultListViewHolder
+com/scandit/datacapture/idcapturesettingssample/mappers/ColombiaIdBarcodeResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.ColombiaIdBarcodeResultMapper
+com/scandit/datacapture/idcapturesettingssample/mappers/ArgentinaIdBarcodeResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.ArgentinaIdBarcodeResultMapper
+com/scandit/datacapture/idcapturesettingssample/mappers/SouthAfricaDlBarcodeResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.SouthAfricaDlBarcodeResultMapper
+com/scandit/datacapture/idcapturesettingssample/ui/scan/ScanFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.scan.ScanFragment
+com/scandit/datacapture/idcapturesettingssample/ui/settings/overview/OverviewSettingsFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.overview.OverviewSettingsFragment
+com/scandit/datacapture/idcapturesettingssample/mappers/MrzResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.MrzResultMapper
+com/scandit/datacapture/idcapturesettingssample/ui/scan/ShowBackScanAvailableEvent.java
+ com.scandit.datacapture.idcapturesettingssample.ui.scan.ShowBackScanAvailableEvent
+com/scandit/datacapture/idcapturesettingssample/ui/settings/common/SectionPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.SectionPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/ui/settings/overview/OverviewPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.overview.OverviewPreferenceBuilder
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.overview.OverviewPreferenceBuilder$Listener
+com/scandit/datacapture/idcapturesettingssample/ui/settings/view/GesturesPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.view.GesturesPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/data/Keys.java
+ com.scandit.datacapture.idcapturesettingssample.data.Keys
+com/scandit/datacapture/idcapturesettingssample/ui/BrushStyle.java
+ com.scandit.datacapture.idcapturesettingssample.ui.BrushStyle
+com/scandit/datacapture/idcapturesettingssample/ui/result/ResultEntry.java
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultEntry
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultEntry$1
+com/scandit/datacapture/idcapturesettingssample/ui/result/ResultFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultFragment
+com/scandit/datacapture/idcapturesettingssample/ui/settings/idcapture/IdCaptureSettingsFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.idcapture.IdCaptureSettingsFragment
+com/scandit/datacapture/idcapturesettingssample/ui/settings/result/ResultSettingsFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.result.ResultSettingsFragment
+com/scandit/datacapture/idcapturesettingssample/mappers/SouthAfricaIdBarcodeResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.SouthAfricaIdBarcodeResultMapper
+com/scandit/datacapture/idcapturesettingssample/mappers/UsUniformedServiceBarcodeResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.UsUniformedServiceBarcodeResultMapper
+com/scandit/datacapture/idcapturesettingssample/utils/BrushUtils.java
+ com.scandit.datacapture.idcapturesettingssample.utils.BrushUtils
+com/scandit/datacapture/idcapturesettingssample/ui/settings/view/LogoPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.view.LogoPreferenceBuilder
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.view.LogoPreferenceBuilder$Listener
+com/scandit/datacapture/idcapturesettingssample/utils/StringUtils.java
+ com.scandit.datacapture.idcapturesettingssample.utils.StringUtils
+com/scandit/datacapture/idcapturesettingssample/mappers/ResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.ResultMapper
+ com.scandit.datacapture.idcapturesettingssample.mappers.ResultMapper$1
+com/scandit/datacapture/idcapturesettingssample/ui/Event.java
+ com.scandit.datacapture.idcapturesettingssample.ui.Event
+com/scandit/datacapture/idcapturesettingssample/ui/settings/common/SettingsPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.SettingsPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/ui/settings/camera/CameraPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.camera.CameraPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/ui/result/CaptureResult.java
+ com.scandit.datacapture.idcapturesettingssample.ui.result.CaptureResult
+ com.scandit.datacapture.idcapturesettingssample.ui.result.CaptureResult$1
+ com.scandit.datacapture.idcapturesettingssample.ui.result.CaptureResult$Entry
+com/scandit/datacapture/idcapturesettingssample/data/SettingsRepository.java
+ com.scandit.datacapture.idcapturesettingssample.data.SettingsRepository
+ com.scandit.datacapture.idcapturesettingssample.data.SettingsRepository$1
+com/scandit/datacapture/idcapturesettingssample/utils/EnumUtils.java
+ com.scandit.datacapture.idcapturesettingssample.utils.EnumUtils
+com/scandit/datacapture/idcapturesettingssample/BuildConfig.java
+ com.scandit.datacapture.idcapturesettingssample.BuildConfig
+com/scandit/datacapture/idcapturesettingssample/ui/settings/view/ControlsPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.view.ControlsPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/ui/settings/view/OverlayPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.view.OverlayPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/ui/settings/common/PreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.PreferenceBuilder
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.PreferenceBuilder$1
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.PreferenceBuilder$FloatWithUnitPreviewSummary
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.PreferenceBuilder$MultiSelectListPreferenceSummaryProvider
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.PreferenceBuilder$NumericEditTextSummaryProvider
+com/scandit/datacapture/idcapturesettingssample/utils/ShowHideViewTimer.java
+ com.scandit.datacapture.idcapturesettingssample.utils.ShowHideViewTimer
+com/scandit/datacapture/idcapturesettingssample/ui/result/ResultUiState.java
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultUiState
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultUiState$1
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultUiState$Builder
+com/scandit/datacapture/idcapturesettingssample/ui/scan/ShowCaptureResultEvent.java
+ com.scandit.datacapture.idcapturesettingssample.ui.scan.ShowCaptureResultEvent
+com/scandit/datacapture/idcapturesettingssample/mappers/VizResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.VizResultMapper
+com/scandit/datacapture/idcapturesettingssample/ui/settings/result/ResultPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.result.ResultPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/data/DataCaptureViewRepository.java
+ com.scandit.datacapture.idcapturesettingssample.data.DataCaptureViewRepository
+com/scandit/datacapture/idcapturesettingssample/ui/settings/idcapture/IdCapturePreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.idcapture.IdCapturePreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/ui/result/ResultViewModel.java
+ com.scandit.datacapture.idcapturesettingssample.ui.result.ResultViewModel
+com/scandit/datacapture/idcapturesettingssample/ui/settings/camera/CameraSettingsFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.camera.CameraSettingsFragment
+com/scandit/datacapture/idcapturesettingssample/mappers/AamvaResultMapper.java
+ com.scandit.datacapture.idcapturesettingssample.mappers.AamvaResultMapper
+com/scandit/datacapture/idcapturesettingssample/ui/MainActivity.java
+ com.scandit.datacapture.idcapturesettingssample.ui.MainActivity
+com/scandit/datacapture/idcapturesettingssample/ui/settings/common/FloatWithUnitPreferenceBuilder.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.common.FloatWithUnitPreferenceBuilder
+com/scandit/datacapture/idcapturesettingssample/ui/scan/ScanViewModel.java
+ com.scandit.datacapture.idcapturesettingssample.ui.scan.ScanViewModel
+com/scandit/datacapture/idcapturesettingssample/ui/scan/ShowCaptureResultToastEvent.java
+ com.scandit.datacapture.idcapturesettingssample.ui.scan.ShowCaptureResultToastEvent
+com/scandit/datacapture/idcapturesettingssample/ui/scan/ScanResult.java
+ com.scandit.datacapture.idcapturesettingssample.ui.scan.ScanResult
+com/scandit/datacapture/idcapturesettingssample/data/CameraRepository.java
+ com.scandit.datacapture.idcapturesettingssample.data.CameraRepository
+com/scandit/datacapture/idcapturesettingssample/ui/settings/FloatWithUnitSettingsFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.FloatWithUnitSettingsFragment
+com/scandit/datacapture/idcapturesettingssample/di/Injector.java
+ com.scandit.datacapture.idcapturesettingssample.di.Injector
+com/scandit/datacapture/idcapturesettingssample/data/Defaults.java
+ com.scandit.datacapture.idcapturesettingssample.data.Defaults
+com/scandit/datacapture/idcapturesettingssample/data/DataCaptureContextProvider.java
+ com.scandit.datacapture.idcapturesettingssample.data.DataCaptureContextProvider
+com/scandit/datacapture/idcapturesettingssample/ui/settings/view/ViewSettingsFragment.java
+ com.scandit.datacapture.idcapturesettingssample.ui.settings.view.ViewSettingsFragment

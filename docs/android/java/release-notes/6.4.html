@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Scandit Data Capture SDK 6.4 Release Notes (July 10th 2020) &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Scandit Data Capture SDK 6.3 Release Notes (May 12th 2020)" href="6.3.html" />
+    <link rel="prev" title="Scandit Data Capture SDK 6.5 Release Notes (October 1st 2020)" href="6.5.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-id-capture.html">Get Started With ID Capture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../id-capture/supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../camera-advanced.html">Advanced Camera Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../label-capture/overview.html">ScanditLabelCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../id-capture/overview.html">ScanditIdCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../release-notes.html">Release Notes</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="6.10.html">6.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.9.html">6.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.8.html">6.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.7.html">6.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.6.html">6.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.5.html">6.5</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">6.4</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#new-features">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#behavioral-changes">Behavioral Changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#performance-improvements">Performance Improvements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bug-fixes">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecations">Deprecations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#updates">Updates</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#sdk-6-4-1-bug-fixes-july-24th-2020">Scandit Data Capture SDK 6.4.1 Bug Fixes (July 24th 2020)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sdk-6-4-2-bug-fixes-august-14th-2020">Scandit Data Capture SDK 6.4.2 Bug Fixes (August 14th 2020)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="6.3.html">6.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.2.html">6.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.1.html">6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.0.html">6.0</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../release-notes.html">Scandit Data Capture SDK Release Notes</a> &raquo;</li>
+        
+      <li>Scandit Data Capture SDK 6.4 Release Notes (July 10th 2020)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sdk-6-4-release-notes-july-10th-2020">
+<h1>Scandit Data Capture SDK 6.4 Release Notes (July 10th 2020)<a class="headerlink" href="#sdk-6-4-release-notes-july-10th-2020" title="Permalink to this headline">#</a></h1>
+<p>See also the <a class="reference internal" href="../requirements/6.4.html"><span class="doc">System Requirements</span></a> of the Scandit Data Capture SDK across all platforms.</p>
+<div class="section" id="new-features">
+<h2>New Features<a class="headerlink" href="#new-features" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Extended default symbol count ranges for the following symbologies:</p>
+<ul>
+<li><p>Code128 and Code39 changed from 7-20 to 6-40.</p></li>
+<li><p>Code93 changed from 7-22 to 6-40.</p></li>
+<li><p>MSI-Plessey changed from 7-20 to 6-32.</p></li>
+<li><p>ITF changed from 8-18 to 6-40.</p></li>
+</ul>
+</li>
+<li><p>Added <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.Location" title="TrackedBarcode.location property">TrackedBarcode.location</a> and <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#method-scandit.datacapture.barcode.tracking.TrackedBarcode.GetAnchorPosition" title="TrackedBarcode.getAnchorPosition() method">TrackedBarcode.getAnchorPosition()</a> for getting the location of a tracked barcode and the position of its anchors respectively.</p></li>
+<li><p>Added <a class="reference internal" href="../core/api/data-capture-context.html#property-scandit.datacapture.core.DataCaptureContext.LicenseInfo" title="DataCaptureContext.licenseInfo property">DataCaptureContext.licenseInfo</a> containing info about the license’s <a class="reference internal" href="../core/api/license-info.html#class-scandit.datacapture.core.Expiration" title="Expiration class">Expiration</a>. This information is not available for all license types.</p></li>
+<li><p>Added <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#property-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay.StaticDefaultBrush" title="DEFAULT_BRUSH property">DEFAULT_BRUSH</a> class property.</p></li>
+<li><p>Added <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultLabelBrush" title="DEFAULT_LABEL_BRUSH property">DEFAULT_LABEL_BRUSH</a> class property.</p></li>
+<li><p>Added <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultPredictedFieldBrush" title="DEFAULT_PREDICTED_FIELD_BRUSH property">DEFAULT_PREDICTED_FIELD_BRUSH</a> class property.</p></li>
+<li><p>Added <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultCapturedFieldBrush" title="DEFAULT_CAPTURED_FIELD_BRUSH property">DEFAULT_CAPTURED_FIELD_BRUSH</a> class property.</p></li>
+<li><p>Added <a class="reference internal" href="../barcode-capture/api/symbology-settings.html#property-scandit.datacapture.barcode.SymbologySettings.Symbology" title="symbology property">symbology</a> class property.</p></li>
+<li><p>Added <a class="reference internal" href="../core/api/combined-viewfinder.html#class-scandit.datacapture.core.ui.CombinedViewfinder" title="CombinedViewfinder class">CombinedViewfinder</a> to display multiple viewfinders for one mode.</p></li>
+<li><p>Added <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay-listener.html#method-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener.OnLabelTapped" title="LabelCaptureBasicOverlayListener.onLabelTapped() method">LabelCaptureBasicOverlayListener.onLabelTapped()</a>. This method is called every time a captured label is tapped.</p></li>
+<li><p>Added <a class="reference internal" href="../core/api/data-capture-context-settings.html#class-scandit.datacapture.core.DataCaptureContextSettings" title="DataCaptureContextSettings class">DataCaptureContextSettings</a> which can be applied to <a class="reference internal" href="../core/api/data-capture-context.html#class-scandit.datacapture.core.DataCaptureContext" title="DataCaptureContext class">DataCaptureContext</a> through <a class="reference internal" href="../core/api/data-capture-context.html#method-scandit.datacapture.core.DataCaptureContext.ApplySettings" title="applySettings() method">applySettings()</a>.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Added a BarcodeSelectionFreezeToScan sample demonstrating how to capture multiple barcodes and select them using <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#class-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay" title="BarcodeTrackingBasicOverlay class">BarcodeTrackingBasicOverlay</a>.</p></li>
+<li><p>Added serialization of <a class="reference internal" href="../core/api/direction.html#enum-scandit.datacapture.core.Direction" title="Direction enum">Direction</a> via <cite>Direction.toJson()</cite>.</p></li>
+<li><p>Added barcode tracking count to billing usage statistics.</p></li>
+<li><p>Added new property “animations_v2” to <a class="reference internal" href="../barcode-capture/api/barcode-tracking-settings.html#class-scandit.datacapture.barcode.tracking.BarcodeTrackingSettings" title="BarcodeTrackingSettings class">BarcodeTrackingSettings</a>. When turned on, <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#class-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay" title="BarcodeTrackingBasicOverlay class">BarcodeTrackingBasicOverlay</a> and <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-advanced-overlay.html#class-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingAdvancedOverlay" title="BarcodeTrackingAdvancedOverlay class">BarcodeTrackingAdvancedOverlay</a> will use the new animation system driven by the engine instead of animating linearly between the locations provided in subsequent processed frames.</p></li>
+<li><p>Added new “lowLevelVersionString” and “lowLevelBuildString” hidden properties that can be accessed through to <a class="reference internal" href="../core/api/data-capture-version.html#method-scandit.datacapture.core.DataCaptureVersion.GetProperty" title="DataCaptureVersion.getProperty() method">DataCaptureVersion.getProperty()</a>.</p></li>
+<li><p>Added the hidden properties <cite>freezeIndicatorListener</cite> (runnable) and <cite>freezeIndicatorWaitTime</cite> (int in milliseconds) for the <a class="reference internal" href="../barcode-capture/api/barcode-tracking-settings.html#class-scandit.datacapture.barcode.tracking.BarcodeTrackingSettings" title="BarcodeTrackingSettings class">BarcodeTrackingSettings</a>.</p></li>
+<li><p>Added signature validation. This extracts the hash of the signature used to sign the app and compares it to the one saved in the license key.</p></li>
+<li><p>Added hidden settings “sceneChangeDetection” to camera 2. When set <cite>true</cite>, Scene Change Detection triggers Auto Focus algorithm automatically.</p></li>
+<li><p>The <a class="reference internal" href="../text-capture/api/deserialization/text-capture-deserializer.html#class-scandit.datacapture.text.TextCaptureDeserializer" title="TextCaptureDeserializer class">TextCaptureDeserializer</a> and <a class="reference internal" href="../label-capture/api/deserialization/label-capture-deserializer.html#class-scandit.datacapture.label.LabelCaptureDeserializer" title="LabelCaptureDeserializer class">LabelCaptureDeserializer</a> now deserialize “licensee” and “licenseKey”.</p></li>
+<li><p>Added <a class="reference internal" href="../label-capture/api/label-capture.html#class-scandit.datacapture.label.LabelCapture" title="LabelCapture class">LabelCapture</a> deserialization (<a class="reference internal" href="../label-capture/api/label-capture.html#method-scandit.datacapture.label.LabelCapture.FromJson" title="LabelCapture.fromJson() method">LabelCapture.fromJson()</a> and <a class="reference internal" href="../label-capture/api/label-capture.html#method-scandit.datacapture.label.LabelCapture.UpdateFromJson" title="LabelCapture.updateFromJson() method">LabelCapture.updateFromJson()</a>) through the new <a class="reference internal" href="../label-capture/api/deserialization/label-capture-deserializer.html#class-scandit.datacapture.label.LabelCaptureDeserializer" title="LabelCaptureDeserializer class">LabelCaptureDeserializer</a>. The <a class="reference internal" href="../label-capture/api/label-capture-settings.html#class-scandit.datacapture.label.LabelCaptureSettings" title="LabelCaptureSettings class">LabelCaptureSettings</a> are only deserializable directly through the deserializer.</p></li>
+<li><p>The <a class="reference internal" href="../barcode-capture/api/deserialization/barcode-tracking-deserializer.html#class-scandit.datacapture.barcode.tracking.BarcodeTrackingDeserializer" title="BarcodeTrackingDeserializer class">BarcodeTrackingDeserializer</a> now properly deserializes also hidden properties for the object tracker and not only the barcode scanner.</p></li>
+<li><p>Added serialization for the text capture session (<a class="reference internal" href="../text-capture/api/text-capture-session.html#method-scandit.datacapture.text.TextCaptureSession.ToJson" title="TextCaptureSession.toJson() method">TextCaptureSession.toJson()</a>).</p></li>
+<li><p>Added serialization for the label capture session (<a class="reference internal" href="../label-capture/api/label-capture-session.html#method-scandit.datacapture.label.LabelCaptureSession.ToJson" title="LabelCaptureSession.toJson() method">LabelCaptureSession.toJson()</a>, <a class="reference internal" href="../label-capture/api/captured-label.html#method-scandit.datacapture.label.CapturedLabel.ToJson" title="CapturedLabel.toJson() method">CapturedLabel.toJson()</a> and <a class="reference internal" href="../label-capture/api/label-field.html#method-scandit.datacapture.label.LabelField.ToJson" title="LabelField.toJson() method">LabelField.toJson()</a>).</p></li>
+<li><p>Added serialization for symbology settings (<a class="reference internal" href="../barcode-capture/api/symbology-settings.html#method-scandit.datacapture.barcode.SymbologySettings.ToJson" title="SymbologySettings.toJson() method">SymbologySettings.toJson()</a>).</p></li>
+<li><p>Updated BlinkId to version 5.5.0.</p></li>
+<li><p>Added <cite>analyticsServerEndpoint</cite>, <cite>numberOfEngineThreads</cite> and <cite>enabledCpusBitset</cite> properties to <a class="reference internal" href="../core/api/data-capture-context-settings.html#class-scandit.datacapture.core.DataCaptureContextSettings" title="DataCaptureContextSettings class">DataCaptureContextSettings</a>.</p></li>
+</ul>
+</div>
+<div class="section" id="behavioral-changes">
+<h2>Behavioral Changes<a class="headerlink" href="#behavioral-changes" title="Permalink to this headline">#</a></h2>
+<ul>
+<li><p>During <a class="reference internal" href="../barcode-capture/api/barcode-tracking.html#class-scandit.datacapture.barcode.tracking.BarcodeTracking" title="BarcodeTracking class">BarcodeTracking</a> the location of <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.Barcode" title="TrackedBarcode.barcode property">TrackedBarcode.barcode</a> used to be updated over time. This was never intended behavior and is no longer the case. Instead <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.Location" title="TrackedBarcode.location property">TrackedBarcode.location</a> should be used. The location of <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.Barcode" title="barcode property">barcode</a> should be ignored when using <a class="reference internal" href="../barcode-capture/api/barcode-tracking.html#class-scandit.datacapture.barcode.tracking.BarcodeTracking" title="BarcodeTracking class">BarcodeTracking</a>.</p>
+<p>If your tracked barcodes are suddenly not moving anymore or not moving as expected, the issue is likely the use of <a class="reference internal" href="../barcode-capture/api/barcode.html#property-scandit.datacapture.barcode.Barcode.Location" title="Barcode.location property">Barcode.location</a> instead of <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.Location" title="TrackedBarcode.location property">TrackedBarcode.location</a>.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="performance-improvements">
+<h2>Performance Improvements<a class="headerlink" href="#performance-improvements" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Improved recognition of Code128 and EAN13 codes with low resolution.</p></li>
+<li><p>Improved recognition of Aztec codes with a small module count.</p></li>
+<li><p>Improved recognition of MicroQR codes with low resolution or perspective distortion.</p></li>
+</ul>
+</div>
+<div class="section" id="bug-fixes">
+<h2>Bug Fixes<a class="headerlink" href="#bug-fixes" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Fixed a rare out-of-bounds access in the PDF417 reader.</p></li>
+<li><p>Fixed decoding of DataBar Expanded codes with 21 or 22 segments.</p></li>
+<li><p>Fixed an issue with the torch control not responding under certain circumstances.</p></li>
+<li><p>Fixed an issue where <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay-listener.html#method-scandit.datacapture.barcode.tracking.ui.IBarcodeTrackingBasicOverlayListener.OnTrackedBarcodeTapped" title="BarcodeTrackingBasicOverlayListener.onTrackedBarcodeTapped() method">BarcodeTrackingBasicOverlayListener.onTrackedBarcodeTapped()</a> isn’t called when a <em>null</em> <a class="reference internal" href="../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> is returned in the listener and a <a class="reference internal" href="../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> is set via <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#method-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay.SetBrushForTrackedBarcode" title="BarcodeTrackingBasicOverlay.setBrushForTrackedBarcode() method">BarcodeTrackingBasicOverlay.setBrushForTrackedBarcode()</a>.</p></li>
+<li><p>Label Capture: Fixed an issue where drawings were not removed when the mode was reenabled.</p></li>
+<li><p>DLID parser: Fixed incorrect date parsing for North Carolina, AAMVA version 1.</p></li>
+<li><p>DLID parser: Fixed an issue where dates were not parsed for West Virginia and Wyoming, AAMVA version 4.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Torch control now actually toggles the torch in Camera API 2.</p></li>
+<li><p>Fixed an issue with <a class="reference internal" href="../label-capture/api/label-capture.html#class-scandit.datacapture.label.LabelCapture" title="LabelCapture class">LabelCapture</a> not having the barcode scanner be correctly configured after deserialization (for example scan area margins were ignored).</p></li>
+<li><p>Label Capture: Fixed a crash when owned recognition context was null during the mode initialization.</p></li>
+<li><p>Fixed an issue that was preventing to change the analytics endpoint before processing frames.</p></li>
+</ul>
+</div>
+<div class="section" id="deprecations">
+<h2>Deprecations<a class="headerlink" href="#deprecations" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Deprecated <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#property-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay.DefaultBrush" title="BarcodeTrackingBasicOverlay.defaultBrush property">BarcodeTrackingBasicOverlay.defaultBrush</a>, use <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#property-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay.Brush" title="brush property">brush</a> instead.</p></li>
+<li><p>Deprecated <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultLabelBrush" title="LabelCaptureBasicOverlay.defaultLabelBrush property">LabelCaptureBasicOverlay.defaultLabelBrush</a>, use <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.LabelBrush" title="labelBrush property">labelBrush</a> instead.</p></li>
+<li><p>Deprecated <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="LabelCaptureBasicOverlay.defaultPredictedFieldBrush property">LabelCaptureBasicOverlay.defaultPredictedFieldBrush</a>, use <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.PredictedFieldBrush" title="predictedFieldBrush property">predictedFieldBrush</a> instead.</p></li>
+<li><p>Deprecated <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="LabelCaptureBasicOverlay.defaultCapturedFieldBrush property">LabelCaptureBasicOverlay.defaultCapturedFieldBrush</a>, use <a class="reference internal" href="../label-capture/api/ui/label-capture-basic-overlay.html#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.CapturedFieldBrush" title="capturedFieldBrush property">capturedFieldBrush</a> instead.</p></li>
+<li><p>Deprecated <a class="reference internal" href="../core/api/data-capture-context.html#property-scandit.datacapture.core.DataCaptureContext.DeviceId" title="DataCaptureContext.deviceId property">DataCaptureContext.deviceId</a> to be replaced by the always available static <a class="reference internal" href="../core/api/data-capture-context.html#property-scandit.datacapture.core.DataCaptureContext.StaticDeviceId" title="DEVICE_ID property">DEVICE_ID</a>.</p></li>
+</ul>
+</div>
+<div class="section" id="updates">
+<h2>Updates<a class="headerlink" href="#updates" title="Permalink to this headline">#</a></h2>
+<div class="section" id="sdk-6-4-1-bug-fixes-july-24th-2020">
+<h3>Scandit Data Capture SDK 6.4.1 Bug Fixes (July 24th 2020)<a class="headerlink" href="#sdk-6-4-1-bug-fixes-july-24th-2020" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Fixed the camera lag of the Aquos Sense 2 and Crosscall Core-X4.</p></li>
+<li><p>DLID parser: Fixed the issue that some Alberta, AAMVA version 3 codes were not parsed.</p></li>
+</ul>
+</div>
+<div class="section" id="sdk-6-4-2-bug-fixes-august-14th-2020">
+<h3>Scandit Data Capture SDK 6.4.2 Bug Fixes (August 14th 2020)<a class="headerlink" href="#sdk-6-4-2-bug-fixes-august-14th-2020" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Fixed two sources of memory leaks.</p></li>
+<li><p>Fixed an issue where when returning null for <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay-listener.html#method-scandit.datacapture.barcode.tracking.ui.IBarcodeTrackingBasicOverlayListener.BrushForTrackedBarcode" title="BarcodeTrackingBasicOverlayListener.brushForTrackedBarcode() method">BarcodeTrackingBasicOverlayListener.brushForTrackedBarcode()</a> the drawn brush was <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#property-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay.Brush" title="BarcodeTrackingBasicOverlay.brush property">BarcodeTrackingBasicOverlay.brush</a> instead of a transparent brush.</p></li>
+<li><p>Fixed an issue introduced in 6.4.1 where using the <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay.html#class-scandit.datacapture.barcode.tracking.ui.BarcodeTrackingBasicOverlay" title="BarcodeTrackingBasicOverlay class">BarcodeTrackingBasicOverlay</a> required the MatrixScan AR add-on.</p></li>
+<li><p>Fixed an issue introduced in 6.4.1 where in some circumstances the <a class="reference internal" href="../barcode-capture/api/ui/barcode-tracking-basic-overlay-listener.html#interface-scandit.datacapture.barcode.tracking.ui.IBarcodeTrackingBasicOverlayListener" title="BarcodeTrackingBasicOverlayListener interface">BarcodeTrackingBasicOverlayListener</a>’s functions were no longer called.</p></li>
+<li><p>UsUsid parser: Improved parsing of the following fields: eyeColor, hairColor, weight, directCareFlag, civilianHealthCareFlag, payGrade, bloodType, dates.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Disabled analytics 2.0 for all customers as it can cause a JSON related crash on Android.</p></li>
+<li><p>The default camera API is no longer 1 but instead 0. This means the API version is chosen automatically based on the device.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

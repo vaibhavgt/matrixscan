@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :ScanditTextCapture:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3a73d676f2677c8f30c2f7547362baef/transformed/jetified-ScanditTextCapture/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3a73d676f2677c8f30c2f7547362baef/transformed/jetified-ScanditTextCapture/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3a73d676f2677c8f30c2f7547362baef/transformed/jetified-ScanditTextCapture/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

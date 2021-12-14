@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :ScanditParser:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/58ec60f72a5a0676c51b77ba30fe751b/transformed/jetified-ScanditParser/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/58ec60f72a5a0676c51b77ba30fe751b/transformed/jetified-ScanditParser/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/58ec60f72a5a0676c51b77ba30fe751b/transformed/jetified-ScanditParser/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

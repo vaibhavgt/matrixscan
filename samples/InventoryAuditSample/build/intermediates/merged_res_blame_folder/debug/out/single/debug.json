@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/layout_bubble.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/layout/bubble.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/drawable_freeze_enabled.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/drawable/freeze_enabled.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/drawable_bubble_background_white.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/drawable/bubble_background_white.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/layout_fragment_scan.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/layout/fragment_scan.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/drawable_freeze_disabled.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/drawable/freeze_disabled.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/drawable_bubble_background_red.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/drawable/bubble_background_red.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/layout_result_item.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/layout/result_item.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/menu_main_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/menu/main_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/drawable/ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/layout_main_activity.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/layout/main_activity.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_result.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/layout/fragment_result.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_scan.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/IdCaptureSettingsSample/src/main/res/layout/fragment_scan.xml"
+    }
+]

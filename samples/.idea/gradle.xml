@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AgeVerifiedDeliverySample" />
+            <option value="$PROJECT_DIR$/BarcodeCaptureRejectSample" />
+            <option value="$PROJECT_DIR$/BarcodeCaptureSettingsSample" />
+            <option value="$PROJECT_DIR$/BarcodeCaptureSimpleSample" />
+            <option value="$PROJECT_DIR$/BarcodeCaptureViewsSample" />
+            <option value="$PROJECT_DIR$/BarcodeSelectionSettingsSample" />
+            <option value="$PROJECT_DIR$/GS1ParserSample" />
+            <option value="$PROJECT_DIR$/IdCaptureExtendedSample" />
+            <option value="$PROJECT_DIR$/IdCaptureSettingsSample" />
+            <option value="$PROJECT_DIR$/IdCaptureSimpleSample" />
+            <option value="$PROJECT_DIR$/InventoryAuditSample" />
+            <option value="$PROJECT_DIR$/MRZScannerSample" />
+            <option value="$PROJECT_DIR$/MatrixScanBubblesSample" />
+            <option value="$PROJECT_DIR$/MatrixScanRejectSample" />
+            <option value="$PROJECT_DIR$/MatrixScanSimpleSample" />
+            <option value="$PROJECT_DIR$/SearchAndFindSample" />
+            <option value="$PROJECT_DIR$/TextCaptureSample" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

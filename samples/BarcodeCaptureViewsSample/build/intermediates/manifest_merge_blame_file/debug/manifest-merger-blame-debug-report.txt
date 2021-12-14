@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Licensed under the Apache License, Version 2.0 (the "License");
+4  ~ you may not use this file except in compliance with the License.
+5  ~ You may obtain a copy of the License at
+6  ~
+7  ~ http://www.apache.org/licenses/LICENSE-2.0
+8  ~
+9  ~ Unless required by applicable law or agreed to in writing, software
+10  ~ distributed under the License is distributed on an "AS IS" BASIS,
+11  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+12  ~ See the License for the specific language governing permissions and
+13  ~ limitations under the License.
+14-->
+15<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+16    package="com.scandit.datacapture.barcodecaptureviewssample"
+17    android:versionCode="1"
+18    android:versionName="1.0" >
+19
+20    <uses-sdk
+21        android:minSdkVersion="21"
+21-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml
+22        android:targetSdkVersion="29" />
+22-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:20:5-66
+24-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:20:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:5-79
+25-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:22-76
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:13:5-65
+26-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:13:22-62
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:5-66
+27-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:22-63
+28
+29    <uses-feature android:glEsVersion="0x00020000" />
+29-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:5-54
+29-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:19-51
+30
+31    <application
+31-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:22:5-53:19
+32        android:allowBackup="true"
+32-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:23:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:24:9-43
+36        android:label="@string/app_name"
+36-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:25:9-41
+37        android:supportsRtl="true"
+37-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:26:9-35
+38        android:theme="@style/AppTheme" >
+38-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:27:9-40
+39        <activity
+39-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:30:9-37:20
+40            android:name="com.scandit.datacapture.barcodecaptureviewssample.MainActivity"
+40-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:30:19-47
+41            android:launchMode="singleTask"
+41-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:32:19-50
+42            android:screenOrientation="fullUser" >
+42-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:31:19-55
+43            <intent-filter>
+43-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:33:13-36:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:34:17-68
+44-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:34:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:35:17-76
+46-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:35:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:39:9-42:63
+50            android:name="com.scandit.datacapture.barcodecaptureviewssample.modes.fragment.FullscreenScanFragmentContainerActivity"
+50-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:39:19-89
+51            android:label="@string/full_screen_fragment"
+51-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:41:19-63
+52            android:parentActivityName="com.scandit.datacapture.barcodecaptureviewssample.MainActivity"
+52-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:42:19-61
+53            android:theme="@style/Theme.AppCompat.Light" />
+53-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:40:19-63
+54        <activity
+54-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:44:9-47:63
+55            android:name="com.scandit.datacapture.barcodecaptureviewssample.modes.activity.FullscreenScanActivity"
+55-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:44:19-72
+56            android:label="@string/full_screen_activity"
+56-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:46:19-63
+57            android:parentActivityName="com.scandit.datacapture.barcodecaptureviewssample.MainActivity"
+57-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:47:19-61
+58            android:theme="@style/Theme.AppCompat.Light" />
+58-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:45:19-63
+59        <activity
+59-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:49:9-52:63
+60            android:name="com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewScanActivity"
+60-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:49:19-72
+61            android:label="@string/split_view"
+61-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:51:19-53
+62            android:parentActivityName="com.scandit.datacapture.barcodecaptureviewssample.MainActivity"
+62-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:52:19-61
+63            android:theme="@style/Theme.AppCompat.Light" />
+63-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureViewsSample/src/main/AndroidManifest.xml:50:19-63
+64
+65        <provider
+65-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:19:9-22:40
+66            android:name="com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider"
+66-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:20:13-107
+67            android:authorities="com.scandit.datacapture.barcodecaptureviewssample.corelibraryloadercontentprovider"
+67-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:21:13-84
+68            android:exported="false" />
+68-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:22:13-37
+69        <provider
+69-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:17:9-20:40
+70            android:name="com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider"
+70-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:18:13-113
+71            android:authorities="com.scandit.datacapture.barcodecaptureviewssample.barcodelibraryloadercontentprovider"
+71-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:19:13-87
+72            android:exported="false" />
+72-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:20:13-37
+73        <provider
+73-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+74            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+75            android:authorities="com.scandit.datacapture.barcodecaptureviewssample.lifecycle-process"
+75-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+76            android:exported="false"
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+77            android:multiprocess="true" />
+77-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+78    </application>
+79
+80</manifest>

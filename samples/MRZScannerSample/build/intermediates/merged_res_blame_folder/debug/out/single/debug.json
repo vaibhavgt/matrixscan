@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/drawable_rectangle.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/drawable/rectangle.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/layout_activity_mrz_scanner.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/layout/activity_mrz_scanner.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/MRZScannerSample/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

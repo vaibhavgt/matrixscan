@@ -1,0 +1,8 @@
+com/scandit/datacapture/barcodecapturesimplesample/BarcodeScanActivity.java
+ com.scandit.datacapture.barcodecapturesimplesample.BarcodeScanActivity
+ com.scandit.datacapture.barcodecapturesimplesample.BarcodeScanActivity$1
+ com.scandit.datacapture.barcodecapturesimplesample.BarcodeScanActivity$2
+com/scandit/datacapture/barcodecapturesimplesample/BuildConfig.java
+ com.scandit.datacapture.barcodecapturesimplesample.BuildConfig
+com/scandit/datacapture/barcodecapturesimplesample/CameraPermissionActivity.java
+ com.scandit.datacapture.barcodecapturesimplesample.CameraPermissionActivity

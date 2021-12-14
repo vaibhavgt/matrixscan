@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Licensed under the Apache License, Version 2.0 (the "License");
+4  ~ you may not use this file except in compliance with the License.
+5  ~ You may obtain a copy of the License at
+6  ~
+7  ~ http://www.apache.org/licenses/LICENSE-2.0
+8  ~
+9  ~ Unless required by applicable law or agreed to in writing, software
+10  ~ distributed under the License is distributed on an "AS IS" BASIS,
+11  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+12  ~ See the License for the specific language governing permissions and
+13  ~ limitations under the License.
+14-->
+15<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+16    package="com.scandit.datacapture.inventoryauditsample"
+17    android:versionCode="1"
+18    android:versionName="1.0" >
+19
+20    <uses-sdk
+21        android:minSdkVersion="21"
+21-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml
+22        android:targetSdkVersion="29" />
+22-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:20:5-66
+24-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:20:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:5-79
+25-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:22-76
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:13:5-65
+26-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:13:22-62
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:5-66
+27-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:22-63
+28
+29    <uses-feature android:glEsVersion="0x00020000" />
+29-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:5-54
+29-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:19-51
+30
+31    <application
+31-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:22:5-37:19
+32        android:allowBackup="true"
+32-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:23:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:24:9-43
+36        android:label="@string/app_name"
+36-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:25:9-41
+37        android:supportsRtl="true"
+37-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:26:9-35
+38        android:theme="@style/AppTheme" >
+38-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:27:9-40
+39        <activity
+39-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:30:9-36:20
+40            android:name="com.scandit.datacapture.inventoryauditsample.MainActivity"
+40-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:30:19-47
+41            android:screenOrientation="fullUser" >
+41-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:31:19-55
+42            <intent-filter>
+42-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:32:13-35:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:33:17-68
+43-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:33:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:34:17-76
+45-->/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/InventoryAuditSample/src/main/AndroidManifest.xml:34:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:19:9-22:40
+50            android:name="com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider"
+50-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:20:13-107
+51            android:authorities="com.scandit.datacapture.inventoryauditsample.corelibraryloadercontentprovider"
+51-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:21:13-84
+52            android:exported="false" />
+52-->[:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:22:13-37
+53        <provider
+53-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:17:9-20:40
+54            android:name="com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider"
+54-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:18:13-113
+55            android:authorities="com.scandit.datacapture.inventoryauditsample.barcodelibraryloadercontentprovider"
+55-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:19:13-87
+56            android:exported="false" />
+56-->[:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:20:13-37
+57        <provider
+57-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+58            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+59            android:authorities="com.scandit.datacapture.inventoryauditsample.lifecycle-process"
+59-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+60            android:exported="false"
+60-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+61            android:multiprocess="true" />
+61-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f56bb28ef74027f911fcdcf6ffe74be/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+62    </application>
+63
+64</manifest>

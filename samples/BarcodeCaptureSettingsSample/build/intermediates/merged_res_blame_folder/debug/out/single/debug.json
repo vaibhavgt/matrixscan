@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/drawable_ic_expand.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/drawable/ic_expand.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_camera_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_camera_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_overlay_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_overlay_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_result_handling_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_result_handling_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_view_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_view_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_single_text_layout.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/single_text_layout.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_torch_state_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_torch_state_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_specific_symbology_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_specific_symbology_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_composite_types_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_composite_types_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_scan_area_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_scan_area_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_viewfinder_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_viewfinder_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_barcode_capture_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_barcode_capture_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_controls_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_controls_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/drawable_ic_check.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/drawable/ic_check.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_two_texts_and_icon.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/two_texts_and_icon.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_measure_unit.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_measure_unit.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/menu_settings_menu.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/menu/settings_menu.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_settings_overview.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_settings_overview.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_logo_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_logo_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_location_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_location_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_point_of_interest_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_point_of_interest_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_symbology_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_symbology_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_code_duplicate_filter_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_code_duplicate_filter_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_gestures_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_gestures_settings.xml"
+    },
+    {
+        "merged": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/build/intermediates/res/merged/debug/layout_fragment_feedback_settings.xml.flat",
+        "source": "/home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeCaptureSettingsSample/src/main/res/layout/fragment_feedback_settings.xml"
+    }
+]

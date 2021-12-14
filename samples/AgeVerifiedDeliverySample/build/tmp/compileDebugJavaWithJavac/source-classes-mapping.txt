@@ -1,0 +1,82 @@
+com/scandit/datacapture/ageverifieddeliverysample/util/EmptyTextWatcher.java
+ com.scandit.datacapture.ageverifieddeliverysample.util.EmptyTextWatcher
+com/scandit/datacapture/ageverifieddeliverysample/ui/util/LocalDatePickerDialogFragment.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.util.LocalDatePickerDialogFragment
+ com.scandit.datacapture.ageverifieddeliverysample.ui.util.LocalDatePickerDialogFragment$OnDateSetListener
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/DriverLicenseSide.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.DriverLicenseSide
+com/scandit/datacapture/ageverifieddeliverysample/data/CameraRepository.java
+ com.scandit.datacapture.ageverifieddeliverysample.data.CameraRepository
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/GoToIdLocalizedButNotCaptured.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.GoToIdLocalizedButNotCaptured
+com/scandit/datacapture/ageverifieddeliverysample/ui/manualentry/GoToDateOfExpiryPicker.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.GoToDateOfExpiryPicker
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/GoToVerificationSuccess.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.GoToVerificationSuccess
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/EnterManuallyHintStatus.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.EnterManuallyHintStatus
+com/scandit/datacapture/ageverifieddeliverysample/ui/manualentry/ManualEntryViewModel.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.ManualEntryViewModel
+com/scandit/datacapture/ageverifieddeliverysample/util/EmptyOnTabSelectedListener.java
+ com.scandit.datacapture.ageverifieddeliverysample.util.EmptyOnTabSelectedListener
+com/scandit/datacapture/ageverifieddeliverysample/data/DataCaptureContextProvider.java
+ com.scandit.datacapture.ageverifieddeliverysample.data.DataCaptureContextProvider
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/VerificationFailureReason.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.VerificationFailureReason
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/DocumentData.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.DocumentData
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/BarcodeNotSupportedDialogFragment.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.BarcodeNotSupportedDialogFragment
+com/scandit/datacapture/ageverifieddeliverysample/BuildConfig.java
+ com.scandit.datacapture.ageverifieddeliverysample.BuildConfig
+com/scandit/datacapture/ageverifieddeliverysample/ui/manualentry/GoToVerificationResult.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.GoToVerificationResult
+com/scandit/datacapture/ageverifieddeliverysample/ui/MainActivity.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.MainActivity
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/IdLocalizedButNotCapturedDialogFragment.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.IdLocalizedButNotCapturedDialogFragment
+com/scandit/datacapture/ageverifieddeliverysample/ui/manualentry/GoToDateOfBirthPicker.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.GoToDateOfBirthPicker
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/ScanFragment.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanFragment
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanFragment$1
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanFragment$OnTargetDocumentChangedListener
+com/scandit/datacapture/ageverifieddeliverysample/ui/manualentry/ManualEntryUiState.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.ManualEntryUiState
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.ManualEntryUiState$1
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.ManualEntryUiState$Builder
+com/scandit/datacapture/ageverifieddeliverysample/ui/Event.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.Event
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/GoToManualEntry.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.GoToManualEntry
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/GoToVerificationFailure.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.GoToVerificationFailure
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/TargetDocument.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.TargetDocument
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/GoToBarcodeNotSupported.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.GoToBarcodeNotSupported
+com/scandit/datacapture/ageverifieddeliverysample/di/Injector.java
+ com.scandit.datacapture.ageverifieddeliverysample.di.Injector
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/ScanUiState.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanUiState
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanUiState$1
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanUiState$Builder
+com/scandit/datacapture/ageverifieddeliverysample/ui/manualentry/ManualEntryDialogFragment.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.ManualEntryDialogFragment
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.ManualEntryDialogFragment$1
+ com.scandit.datacapture.ageverifieddeliverysample.ui.manualentry.ManualEntryDialogFragment$FullNameWatcher
+com/scandit/datacapture/ageverifieddeliverysample/data/IdCaptureRepository.java
+ com.scandit.datacapture.ageverifieddeliverysample.data.IdCaptureRepository
+com/scandit/datacapture/ageverifieddeliverysample/ui/verificationresult/failure/VerificationFailureDialogFragment.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.verificationresult.failure.VerificationFailureDialogFragment
+ com.scandit.datacapture.ageverifieddeliverysample.ui.verificationresult.failure.VerificationFailureDialogFragment$1
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/ScanDriverLicenseVizHintStatus.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanDriverLicenseVizHintStatus
+com/scandit/datacapture/ageverifieddeliverysample/ui/scan/ScanViewModel.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanViewModel
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanViewModel$1
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanViewModel$2
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanViewModel$3
+ com.scandit.datacapture.ageverifieddeliverysample.ui.scan.ScanViewModel$4
+com/scandit/datacapture/ageverifieddeliverysample/ui/verificationresult/success/VerificationSuccessDialogFragment.java
+ com.scandit.datacapture.ageverifieddeliverysample.ui.verificationresult.success.VerificationSuccessDialogFragment

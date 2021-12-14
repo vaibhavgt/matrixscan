@@ -1,0 +1,25 @@
+com/scandit/datacapture/matrixscanbubblessample/models/DataCaptureManager.java
+ com.scandit.datacapture.matrixscanbubblessample.models.DataCaptureManager
+com/scandit/datacapture/matrixscanbubblessample/scan/bubble/BubbleSizeManager.java
+ com.scandit.datacapture.matrixscanbubblessample.scan.bubble.BubbleSizeManager
+com/scandit/datacapture/matrixscanbubblessample/scan/ScanFragment.java
+ com.scandit.datacapture.matrixscanbubblessample.scan.ScanFragment
+ com.scandit.datacapture.matrixscanbubblessample.scan.ScanFragment$1
+com/scandit/datacapture/matrixscanbubblessample/scan/bubble/data/BubbleData.java
+ com.scandit.datacapture.matrixscanbubblessample.scan.bubble.data.BubbleData
+com/scandit/datacapture/matrixscanbubblessample/scan/ScanViewModel.java
+ com.scandit.datacapture.matrixscanbubblessample.scan.ScanViewModel
+ com.scandit.datacapture.matrixscanbubblessample.scan.ScanViewModel$1
+ com.scandit.datacapture.matrixscanbubblessample.scan.ScanViewModel$2
+ com.scandit.datacapture.matrixscanbubblessample.scan.ScanViewModel$ScanViewModelListener
+com/scandit/datacapture/matrixscanbubblessample/scan/bubble/data/BubbleDataProvider.java
+ com.scandit.datacapture.matrixscanbubblessample.scan.bubble.data.BubbleDataProvider
+com/scandit/datacapture/matrixscanbubblessample/BuildConfig.java
+ com.scandit.datacapture.matrixscanbubblessample.BuildConfig
+com/scandit/datacapture/matrixscanbubblessample/MainActivity.java
+ com.scandit.datacapture.matrixscanbubblessample.MainActivity
+com/scandit/datacapture/matrixscanbubblessample/scan/CameraPermissionFragment.java
+ com.scandit.datacapture.matrixscanbubblessample.scan.CameraPermissionFragment
+com/scandit/datacapture/matrixscanbubblessample/scan/bubble/Bubble.java
+ com.scandit.datacapture.matrixscanbubblessample.scan.bubble.Bubble
+ com.scandit.datacapture.matrixscanbubblessample.scan.bubble.Bubble$1

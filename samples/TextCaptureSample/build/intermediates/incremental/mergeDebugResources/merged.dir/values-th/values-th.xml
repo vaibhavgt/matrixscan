@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ปิด"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"เปิด"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="mb_action_hold_steady">ถือไว้นิ่ง ๆ </string>
+    <string name="mb_action_move_closer">เลื่อนเข้าใกล้</string>
+    <string name="mb_action_searching_document">กำลังมองหาเอกสาร…</string>
+    <string name="mb_activity_title_step_back_side">ด้านหลัง</string>
+    <string name="mb_activity_title_step_front_side">ด้านหน้า</string>
+    <string name="mb_autofocus_fail">กล้องไม่โฟกัส ลองสแกนในแสงที่ต่างออกไป</string>
+    <string name="mb_blink_card_glare">ระวังแสงจ้าจากไฟฉาย ค่อย ๆ ขยับบัตรไปเพื่อหลีกเลี่ยง</string>
+    <string name="mb_blinkcard_card_not_fully_visible">เก็บบัตรให้มองเห็นได้เต็มที่</string>
+    <string name="mb_blinkid_back_instructions_barcode">สแกนบาร์โค้ด</string>
+    <string name="mb_blinkid_camera_flip_document">พลิกเอกสาร</string>
+    <string name="mb_blinkid_document_not_fully_visible">ทำให้สามารถเห็นเอกสารเต็มขั้นตลอด</string>
+    <string name="mb_blinkid_document_too_close_to_edge">เลื่อนเอกสารออกจากขอบ</string>
+    <string name="mb_blinkid_front_instructions">สแกนด้านหน้าของเอกสาร</string>
+    <string name="mb_camera_not_allowed">กล้องไม่ได้รับการอนุญาตในการตั้งค่า</string>
+    <string name="mb_camera_not_ready">กล้องไม่พร้อมใช้งาน</string>
+    <string name="mb_camera_permission_required">จำเป็นต้องอนุญาตการใช้งานกล้อง</string>
+    <string name="mb_custom_ui_forbidden">ใบอนุญาตไม่อนุญาตให้มีการใช้กล้องแบบกำหนดเอง!</string>
+    <string name="mb_data_not_match_msg">โปรดเริ่มขั้นตอนการสแกนใหม่อีกครั้ง</string>
+    <string name="mb_data_not_match_retry_button">ลองอีกครั้ง</string>
+    <string name="mb_data_not_match_title">ด้านข้างไม่ตรงกัน</string>
+    <string name="mb_dismiss_error_dialog">ปิด</string>
+    <string name="mb_edit_default_hint">จำเป็น</string>
+    <string name="mb_edit_error_dialog_msg">กรุณากรอกข้อมูลที่จำเป็นทั้งหมด</string>
+    <string name="mb_edit_error_expired">บัตรของคุณหมดอายุ</string>
+    <string name="mb_edit_error_invalid_card_number">ป้อนหมายเลขบัตรที่ถูกต้อง</string>
+    <string name="mb_edit_error_invalid_expiry_date">ป้อนวันที่ที่ถูกต้อง</string>
+    <string name="mb_edit_error_invalid_iban">ป้อน IBAN ที่ถูกต้อง</string>
+    <string name="mb_edit_error_invalid_security_code">ป้อนรหัสความปลอดภัยแบบเต็ม</string>
+    <string name="mb_edit_error_required_field">ช่องนี้จำเป็น</string>
+    <string name="mb_edit_results_card_number">หมายเลขบัตร</string>
+    <string name="mb_edit_results_confirm">เพิ่ม</string>
+    <string name="mb_edit_results_expiry">วันหมดอายุ</string>
+    <string name="mb_edit_results_iban">IBAN</string>
+    <string name="mb_edit_results_owner">ชื่อผู้ถือบัตร</string>
+    <string name="mb_edit_results_security_code">รหัสความปลอดภัย</string>
+    <string name="mb_edit_results_title">ข้อมูลบัตรของคุณ</string>
+    <string name="mb_enable_camera">เปิดใช้งานกล้อง</string>
+    <string name="mb_enable_permission_help">ตอนนี้คุณจะถูกนำไปที่การตั้งค่าการอนุญาตซึ่งคุณจะต้องอนุญาตแอปให้ใช้งานกล้อง</string>
+    <string name="mb_enable_permission_help_instant_app">โปรดอนุญาตการใช้งานกล้องในการตั้งค่าการอนุญาตแอป</string>
+    <string name="mb_error_camera_high">เลื่อนเข้าใกล้</string>
+    <string name="mb_error_camera_near">เลื่อนออกห่าง</string>
+    <string name="mb_error_initializing">ไม่สามารถเริ่มต้นไลบรารี่บนอุปกรณ์ โปรดตรวจสอบบันทึกข้อผิดพลาดของ ADB เพื่อดูรายละเอียดเพิ่มเติม</string>
+    <string name="mb_feature_unsupported_android_version">คุณสมบัตินี้รองรับ Android 2.1 เป็นต้นไป</string>
+    <string name="mb_feature_unsupported_autofocus">คุณสมบัตินี้ไม่รองรับกล้องที่ไม่มีระบบออโต้โฟกัส</string>
+    <string name="mb_feature_unsupported_device">คุณสมบัตินี้ไม่ได้รับการรองรับเนื่องจากคุณสมบัติทางเทคนิคของอุปกรณ์คุณ</string>
+    <string name="mb_flashlight_warning_message">ระวังแสงจ้าจากไฟฉาย\nค่อย ๆ เลื่อนบัตรประชาชนของคุณไปรอบ ๆ เพื่อหลีกเลี่ยง</string>
+    <string name="mb_instructions_flip_card">พลิกบัตร</string>
+    <string name="mb_instructions_scan_front_side">สแกนหมายเลขบัตร</string>
+    <string name="mb_invalid_license">คีย์ใบอนุญาตไม่ถูกต้อง! โปรดตรวจสอบบันทึกข้อผิดพลาดของ ADB เพื่อดูรายละเอียดเพิ่มเติม</string>
+    <string name="mb_licence_check_device_offline">ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="mb_licence_check_failed">เครือข่ายเกิดข้อผิดพลาด</string>
+    <string name="mb_licence_locked">ไม่สามารถสแกนได้\n\n\n\n\n\n</string>
+    <string name="mb_manual_entry">กรอกแทนหรือไม่</string>
+    <string name="mb_recognition_timeout_dialog_message">ไม่สามารถอ่านเอกสาร โปรดลองอีกครั้ง</string>
+    <string name="mb_recognition_timeout_dialog_retry_button">ลองอีกครั้ง</string>
+    <string name="mb_recognition_timeout_dialog_title">สแกนไม่สำเร็จ</string>
+    <string name="mb_skip">ข้าม</string>
+    <string name="mb_splash_msg_id_back">บัตรประชาชนด้านหลัง</string>
+    <string name="mb_splash_msg_id_front">บัตรประชาชนด้านหน้า</string>
+    <string name="mb_tooltip_back_id">วาง<b>ด้านหลัง</b>ของบัตรประชาชนในกรอบและรอการสแกนอัตโนมัติ</string>
+    <string name="mb_tooltip_front_id">วาง<b>ด้านหน้า</b>ของบัตรประชาชนในกรอบและรอการสแกนอัตโนมัติ</string>
+    <string name="mb_tooltip_glare">เลื่อนบัตรประชาชนเล็กน้อยเพื่อกำจัดแสงสะท้อน</string>
+    <string name="mb_unsupported_document_message">สแกนด้านหน้าของเอกสารที่ได้รับการรองรับ</string>
+    <string name="mb_unsupported_document_title">ระบบไม่รู้จำเอกสาร</string>
+    <string name="mb_warning_title">คำเตือน</string>
+    <string msgid="730395136688082741" name="search_menu_title">"ค้นหา"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

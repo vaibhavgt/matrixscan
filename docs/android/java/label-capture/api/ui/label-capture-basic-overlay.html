@@ -1,0 +1,499 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Label Capture Basic Overlay &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Label Capture Basic Overlay Listener" href="label-capture-basic-overlay-listener.html" />
+    <link rel="prev" title="Captured Field" href="../label-field.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get-started-id-capture.html">Get Started With ID Capture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../id-capture/supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../camera-advanced.html">Advanced Camera Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../overview.html">ScanditLabelCapture</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../api.html">API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../captured-label.html">Captured Label</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../enums.html">Label Capture Enumerations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../label-capture.html">Label Capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../label-capture-listener.html">Label Capture Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../label-capture-session.html">Label Capture Session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../label-capture-settings.html">Label Capture Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../label-field.html">Captured Field</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Label Capture Basic Overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label-capture-basic-overlay-listener.html">Label Capture Basic Overlay Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../deserialization/label-capture-deserializer.html">Label Capture Deserializer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../deserialization/label-capture-deserializer-listener.html">Label Capture Deserializer Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api.html#deserialization">Deserialization</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../id-capture/overview.html">ScanditIdCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../release-notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../overview.html">ScanditLabelCapture</a> &raquo;</li>
+        
+          <li><a href="../../api.html">ScanditLabelCapture API</a> &raquo;</li>
+        
+      <li>Label Capture Basic Overlay</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="label-capture-basic-overlay">
+<h1>Label Capture Basic Overlay<a class="headerlink" href="#label-capture-basic-overlay" title="Permalink to this headline">#</a></h1>
+<p>Defined in package <em>com.scandit.datacapture.label.ui.overlay</em></p>
+<dl class="class">
+<dt id="class-scandit.datacapture.label.ui.LabelCaptureBasicOverlay">
+<code class="sig-name descname">LabelCaptureBasicOverlay</code><a class="headerlink" href="#class-scandit.datacapture.label.ui.LabelCaptureBasicOverlay" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="sig-name descname">class LabelCaptureBasicOverlay</code> : <a class="reference internal" href="../../../core/api/ui/data-capture-overlay.html#interface-scandit.datacapture.core.ui.IDataCaptureOverlay" title="DataCaptureOverlay interface">DataCaptureOverlay</a></pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>Overlay for label capture that displays captured labels and their fields on top of the frames. When labels are successfully recognized, the label background as well as the fields are highlighted. Fields are highlighted using a default brush (<a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.CapturedFieldBrush" title="capturedFieldBrush property">capturedFieldBrush</a>, <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.PredictedFieldBrush" title="predictedFieldBrush property">predictedFieldBrush</a>), a brush set through a user-defined <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> or calls to <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetBrushForField" title="setBrushForField() method">setBrushForField()</a>.</p>
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.NewInstance">
+<code class="sig-name descname">newInstance(labelCapture, view)</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.NewInstance" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">static &#64;NonNull <a class="reference internal" href="#class-scandit.datacapture.label.ui.LabelCaptureBasicOverlay" title="LabelCaptureBasicOverlay class">LabelCaptureBasicOverlay</a> <code class="sig-name descname">newInstance</code>(
+        &#64;NonNull <a class="reference internal" href="../label-capture.html#class-scandit.datacapture.label.LabelCapture" title="LabelCapture class">LabelCapture</a> <em>labelCapture</em>,
+        &#64;Nullable <a class="reference internal" href="../../../core/api/ui/data-capture-view.html#class-scandit.datacapture.core.ui.DataCaptureView" title="DataCaptureView class">DataCaptureView</a> <em>view</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>Constructs a new overlay to visualize the process of label capture. When <strong>view</strong> is non-<em>null</em>, the overlay is automatically added to the view. Otherwise, the overlay needs to be added through a call to <a class="reference internal" href="../../../core/api/ui/data-capture-view.html#method-scandit.datacapture.core.ui.DataCaptureView.AddOverlay" title="DataCaptureView.addOverlay() method">DataCaptureView.addOverlay()</a>.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener">
+<code class="sig-name descname">listener</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> <code class="sig-name descname">getListener</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setListener</code>(&#64;Nullable <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetBrushForField">
+<code class="sig-name descname">setBrushForField(brush, field, label)</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetBrushForField" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setBrushForField</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>brush</em>,
+        &#64;NonNull <a class="reference internal" href="../label-field.html#class-scandit.datacapture.label.LabelField" title="LabelField class">LabelField</a> <em>field</em>,
+        &#64;NonNull <a class="reference internal" href="../captured-label.html#class-scandit.datacapture.label.CapturedLabel" title="CapturedLabel class">CapturedLabel</a> <em>label</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>The method can be called to change the visualization style of a field. This method is thread-safe; it can be called from any thread.</p>
+<p>When <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener" title="listener property">listener</a> is set to a non-<em>null</em> instance, the listener continues to be asked for the brush to use for this field whenever the state changes, thereby replacing any brushes set by calling <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetBrushForField" title="setBrushForField() method">setBrushForField()</a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetBrushForLabel">
+<code class="sig-name descname">setBrushForLabel(brush, label)</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetBrushForLabel" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setBrushForLabel</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>brush</em>,
+        &#64;NonNull <a class="reference internal" href="../captured-label.html#class-scandit.datacapture.label.CapturedLabel" title="CapturedLabel class">CapturedLabel</a> <em>label</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>The method can be called to change the visualization style of a label. This method is thread-safe; it can be called from any thread.</p>
+<p>When <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener" title="listener property">listener</a> is set to a non-<em>null</em> instance, the listener continues to be asked for the brush to use for this label whenever the state of one its fields changes, thereby replacing any brushes set by calling <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetBrushForLabel" title="setBrushForLabel() method">setBrushForLabel()</a>.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultPredictedFieldBrush">
+<code class="sig-name descname">DEFAULT_PREDICTED_FIELD_BRUSH</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultPredictedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">static final &#64;NonNull <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">DEFAULT_PREDICTED_FIELD_BRUSH</code></pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>The default brush applied to predicted fields. This is the brush used if <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is not set.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.10.1: </span>Replaced by <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="defaultPredictedFieldBrush() method">defaultPredictedFieldBrush()</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush">
+<code class="sig-name descname">defaultPredictedFieldBrush()</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">static <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">defaultPredictedFieldBrush</code>()</pre><p><span class="versionmodified versionadded">Added in version 6.10.0</span></p>
+<p>The default brush applied to predicted fields. This is the brush used if <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is not set.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultCapturedFieldBrush">
+<code class="sig-name descname">DEFAULT_CAPTURED_FIELD_BRUSH</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultCapturedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">static final &#64;NonNull <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">DEFAULT_CAPTURED_FIELD_BRUSH</code></pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>The default brush applied to captured fields. This is the brush used if <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is not set.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.10.1: </span>Replaced by <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="defaultCapturedFieldBrush() method">defaultCapturedFieldBrush()</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush">
+<code class="sig-name descname">defaultCapturedFieldBrush()</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">static <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">defaultCapturedFieldBrush</code>()</pre><p><span class="versionmodified versionadded">Added in version 6.10.0</span></p>
+<p>The default brush applied to captured fields. This is the brush used if <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is not set.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultLabelBrush">
+<code class="sig-name descname">DEFAULT_LABEL_BRUSH</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultLabelBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">static final &#64;NonNull <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">DEFAULT_LABEL_BRUSH</code></pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>The default brush used for drawing labels. This brush is used when no <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener" title="listener property">listener</a> is set, or the <a class="reference internal" href="label-capture-basic-overlay-listener.html#method-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener.BrushForLabel" title="LabelCaptureBasicOverlayListener.brushForLabel() method">LabelCaptureBasicOverlayListener.brushForLabel()</a> returns a <em>null</em> brush.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.10.1: </span>Replaced by <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultLabelBrush" title="defaultLabelBrush() method">defaultLabelBrush()</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultLabelBrush">
+<code class="sig-name descname">defaultLabelBrush()</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultLabelBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">static <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">defaultLabelBrush</code>()</pre><p><span class="versionmodified versionadded">Added in version 6.10.0</span></p>
+<p>The default brush used for drawing labels. This brush is used when no <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener" title="listener property">listener</a> is set, or the <a class="reference internal" href="label-capture-basic-overlay-listener.html#method-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener.BrushForLabel" title="LabelCaptureBasicOverlayListener.brushForLabel() method">LabelCaptureBasicOverlayListener.brushForLabel()</a> returns a <em>null</em> brush.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.PredictedFieldBrush">
+<code class="sig-name descname">predictedFieldBrush</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.PredictedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getPredictedFieldBrush</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setPredictedFieldBrush</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>The brush applied to predicted fields if no <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is set. By default this brush is set to <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultPredictedFieldBrush" title="DEFAULT_PREDICTED_FIELD_BRUSH property">DEFAULT_PREDICTED_FIELD_BRUSH</a>.</p>
+<p>The brush applied to predicted fields if no <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is set.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.CapturedFieldBrush">
+<code class="sig-name descname">capturedFieldBrush</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.CapturedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getCapturedFieldBrush</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setCapturedFieldBrush</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>The brush applied to captured fields if no <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is set. By default this brush is set to <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultCapturedFieldBrush" title="DEFAULT_CAPTURED_FIELD_BRUSH property">DEFAULT_CAPTURED_FIELD_BRUSH</a>.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.LabelBrush">
+<code class="sig-name descname">labelBrush</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.LabelBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getLabelBrush</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setLabelBrush</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>The brush used for drawing labels if no <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener" title="listener property">listener</a> is set, or the <a class="reference internal" href="label-capture-basic-overlay-listener.html#method-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener.BrushForLabel" title="LabelCaptureBasicOverlayListener.brushForLabel() method">LabelCaptureBasicOverlayListener.brushForLabel()</a> returns a <em>null</em> brush. By default this brush is set to <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.StaticDefaultLabelBrush" title="DEFAULT_LABEL_BRUSH property">DEFAULT_LABEL_BRUSH</a>.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush">
+<code class="sig-name descname">defaultPredictedFieldBrush</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getDefaultPredictedFieldBrush</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setDefaultPredictedFieldBrush</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>The default brush applied to predicted fields. This is the brush used if <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is not set.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.4.0: </span>Replaced by <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.PredictedFieldBrush" title="predictedFieldBrush property">predictedFieldBrush</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush">
+<code class="sig-name descname">defaultCapturedFieldBrush</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getDefaultCapturedFieldBrush</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setDefaultCapturedFieldBrush</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>The default brush applied to captured fields. This is the brush used if <a class="reference internal" href="label-capture-basic-overlay-listener.html#interface-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener" title="LabelCaptureBasicOverlayListener interface">LabelCaptureBasicOverlayListener</a> is not set.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.4.0: </span>Replaced by <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.CapturedFieldBrush" title="capturedFieldBrush property">capturedFieldBrush</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultLabelBrush">
+<code class="sig-name descname">defaultLabelBrush</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultLabelBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getDefaultLabelBrush</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setDefaultLabelBrush</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>The default brush used for drawing labels. This brush is used when no <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Listener" title="listener property">listener</a> is set, or the <a class="reference internal" href="label-capture-basic-overlay-listener.html#method-scandit.datacapture.label.ui.ILabelCaptureBasicOverlayListener.BrushForLabel" title="LabelCaptureBasicOverlayListener.brushForLabel() method">LabelCaptureBasicOverlayListener.brushForLabel()</a> returns a <em>null</em> brush.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.4.0: </span>Replaced by <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.LabelBrush" title="labelBrush property">labelBrush</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.GetFieldBrush">
+<code class="sig-name descname">getFieldBrush(state)</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.GetFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getFieldBrush</code>(<a class="reference internal" href="../enums.html#enum-scandit.datacapture.label.LabelFieldState" title="LabelFieldState enum">LabelFieldState</a> <em>state</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>Returns the default brush to draw fields of the provided state. Valid values for state are <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Predicted" title="LabelFieldState.PREDICTED value">LabelFieldState.PREDICTED</a> and <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Captured" title="LabelFieldState.CAPTURED value">LabelFieldState.CAPTURED</a>. See <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="defaultPredictedFieldBrush property">defaultPredictedFieldBrush</a>, and <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="defaultCapturedFieldBrush property">defaultCapturedFieldBrush</a> for details.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetFieldBrush">
+<code class="sig-name descname">setFieldBrush(state, brush)</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setFieldBrush</code>(<a class="reference internal" href="../enums.html#enum-scandit.datacapture.label.LabelFieldState" title="LabelFieldState enum">LabelFieldState</a> <em>state</em>,
+        &#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>brush</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.4.0</span></p>
+<p>Sets the default brush to draw fields of the provided state. Valid values for state are <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Predicted" title="LabelFieldState.PREDICTED value">LabelFieldState.PREDICTED</a> and <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Captured" title="LabelFieldState.CAPTURED value">LabelFieldState.CAPTURED</a>. See <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="defaultPredictedFieldBrush property">defaultPredictedFieldBrush</a>, and <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="defaultCapturedFieldBrush property">defaultCapturedFieldBrush</a> for details.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.GetDefaultFieldBrush">
+<code class="sig-name descname">getDefaultFieldBrush(state)</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.GetDefaultFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <code class="sig-name descname">getDefaultFieldBrush</code>(<a class="reference internal" href="../enums.html#enum-scandit.datacapture.label.LabelFieldState" title="LabelFieldState enum">LabelFieldState</a> <em>state</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>Returns the default brush to draw fields of the provided state. Valid values for state are <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Predicted" title="LabelFieldState.PREDICTED value">LabelFieldState.PREDICTED</a> and <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Captured" title="LabelFieldState.CAPTURED value">LabelFieldState.CAPTURED</a>. See <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="defaultPredictedFieldBrush property">defaultPredictedFieldBrush</a>, and <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="defaultCapturedFieldBrush property">defaultCapturedFieldBrush</a> for details.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.4.0: </span>Replaced by <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.GetFieldBrush" title="getFieldBrush() method">getFieldBrush()</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetDefaultFieldBrush">
+<code class="sig-name descname">setDefaultFieldBrush(state, brush)</code><a class="headerlink" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetDefaultFieldBrush" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setDefaultFieldBrush</code>(<a class="reference internal" href="../enums.html#enum-scandit.datacapture.label.LabelFieldState" title="LabelFieldState enum">LabelFieldState</a> <em>state</em>,
+        &#64;Nullable <a class="reference internal" href="../../../core/api/ui/brush.html#class-scandit.datacapture.core.ui.Brush" title="Brush class">Brush</a> <em>brush</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>Sets the default brush to draw fields of the provided state. Valid values for state are <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Predicted" title="LabelFieldState.PREDICTED value">LabelFieldState.PREDICTED</a> and <a class="reference internal" href="../enums.html#value-scandit.datacapture.label.LabelFieldState.Captured" title="LabelFieldState.CAPTURED value">LabelFieldState.CAPTURED</a>. See <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultPredictedFieldBrush" title="defaultPredictedFieldBrush property">defaultPredictedFieldBrush</a>, and <a class="reference internal" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.DefaultCapturedFieldBrush" title="defaultCapturedFieldBrush property">defaultCapturedFieldBrush</a> for details.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 6.4.0: </span>Replaced by <a class="reference internal" href="#method-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.SetFieldBrush" title="setFieldBrush() method">setFieldBrush()</a>.</p>
+</div>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.ShouldShowScanAreaGuides">
+<code class="sig-name descname">shouldShowScanAreaGuides</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.ShouldShowScanAreaGuides" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">boolean</span></code> <code class="sig-name descname">getShouldShowScanAreaGuides</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setShouldShowScanAreaGuides</code>(<code class="docutils literal notranslate"><span class="pre">boolean</span></code> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.0.0</span></p>
+<p>Whether to show scan area guides on top of the preview. This property is useful during development to visualize the current scan areas on screen. It is not meant to be used for production. By default this property is <em>false</em>.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Viewfinder">
+<code class="sig-name descname">viewfinder</code><a class="headerlink" href="#property-scandit.datacapture.label.ui.LabelCaptureBasicOverlay.Viewfinder" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference internal" href="../../../core/api/viewfinder.html#interface-scandit.datacapture.core.ui.IViewfinder" title="Viewfinder interface">Viewfinder</a> <code class="sig-name descname">getViewfinder</code>()
+<code class="docutils literal notranslate"><span class="pre">void</span></code> <code class="sig-name descname">setViewfinder</code>(&#64;Nullable <a class="reference internal" href="../../../core/api/viewfinder.html#interface-scandit.datacapture.core.ui.IViewfinder" title="Viewfinder interface">Viewfinder</a> <em>value</em>)
+</pre><p><span class="versionmodified versionadded">Added in version 6.8.0</span></p>
+<p>Sets the viewfinder. By default, the viewfinder is <em>null</em>. Set this to an instance of <a class="reference internal" href="../../../core/api/viewfinder.html#interface-scandit.datacapture.core.ui.IViewfinder" title="Viewfinder interface">Viewfinder</a> if you want to draw a viewfinder.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

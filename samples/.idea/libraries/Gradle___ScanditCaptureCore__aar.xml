@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :ScanditCaptureCore:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

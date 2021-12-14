@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"تم"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"تفعيل"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"بحث…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="mb_action_hold_steady">اثبت</string>
+    <string name="mb_action_move_closer">انقل إلى موضع أقرب</string>
+    <string name="mb_action_searching_document">البحث عن مستند…</string>
+    <string name="mb_activity_title_step_back_side">الظهر</string>
+    <string name="mb_activity_title_step_front_side">الوجه</string>
+    <string name="mb_autofocus_fail">الكاميرا لا تستطيع التركيز. جرِّب المسح الضوئي في إضاءة مختلفة.</string>
+    <string name="mb_blink_card_glare">احذر وهج المصباح الضوئي.\nحرِّك بطاقتك حوله برفق لتفاديه.</string>
+    <string name="mb_blinkcard_card_not_fully_visible">سهِّل الوصول إلى بيانات البطاقة لأقصى درجة</string>
+    <string name="mb_blinkid_back_instructions_barcode">امسح الرمز الشريطي</string>
+    <string name="mb_blinkid_camera_flip_document">اقلب المستند</string>
+    <string name="mb_blinkid_document_not_fully_visible">إبقاء المستند مرئياً بالكامل</string>
+    <string name="mb_blinkid_document_too_close_to_edge">أبعد المستند عن الحافة</string>
+    <string name="mb_blinkid_front_instructions">مسح وجه\nمستند</string>
+    <string name="mb_camera_not_allowed">إعدادات الأذونات لا تسمح باستخدام الكاميرا.</string>
+    <string name="mb_camera_not_ready">الكاميرا غير جاهزة.</string>
+    <string name="mb_camera_permission_required">مطلوب إذن بالوصول إلى الكاميرا.</string>
+    <string name="mb_custom_ui_forbidden">الترخيص لا يسمح بأنشطة الكاميرا المخصصة!</string>
+    <string name="mb_data_not_match_msg">يُرجى بدء عملية المسح الضوئي من جديد.</string>
+    <string name="mb_data_not_match_retry_button">إعادة المحاولة</string>
+    <string name="mb_data_not_match_title">الجانبان غير متطابقين</string>
+    <string name="mb_dismiss_error_dialog">إغلاق</string>
+    <string name="mb_edit_default_hint">إلزامي</string>
+    <string name="mb_edit_error_dialog_msg">يُرجى إدخال جميع البيانات المطلوبة.</string>
+    <string name="mb_edit_error_expired">انتهت صلاحية بطاقتك.</string>
+    <string name="mb_edit_error_invalid_card_number">أدخل رقم بطاقة صحيح.</string>
+    <string name="mb_edit_error_invalid_expiry_date">أدخل تاريخاً صالحاً.</string>
+    <string name="mb_edit_error_invalid_iban">أدخل رقم IBAN صحيح.</string>
+    <string name="mb_edit_error_invalid_security_code">أدخل الرمز الأمني كاملاً.</string>
+    <string name="mb_edit_error_required_field">هذا الحقل مطلوب.</string>
+    <string name="mb_edit_results_card_number">رقم البطاقة</string>
+    <string name="mb_edit_results_confirm">إضافة</string>
+    <string name="mb_edit_results_expiry">تاريخ الانتهاء</string>
+    <string name="mb_edit_results_iban">رقم IBAN</string>
+    <string name="mb_edit_results_owner">اسم صاحب البطاقة</string>
+    <string name="mb_edit_results_security_code">الرمز السري</string>
+    <string name="mb_edit_results_title">معلومات بطاقتك</string>
+    <string name="mb_enable_camera">تمكين الكاميرا</string>
+    <string name="mb_enable_permission_help">سيتم تحويلك الآن إلى إعدادات الأذونات, حيث تحتاج إلى منح التطبيق إذناً بالوصول إلى الكاميرا.</string>
+    <string name="mb_enable_permission_help_instant_app">يُرجى منح إذن الوصول إلى الكاميرا, من خلال إعدادات أذونات التطبيق. </string>
+    <string name="mb_error_camera_high">انقل إلى موضع أقرب</string>
+    <string name="mb_error_camera_near">انقل إلى موضع أبعد</string>
+    <string name="mb_error_initializing">فشلت تهيئة المكتبة الأصلية. لمزيد من التفاصيل, يُرجى مراجعة سجل الأخطاء ADB.</string>
+    <string name="mb_feature_unsupported_android_version">هذه الميزة مدعومة على Android إصدار 2.1 وما بعده</string>
+    <string name="mb_feature_unsupported_autofocus">هذه الميزة غير مدعومة على الكاميرات التي لا تتضمن ميزة التركيز التلقائي</string>
+    <string name="mb_feature_unsupported_device">هذه الميزة غير مدعومة بسبب الخصائص التقنية لجهازك</string>
+    <string name="mb_flashlight_warning_message">احترس من وهج المصباح. \n حرك هويتك برفق لتتجنبه.</string>
+    <string name="mb_instructions_flip_card">اقلب البطاقة</string>
+    <string name="mb_instructions_scan_front_side">المسح الضوئي لرقم البطاقة</string>
+    <string name="mb_invalid_license">مفتاح ترخيص غير صالح! لمزيد من التفاصيل, يُرجى مراجعة سجل الأخطاء ADB.</string>
+    <string name="mb_licence_check_device_offline">تحقق من الاتصال بالإنترنت</string>
+    <string name="mb_licence_check_failed">خطأ في الشبكة</string>
+    <string name="mb_licence_locked">المسح الضوئي غير متاح</string>
+    <string name="mb_manual_entry">هل تريد كتابتها بدلاً من ذلك؟</string>
+    <string name="mb_recognition_timeout_dialog_message">غير قادر على قراءة المستند. يُرجى المحاولة مرة أخرى.</string>
+    <string name="mb_recognition_timeout_dialog_retry_button">إعادة المحاولة</string>
+    <string name="mb_recognition_timeout_dialog_title">تمت عملية المسح بنجاح</string>
+    <string name="mb_skip">تخطي</string>
+    <string name="mb_splash_msg_id_back">ظهر بطاقة الهوية</string>
+    <string name="mb_splash_msg_id_front">وجه بطاقة الهوية</string>
+    <string name="mb_tooltip_back_id">ضع <b>ظهر</b> بطاقة الهوية في الإطار وانتظر المسح التلقائي</string>
+    <string name="mb_tooltip_front_id">ضع <b>وجه</b> بطاقة الهوية في الإطار وانتظر المسح التلقائي</string>
+    <string name="mb_tooltip_glare">حرّك بطاقة الهوية لإزالة الوهج.</string>
+    <string name="mb_unsupported_document_message">امسح وجه مستند مدعوم.</string>
+    <string name="mb_unsupported_document_title">لم يتم التعرف على المستند</string>
+    <string name="mb_warning_title">تحذير</string>
+    <string msgid="730395136688082741" name="search_menu_title">"البحث"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

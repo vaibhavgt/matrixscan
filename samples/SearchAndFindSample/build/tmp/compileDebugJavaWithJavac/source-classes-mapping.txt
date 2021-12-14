@@ -1,0 +1,31 @@
+com/scandit/datacapture/searchandfindsample/find/FindScanFragment.java
+ com.scandit.datacapture.searchandfindsample.find.FindScanFragment
+ com.scandit.datacapture.searchandfindsample.find.FindScanFragment$1
+ com.scandit.datacapture.searchandfindsample.find.FindScanFragment$2
+ com.scandit.datacapture.searchandfindsample.find.FindScanFragment$3
+com/scandit/datacapture/searchandfindsample/BuildConfig.java
+ com.scandit.datacapture.searchandfindsample.BuildConfig
+com/scandit/datacapture/searchandfindsample/CameraPermissionFragment.java
+ com.scandit.datacapture.searchandfindsample.CameraPermissionFragment
+com/scandit/datacapture/searchandfindsample/search/SearchScanFragment.java
+ com.scandit.datacapture.searchandfindsample.search.SearchScanFragment
+ com.scandit.datacapture.searchandfindsample.search.SearchScanFragment$1
+ com.scandit.datacapture.searchandfindsample.search.SearchScanFragment$2
+com/scandit/datacapture/searchandfindsample/MainActivity.java
+ com.scandit.datacapture.searchandfindsample.MainActivity
+com/scandit/datacapture/searchandfindsample/find/FindScanViewModelFactory.java
+ com.scandit.datacapture.searchandfindsample.find.FindScanViewModelFactory
+com/scandit/datacapture/searchandfindsample/models/DataCaptureManager.java
+ com.scandit.datacapture.searchandfindsample.models.DataCaptureManager
+com/scandit/datacapture/searchandfindsample/search/SearchScanViewModel.java
+ com.scandit.datacapture.searchandfindsample.search.SearchScanViewModel
+ com.scandit.datacapture.searchandfindsample.search.SearchScanViewModel$1
+ com.scandit.datacapture.searchandfindsample.search.SearchScanViewModel$Listener
+com/scandit/datacapture/searchandfindsample/models/FindDataCaptureManager.java
+ com.scandit.datacapture.searchandfindsample.models.FindDataCaptureManager
+com/scandit/datacapture/searchandfindsample/find/FindScanViewModel.java
+ com.scandit.datacapture.searchandfindsample.find.FindScanViewModel
+com/scandit/datacapture/searchandfindsample/models/SearchDataCaptureManager.java
+ com.scandit.datacapture.searchandfindsample.models.SearchDataCaptureManager
+com/scandit/datacapture/searchandfindsample/MainViewModel.java
+ com.scandit.datacapture.searchandfindsample.MainViewModel

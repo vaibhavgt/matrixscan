@@ -1,0 +1,457 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Viz Result &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="ID Capture Deserializer" href="deserialization/id-capture-deserializer.html" />
+    <link rel="prev" title="Us Uniformed Services Barcode Result" href="us-uniformed-services-barcode-result.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-id-capture.html">Get Started With ID Capture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../camera-advanced.html">Advanced Camera Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../label-capture/overview.html">ScanditLabelCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../overview.html">ScanditIdCapture</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../api.html">API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="aamva-barcode-result.html">Aamva Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="argentina-id-barcode-result.html">Argentina ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="captured-id.html">Captured Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="captured-result-type.html">Captured Result Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colombia-id-barcode-result.html">Colombia ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="date-result.html">Date Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="document-type.html">Document Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture.html">Id Capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-exception.html">Id Capture Exception</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-listener.html">Id Capture Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-session.html">Id Capture Session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-capture-settings.html">Id Capture Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-document-type.html">ID Document Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-image-type.html">Id Image Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id-supported-document-sides.html">ID Supported Sides</a></li>
+<li class="toctree-l3"><a class="reference internal" href="localized-only-id.html">Localized Only Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mrz-result.html">Mrz Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rejected-id.html">Rejected Id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="south-africa-dl-barcode-result.html">South Africa DL Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="south-africa-id-barcode-result.html">South Africa ID Barcode Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="us-uniformed-services-barcode-result.html">Us Uniformed Services Barcode Result</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Viz Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deserialization/id-capture-deserializer.html">ID Capture Deserializer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deserialization/id-capture-deserializer-listener.html">ID Capture Deserializer Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ui/id-capture-overlay.html">Id Capture Overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ui/id-layout.html">Id Layout</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api.html#deserialization">Deserialization</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../release-notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../overview.html">ScanditIdCapture</a> &raquo;</li>
+        
+          <li><a href="../api.html">ScanditIdCapture API</a> &raquo;</li>
+        
+      <li>Viz Result</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="viz-result">
+<h1>Viz Result<a class="headerlink" href="#viz-result" title="Permalink to this headline">#</a></h1>
+<p>Defined in package <em>com.scandit.datacapture.id.capture</em></p>
+<dl class="class">
+<dt id="class-scandit.datacapture.id.VizResult">
+<code class="sig-name descname">VizResult</code><a class="headerlink" href="#class-scandit.datacapture.id.VizResult" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="sig-name descname">class VizResult</code></pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Document scan results with information obtained from documents or their parts intended to be read by
+humans (for example Visual Inspection Zone (VIZ) of a Machine-Readable Travel Document (MRTD)).</p>
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.AdditionalNameInformation">
+<code class="sig-name descname">additionalNameInformation</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.AdditionalNameInformation" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getAdditionalNameInformation</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The additional name information of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.AdditionalAddressInformation">
+<code class="sig-name descname">additionalAddressInformation</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.AdditionalAddressInformation" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getAdditionalAddressInformation</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The additional address information of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.PlaceOfBirth">
+<code class="sig-name descname">placeOfBirth</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.PlaceOfBirth" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getPlaceOfBirth</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The place of birth of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.Race">
+<code class="sig-name descname">race</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.Race" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getRace</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The race of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.Religion">
+<code class="sig-name descname">religion</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.Religion" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getReligion</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The religion of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.Profession">
+<code class="sig-name descname">profession</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.Profession" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getProfession</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The profession of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.MaritalStatus">
+<code class="sig-name descname">maritalStatus</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.MaritalStatus" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getMaritalStatus</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The marital status of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.ResidentialStatus">
+<code class="sig-name descname">residentialStatus</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.ResidentialStatus" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getResidentialStatus</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The residential status of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.Employer">
+<code class="sig-name descname">employer</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.Employer" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getEmployer</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The employer of the document holder.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.PersonalIdNumber">
+<code class="sig-name descname">personalIdNumber</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.PersonalIdNumber" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getPersonalIdNumber</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The personal identification number.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.DocumentAdditionalNumber">
+<code class="sig-name descname">documentAdditionalNumber</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.DocumentAdditionalNumber" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getDocumentAdditionalNumber</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>The additional number of the document.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.IssuingJurisdiction">
+<code class="sig-name descname">issuingJurisdiction</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.IssuingJurisdiction" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getIssuingJurisdiction</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.1</span></p>
+<p>A human readable name of the issuing jurisdiction (for example: an issuing state, territory or federal district for USA, or an issuing province or territory for Canada).</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.IssuingJurisdictionIso">
+<code class="sig-name descname">issuingJurisdictionIso</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.IssuingJurisdictionIso" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getIssuingJurisdictionIso</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.7.0</span></p>
+<p>An ISO code of the issuing jurisdiction (for example: an issuing state, territory or federal district for the USA, or an issuing province or territory for Canada). <em>null</em> if the issuing jurisdiction has no valid ISO code (for example cities in Mexico).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The returned value will only contain the jurisdiction specific code: for instance for California the returned value would be “CA” and not “US-CA”.</p>
+<p>Please note that for the New York City ID, this field is set to “NYC” as ISO-3166-2 does not specify city-level names.</p>
+</div>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.IssuingAuthority">
+<code class="sig-name descname">issuingAuthority</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.IssuingAuthority" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature">&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/String.html" title="String">String</a> <code class="sig-name descname">getIssuingAuthority</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.5.1</span></p>
+<p>The government body issuing this ID, e.g. the Department of Motor Vehicles.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.CapturedSides">
+<code class="sig-name descname">capturedSides</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.CapturedSides" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><a class="reference internal" href="id-supported-document-sides.html#enum-scandit.datacapture.id.SupportedSides" title="SupportedSides enum">SupportedSides</a> <code class="sig-name descname">getCapturedSides</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.6.0</span></p>
+<p>The sides of the document that were scanned to extract this VizResult.</p>
+</dd></dl>
+
+<dl class="property">
+<dt id="property-scandit.datacapture.id.VizResult.IsBackSideCaptureSupported">
+<code class="sig-name descname">isBackSideCaptureSupported</code><a class="headerlink" href="#property-scandit.datacapture.id.VizResult.IsBackSideCaptureSupported" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">boolean</span></code> <code class="sig-name descname">isBackSideCaptureSupported</code>()
+</pre><p><span class="versionmodified versionadded">Added in version 6.6.0</span></p>
+<p>Indicates whether the document supports scanning of the back side.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.id.VizResult.Equals">
+<code class="sig-name descname">equals(obj)</code><a class="headerlink" href="#method-scandit.datacapture.id.VizResult.Equals" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">boolean</span></code> <code class="sig-name descname">equals</code>(&#64;Nullable <a class="reference external" href="https://developer.android.com/reference/java/lang/Object.html" title="Object">Object</a> <em>obj</em>)</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Indicates whether some other object is equal to this one.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="method-scandit.datacapture.id.VizResult.HashCode">
+<code class="sig-name descname">hashCode()</code><a class="headerlink" href="#method-scandit.datacapture.id.VizResult.HashCode" title="Permalink to this definition">#</a></dt>
+<dd><pre class="full-signature"><code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="sig-name descname">hashCode</code>()</pre><p><span class="versionmodified versionadded">Added in version 6.5.0</span></p>
+<p>Returns a hash code value for the object.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

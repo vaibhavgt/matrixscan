@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Scandit Data Capture SDK 6.5 Release Notes (October 1st 2020) &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Scandit Data Capture SDK 6.4 Release Notes (July 10th 2020)" href="6.4.html" />
+    <link rel="prev" title="Scandit Data Capture SDK 6.6 Release Notes (December 11th 2020)" href="6.6.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-id-capture.html">Get Started With ID Capture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../id-capture/supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../camera-advanced.html">Advanced Camera Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../label-capture/overview.html">ScanditLabelCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../id-capture/overview.html">ScanditIdCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../release-notes.html">Release Notes</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="6.10.html">6.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.9.html">6.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.8.html">6.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.7.html">6.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.6.html">6.6</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">6.5</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#new-features">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#performance-improvements">Performance Improvements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bug-fixes">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#api-changes">API Changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecations">Deprecations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#updates">Updates</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#sdk-6-5-1-bug-fixes-october-21st-2020">Scandit Data Capture SDK 6.5.1 Bug Fixes (October 21st 2020)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sdk-6-5-2-bug-fixes-october-22nd-2020">Scandit Data Capture SDK 6.5.2 Bug Fixes (October 22nd 2020)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sdk-6-5-3-bug-fixes-november-5th-2020">Scandit Data Capture SDK 6.5.3 Bug Fixes (November 5th 2020)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="6.4.html">6.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.3.html">6.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.2.html">6.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.1.html">6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.0.html">6.0</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../release-notes.html">Scandit Data Capture SDK Release Notes</a> &raquo;</li>
+        
+      <li>Scandit Data Capture SDK 6.5 Release Notes (October 1st 2020)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sdk-6-5-release-notes-october-1st-2020">
+<h1>Scandit Data Capture SDK 6.5 Release Notes (October 1st 2020)<a class="headerlink" href="#sdk-6-5-release-notes-october-1st-2020" title="Permalink to this headline">#</a></h1>
+<p>See also the <a class="reference internal" href="../requirements/6.5.html"><span class="doc">System Requirements</span></a> of the Scandit Data Capture SDK across all platforms.</p>
+<div class="section" id="new-features">
+<h2>New Features<a class="headerlink" href="#new-features" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Added extended ID Capture mode that supports scanning MRZ documents, US Uniformed services documents and the back of driver licenses that contains barcodes. The ID Capture API is still in beta and may change in future versions of the Scandit Data Capture SDK.</p></li>
+<li><p>Setting <a class="reference internal" href="../core/api/camera-settings.html#value-scandit.datacapture.core.VideoResolution.Uhd4k" title="VideoResolution.UHD4K value">VideoResolution.UHD4K</a> now automatically switches to camera API 2 for supported devices. Make sure that you instantiate the camera directly with the settings instead of using <a class="reference internal" href="../core/api/camera.html#method-scandit.datacapture.core.Camera.ApplySettingsAsync" title="Camera.applySettings() method">Camera.applySettings()</a>.</p></li>
+<li><p>Added Latin-1 (ISO-8859-1) support for Code 128.</p></li>
+<li><p>Improved ink spread support for DataBar.</p></li>
+<li><p>Added add-on code (also known as extension code) recognition (EAN-2 &amp; EAN-5). See <a class="reference internal" href="../barcode-capture/scan-add-on-codes.html"><span class="doc">Scan Add-On/Extension Codes</span></a> for an explanation of how it works.</p></li>
+<li><p>Added <a class="reference internal" href="../barcode-capture/api/barcode-tracking-settings.html#method-scandit.datacapture.barcode.tracking.BarcodeTrackingSettings.ForScenario" title="BarcodeTrackingSettings.forScenario() method">BarcodeTrackingSettings.forScenario()</a> for creating a <a class="reference internal" href="../barcode-capture/api/barcode-tracking-settings.html#class-scandit.datacapture.barcode.tracking.BarcodeTrackingSettings" title="BarcodeTrackingSettings class">BarcodeTrackingSettings</a> instance configured with the given scenario.</p></li>
+<li><p>DLID parser: firstNames and lastNames fields added.</p></li>
+<li><p>DLID parser: isExpired field added.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Focus strategies updated with <cite>retriggerUntilScan</cite> property. See the wiki <cite>entry &lt;https://wiki.scandit.com/pages/viewpage.action?pageId=119865360#AutoExposure/AutoFocuscontrolfordifferentBarcodescanningscenarios-RegionStrategies&gt;</cite> for details.</p></li>
+<li><p>Additional hidden properties for Retrigger Until Scan focus strategy <cite>searchPhaseRetriggerInterval</cite> (default is 1.5 sec) and <cite>scanPhaseNoSreTimeout</cite> (default is 5 sec).</p></li>
+<li><p>Enabled analytics 2.0 for all customers.</p></li>
+<li><p>Added billing pings to Label Capture and ID Capture.</p></li>
+<li><p>Added <cite>regionStrategy</cite> hidden property. See <cite>the wiki entry &lt;https://wiki.scandit.com/pages/viewpage.action?pageId=119865360#AutoExposure/AutoFocuscontrolfordifferentBarcodescanningscenarios-RegionStrategies&gt;</cite> for details.</p></li>
+<li><p>Added <cite>focusStrategy</cite> hidden property. See <cite>the wiki entry &lt;https://wiki.scandit.com/pages/viewpage.action?pageId=119865360#AutoExposure/AutoFocuscontrolfordifferentBarcodescanningscenarios-FocusStrategiesfocusstrategies&gt;</cite> for details.</p></li>
+<li><p>Added serialization method <a class="reference internal" href="../core/api/license-info.html#method-scandit.datacapture.core.LicenseInfo.ToJson" title="LicenseInfo.toJson() method">LicenseInfo.toJson()</a> to <a class="reference internal" href="../core/api/license-info.html#class-scandit.datacapture.core.LicenseInfo" title="LicenseInfo class">LicenseInfo</a>.</p></li>
+<li><p>Updated BlinkId to version 5.6.0.</p></li>
+<li><p>Added the AnalyticsSettings, a class used to tweak the behavior of analytics through hidden properties.</p></li>
+<li><p>Parser functionality can be used only when the Parser feature is enabled.</p></li>
+<li><p>Barcode functionality can be used only when the BarcodeScanner feature is enabled.</p></li>
+<li><p>Text Capture functionality can be used only when the Ocr feature is enabled.</p></li>
+<li><p>ID Capture functionality can be used only when additional features are enabled.</p></li>
+</ul>
+</div>
+<div class="section" id="performance-improvements">
+<h2>Performance Improvements<a class="headerlink" href="#performance-improvements" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Improved the way frames are scheduled to be processsed by the data capture context. In some circumstances, this improves the frame rate by around 40%.</p></li>
+<li><p>Significantly improved the recognition of 1D barcodes in single and low-resolution use-cases (especially of Code128 and EAN13).</p></li>
+<li><p>Improved MatrixScan performance in selected use cases (Shelf Management, Inventory Audit, Receiving…), please use the new <a class="reference internal" href="../barcode-capture/api/barcode-tracking-settings.html#method-scandit.datacapture.barcode.tracking.BarcodeTrackingSettings.ForScenario" title="BarcodeTrackingSettings.forScenario() method">BarcodeTrackingSettings.forScenario()</a> to get the latests advances. You can see this being done in our MatrixScan Bubbles Sample that is distributed with the Scandit Data Capture SDK.</p></li>
+</ul>
+</div>
+<div class="section" id="bug-fixes">
+<h2>Bug Fixes<a class="headerlink" href="#bug-fixes" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../text-capture/api/text-capture.html#class-scandit.datacapture.text.TextCapture" title="TextCapture class">TextCapture</a> now works with camera API 2.</p></li>
+<li><p>Fixed the camera lag of the Algiz RT8.</p></li>
+<li><p>Fixed a crash for barcodes that contain no data.</p></li>
+<li><p>It is no longer possible to add a listener multiple times (and then have to remove it multiple times).</p></li>
+<li><p>MRTD parser: Fixed the issue that metadata field contained incorrect information.</p></li>
+<li><p>MRTD parser: Fixed the issue that Portugal TD1 documents were not parsed.</p></li>
+<li><p>MRTD parser: Fixed the issue that caused O-0 false positive compensation not working when check digit was O.</p></li>
+<li><p>MRTD parser: Fixed the issue that French ID MRTD return ISO country code in the issuingCountry field instead of the issuingState field.</p></li>
+<li><p>DLID parser: Redundant commas in name field removed.</p></li>
+<li><p>DLID parser: Fixed the issue that AAMVA version 1 codes showed the last name at the beginning of the name field.</p></li>
+<li><p>DLID parser: Fixed the issue that some expiry dates for magnetic type of format were not parsed.</p></li>
+<li><p>UsUsid parser: Fixed the issue with name ordering in name and sponsorName fields.</p></li>
+<li><p>DLID parser: An incorrectly truncated field at the end of the code no longer fails the parser.</p></li>
+<li><p>MRTD parser: Fixed a parser crash when the document number check digit was not present in the code.</p></li>
+</ul>
+<ul class="simple">
+<li><p>ID Capture: Fixed the issue that made it impossible to scan back of US Driver License documents when Front Id scanning was enabled.</p></li>
+</ul>
+</div>
+<div class="section" id="api-changes">
+<h2>API Changes<a class="headerlink" href="#api-changes" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>The extended ID Capture mode mentioned in the features section breaks the API of the previous version of ID Capture and is not backwards compatible.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Removed the hidden property <cite>shouldForceSmoothAutoFocus</cite>. It is replaced by the focus strategy <cite>forceContinuous</cite> (see new features above).</p></li>
+<li><p>Removed the hidden property <cite>disableRetriggerAndContinuous</cite>. It is replaced by the focus strategy <cite>forceContinuous</cite> (see new features above).</p></li>
+<li><p>Renamed several constants of enums <a class="reference internal" href="../id-capture/api/captured-result-type.html#enum-scandit.datacapture.id.CapturedResultType" title="CapturedResultType enum">CapturedResultType</a> and <a class="reference internal" href="../id-capture/api/id-document-type.html#enum-scandit.datacapture.id.IdDocumentType" title="IdDocumentType enum">IdDocumentType</a> to make the naming more consistent.</p></li>
+</ul>
+</div>
+<div class="section" id="deprecations">
+<h2>Deprecations<a class="headerlink" href="#deprecations" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Deprecated <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.PredictedLocation" title="TrackedBarcode.predictedLocation property">TrackedBarcode.predictedLocation</a> and <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.DeltaTime" title="TrackedBarcode.deltaTimeToPrediction property">TrackedBarcode.deltaTimeToPrediction</a>. They are replaced by <a class="reference internal" href="../barcode-capture/api/tracked-barcode.html#property-scandit.datacapture.barcode.tracking.TrackedBarcode.Location" title="TrackedBarcode.location property">TrackedBarcode.location</a> which returns a continuously interpolated location instead of the previously fixed future location.</p></li>
+</ul>
+</div>
+<div class="section" id="updates">
+<h2>Updates<a class="headerlink" href="#updates" title="Permalink to this headline">#</a></h2>
+<div class="section" id="sdk-6-5-1-bug-fixes-october-21st-2020">
+<h3>Scandit Data Capture SDK 6.5.1 Bug Fixes (October 21st 2020)<a class="headerlink" href="#sdk-6-5-1-bug-fixes-october-21st-2020" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Added <a class="reference internal" href="../id-capture/api/viz-result.html#property-scandit.datacapture.id.VizResult.IssuingJurisdiction" title="VizResult.issuingJurisdiction property">VizResult.issuingJurisdiction</a> and <a class="reference internal" href="../id-capture/api/viz-result.html#property-scandit.datacapture.id.VizResult.IssuingAuthority" title="VizResult.issuingAuthority property">VizResult.issuingAuthority</a>.</p></li>
+<li><p>Fixed decoding of MicroQR symbols with an abbreviated terminator.</p></li>
+<li><p>Increased the maximum configurable Code39 symbol count from 40 to 50.</p></li>
+<li><p>Fixed a bug where there was missing sound feedback on some devices when <a class="reference internal" href="../core/api/feedback.html#method-scandit.datacapture.core.Feedback.Emit" title="Feedback.emit() method">Feedback.emit()</a> was called right after <a class="reference internal" href="../core/api/feedback.html#class-scandit.datacapture.core.Feedback" title="Feedback class">Feedback</a> instantation.</p></li>
+<li><p>Fixed a a very dark preview on the Alcatel 1.</p></li>
+<li><p>Show error when ID Capture mode is used with other data capture modes.</p></li>
+<li><p>DLID parser: Some states can provide dates in two different formats: YYYYMMDD and MMDDYYYY. The parser handles both cases now.</p></li>
+<li><p>DLID parser: Fixed parsing the expiration date for some Arizona codes.</p></li>
+<li><p>DLID parser: Fixed parsing the issuer field for North Carolina and Arizona states as well as Newfounland and Labrador province.</p></li>
+<li><p>HIBC parser: Fixed the issue that parsing secondary data with an additional lot field immidiately after 5-digit Julian date were treated as an error.</p></li>
+</ul>
+</div>
+<div class="section" id="sdk-6-5-2-bug-fixes-october-22nd-2020">
+<h3>Scandit Data Capture SDK 6.5.2 Bug Fixes (October 22nd 2020)<a class="headerlink" href="#sdk-6-5-2-bug-fixes-october-22nd-2020" title="Permalink to this headline">#</a></h3>
+<p>Contains no bug fixes for this platform.</p>
+</div>
+<div class="section" id="sdk-6-5-3-bug-fixes-november-5th-2020">
+<h3>Scandit Data Capture SDK 6.5.3 Bug Fixes (November 5th 2020)<a class="headerlink" href="#sdk-6-5-3-bug-fixes-november-5th-2020" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Fixed a PDF417 scanning performance regressions introduced in 6.5.0.</p></li>
+<li><p>Fixed an issue where issuing jurisdiction (for example, a US state) was not returned when scanning VIZ documents.</p></li>
+<li><p>Fixed a bug in <a class="reference internal" href="../barcode-capture/api/barcode-tracking-settings.html#method-scandit.datacapture.barcode.tracking.BarcodeTrackingSettings.ForScenario" title="BarcodeTrackingSettings.forScenario() method">BarcodeTrackingSettings.forScenario()</a> causing a sub-optimal performance in certain cases.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Fixed a bug causing Analytics 2.0 to send, starting from the day of November when a new ping is due until the end of the month, a ping every time an event is generated.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

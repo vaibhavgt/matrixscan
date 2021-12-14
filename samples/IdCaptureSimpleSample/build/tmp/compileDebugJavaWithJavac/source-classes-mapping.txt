@@ -1,0 +1,12 @@
+com/scandit/datacapture/idcapturesimplesample/AlertDialogFragment.java
+ com.scandit.datacapture.idcapturesimplesample.AlertDialogFragment
+ com.scandit.datacapture.idcapturesimplesample.AlertDialogFragment$Callbacks
+com/scandit/datacapture/idcapturesimplesample/CameraPermissionActivity.java
+ com.scandit.datacapture.idcapturesimplesample.CameraPermissionActivity
+com/scandit/datacapture/idcapturesimplesample/DataCaptureManager.java
+ com.scandit.datacapture.idcapturesimplesample.DataCaptureManager
+com/scandit/datacapture/idcapturesimplesample/BuildConfig.java
+ com.scandit.datacapture.idcapturesimplesample.BuildConfig
+com/scandit/datacapture/idcapturesimplesample/IdCaptureActivity.java
+ com.scandit.datacapture.idcapturesimplesample.IdCaptureActivity
+ com.scandit.datacapture.idcapturesimplesample.IdCaptureActivity$1

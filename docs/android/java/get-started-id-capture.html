@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Get Started With ID Capture &mdash; Data Capture SDK 6.10.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="List of supported documents" href="id-capture/supported-documents.html" />
+    <link rel="prev" title="Get Started With Text Capture" href="get-started-text-capture.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Data Capture SDK
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.10.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="samples/run-samples.html">Run our Sample Apps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="add-sdk.html">Add the SDK to Your App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Scanning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-barcode.html">Get Started With Barcode Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="barcode-symbologies.html">Barcode Symbologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configure-barcodes.html">Configure Which Barcodes Are Read</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optimize-performance.html">Optimize Scanning Performance</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MatrixScan + Augmented Reality</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-matrixscan.html">Get Started With MatrixScan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="add-augmented-reality-overlay.html">Add AR Overlays in MatrixScan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Barcode Selection</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-barcode-selection.html">Get Started With Barcode Selection</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Text Capture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-text-capture.html">Get Started With Text Capture</a></li>
+</ul>
+<p class="caption"><span class="caption-text">ID Capture</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Get Started With ID Capture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#quick-overview">Quick overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prerequisites">Prerequisites</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#external-dependencies">External dependencies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#internal-dependencies">Internal dependencies</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#create-the-data-capture-context">Create the Data Capture Context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#add-the-camera">Add the Camera</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-id-capture-settings">Create ID Capture Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#implement-the-listener">Implement the Listener</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#use-a-capture-view-to-visualize-the-scan-process">Use a Capture View to Visualize the Scan Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#turn-on-the-camera">Turn on the Camera</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#capture-both-the-front-and-the-back-side-of-documents">Capture both the front and the back side of documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supported-documents">Supported documents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="id-capture/supported-documents.html">List of supported documents</a></li>
+</ul>
+<p class="caption"><span class="caption-text">All Capture Modes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="camera-advanced.html">Advanced Camera Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scan-area.html">Set up the Active Scan Area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ui-examples.html">Choose the Scanner UI</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Parser</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-parser.html">Get Started With The Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parser/formats.html">Supported Data Formats</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="core/overview.html">ScanditCaptureCore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="barcode-capture/overview.html">ScanditBarcodeCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-capture/overview.html">ScanditTextCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="label-capture/overview.html">ScanditLabelCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parser/overview.html">ScanditParser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="id-capture/overview.html">ScanditIdCapture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="release-notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">Support &amp; FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="features-by-platform.html">Features By Platform</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.scandit.com/barcode-scanner-sdk.html">SDK 5.x Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migrate-to-6.html">Migrate from Barcode Scanner 5.x</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://ssl.scandit.com">Dashboard</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Data Capture SDK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Get Started With ID Capture</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="get-started-with-id-capture">
+<h1>Get Started With ID Capture<a class="headerlink" href="#get-started-with-id-capture" title="Permalink to this headline">#</a></h1>
+<div class="section" id="quick-overview">
+<h2>Quick overview<a class="headerlink" href="#quick-overview" title="Permalink to this headline">#</a></h2>
+<p><em>ID Capture</em> provides the capability to scan personal identification documents, such as identity cards, passports or visas.
+In this guide you will learn step by step how to add ID Capture to your application. Roughly, the steps are:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Using ID Capture at the same time as other modes (e.g. Barcode Capture or Text Capture) is currently not supported.</p>
+</div>
+<ul class="simple">
+<li><p>Create a <a class="reference internal" href="core/api/data-capture-context.html#class-scandit.datacapture.core.DataCaptureContext" title="DataCaptureContext class">DataCaptureContext</a>.</p></li>
+<li><p>Access a <a class="reference internal" href="core/api/camera.html#class-scandit.datacapture.core.Camera" title="Camera class">Camera</a>.</p></li>
+<li><p>Use <a class="reference internal" href="id-capture/api/id-capture-settings.html#class-scandit.datacapture.id.IdCaptureSettings" title="IdCaptureSettings class">IdCaptureSettings</a> to configure the scan process.</p></li>
+<li><p>Implement an <a class="reference internal" href="id-capture/api/id-capture-listener.html#interface-scandit.datacapture.id.IIdCaptureListener" title="IdCaptureListener interface">IdCaptureListener</a> to receive scan results.</p></li>
+<li><p>Set up <a class="reference internal" href="core/api/ui/data-capture-view.html#class-scandit.datacapture.core.ui.DataCaptureView" title="DataCaptureView class">DataCaptureView</a> and <a class="reference internal" href="id-capture/api/ui/id-capture-overlay.html#class-scandit.datacapture.id.ui.IdCaptureOverlay" title="IdCaptureOverlay class">IdCaptureOverlay</a> to see the camera feed and the scan UI.</p></li>
+<li><p>Begin the scanning by adding an <a class="reference internal" href="id-capture/api/id-capture.html#class-scandit.datacapture.id.IdCapture" title="IdCapture class">IdCapture</a> to <a class="reference internal" href="core/api/data-capture-context.html#class-scandit.datacapture.core.DataCaptureContext" title="DataCaptureContext class">DataCaptureContext</a> and starting a camera.</p></li>
+</ul>
+</div>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">#</a></h2>
+<p>Before starting with adding a capture mode, make sure that you have a valid Scandit Data Capture SDK license key and that you added the necessary dependencies.
+If you have not done that yet, check out <a class="reference internal" href="add-sdk.html"><span class="doc">this guide</span></a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can retrieve your Scandit Data Capture SDK license key, by signing in to your account at <a class="reference external" href="https://ssl.scandit.com/">ssl.scandit.com</a>.</p>
+</div>
+<div class="section" id="external-dependencies">
+<h3>External dependencies<a class="headerlink" href="#external-dependencies" title="Permalink to this headline">#</a></h3>
+<p>The Scandit Data Capture SDK modules depend on a few standard libraries that you can find listed below. If you are including the Scandit Data Capture SDK through Gradle or Maven, all of these dependencies are automatically pulled in and there is no need for you to do anything further. If on the other hand you are directly adding the AAR files to the project, you will have to add these dependencies yourself.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Module</p></th>
+<th class="head"><p>Dependencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><cite>ScanditCaptureCore.aar</cite></p></td>
+<td><ul class="simple">
+<li><p>org.jetbrains.kotlin:kotlin-stdlib:[version]</p></li>
+<li><p>androidx.annotation:annotation:[version]</p></li>
+<li><p>com.squareup.okhttp3:okhttp:4.9.0</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p><cite>ScanditBarcodeCapture.aar</cite></p></td>
+<td><ul class="simple">
+<li><p>org.jetbrains.kotlin:kotlin-stdlib:[version]</p></li>
+<li><p>androidx.annotation:annotation:[version]</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p><cite>ScanditParser.aar</cite></p></td>
+<td><p>No dependencies</p></td>
+</tr>
+<tr class="row-odd"><td><p><cite>ScanditTextCaptureBase.aar</cite></p></td>
+<td><p>No dependencies</p></td>
+</tr>
+<tr class="row-even"><td><p><cite>ScanditTextCapture.aar</cite></p></td>
+<td><ul class="simple">
+<li><p>org.jetbrains.kotlin:kotlin-stdlib:[version]</p></li>
+<li><p>androidx.annotation:annotation:[version]</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p><cite>ScanditIdCapture.aar</cite></p></td>
+<td><ul class="simple">
+<li><p>org.jetbrains.kotlin:kotlin-stdlib:[version]</p></li>
+<li><p>androidx.annotation:annotation:[version]</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="internal-dependencies">
+<h3>Internal dependencies<a class="headerlink" href="#internal-dependencies" title="Permalink to this headline">#</a></h3>
+<p>Some of the Scandit Data Capture SDK modules depend on others to work:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 49%" />
+<col style="width: 51%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Module</p></th>
+<th class="head"><p>Dependencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><cite>ScanditCaptureCore</cite></p></td>
+<td><p>No dependencies</p></td>
+</tr>
+<tr class="row-odd"><td><p><cite>ScanditBarcodeCapture</cite></p></td>
+<td><ul class="simple">
+<li><p><cite>ScanditCaptureCore</cite></p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p><cite>ScanditParser</cite></p></td>
+<td><p>No dependencies</p></td>
+</tr>
+<tr class="row-odd"><td><p><cite>ScanditTextCaptureBase</cite></p></td>
+<td><p>No dependencies</p></td>
+</tr>
+<tr class="row-even"><td><p><cite>ScanditTextCapture</cite></p></td>
+<td><ul class="simple">
+<li><p><cite>ScanditCaptureCore</cite></p></li>
+<li><p><cite>ScanditTextCaptureBase</cite></p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p><cite>ScanditIdCapture</cite></p></td>
+<td><ul class="simple">
+<li><p><cite>ScanditCaptureCore</cite></p></li>
+<li><p><cite>ScanditTextCaptureBase</cite> (MRZ or VIZ documents)</p></li>
+<li><p><cite>ScanditTextCapture</cite> (MRZ documents)</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Please note that your license may support only a subset of ID Capture features. If you would like to use additional features please contact us at <a class="reference external" href="mailto:support&#37;&#52;&#48;scandit&#46;com">support<span>&#64;</span>scandit<span>&#46;</span>com</a>.</p>
+</div>
+</div>
+<div class="section" id="create-the-data-capture-context">
+<h2>Create the Data Capture Context<a class="headerlink" href="#create-the-data-capture-context" title="Permalink to this headline">#</a></h2>
+<p>The first step to add barcode capture capabilities to your application is to create a new <a class="reference internal" href="core/api/data-capture-context.html#class-scandit.datacapture.core.DataCaptureContext" title="data capture context class">data capture context</a>. The context expects a valid Scandit Data Capture SDK license key during construction.</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">DataCaptureContext</span> <span class="n">dataCaptureContext</span> <span class="o">=</span> <span class="n">DataCaptureContext</span><span class="p">.</span><span class="na">forLicenseKey</span><span class="p">(</span><span class="s">&quot;-- ENTER YOUR SCANDIT LICENSE KEY HERE --&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="add-the-camera">
+<h2>Add the Camera<a class="headerlink" href="#add-the-camera" title="Permalink to this headline">#</a></h2>
+<p>You need to also create <a class="reference internal" href="core/api/camera.html#class-scandit.datacapture.core.Camera" title="Camera class">Camera</a>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">camera</span> <span class="o">=</span> <span class="n">Camera</span><span class="p">.</span><span class="na">getDefaultCamera</span><span class="p">(</span><span class="n">IdCapture</span><span class="p">.</span><span class="na">createRecommendedCameraSettings</span><span class="p">());</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">camera</span> <span class="o">==</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="n">IllegalStateException</span><span class="p">(</span><span class="s">&quot;Failed to init camera!&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">dataCaptureContext</span><span class="p">.</span><span class="na">setFrameSource</span><span class="p">(</span><span class="n">camera</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="create-id-capture-settings">
+<h2>Create ID Capture Settings<a class="headerlink" href="#create-id-capture-settings" title="Permalink to this headline">#</a></h2>
+<p>Use <a class="reference internal" href="id-capture/api/id-capture-settings.html#class-scandit.datacapture.id.IdCaptureSettings" title="IdCaptureSettings class">IdCaptureSettings</a> to configure the types of documents that you’d like to scan. Check <a class="reference internal" href="id-capture/api/id-document-type.html#enum-scandit.datacapture.id.IdDocumentType" title="IdDocumentType enum">IdDocumentType</a> for all the available options.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Using <a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.DlViz" title="IdDocumentType.DL_VIZ value">IdDocumentType.DL_VIZ</a> or <a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.IdCardViz" title="IdDocumentType.ID_CARD_VIZ value">IdDocumentType.ID_CARD_VIZ</a>  together with any MRZ document (<a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.IdCardMrz" title="IdDocumentType.ID_CARD_MRZ value">IdDocumentType.ID_CARD_MRZ</a>,
+<a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.VisaMrz" title="IdDocumentType.VISA_MRZ value">IdDocumentType.VISA_MRZ</a>, <a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.PassportMrz" title="IdDocumentType.PASSPORT_MRZ value">IdDocumentType.PASSPORT_MRZ</a>, <a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.SwissDlMrz" title="IdDocumentType.SWISS_DL_MRZ value">IdDocumentType.SWISS_DL_MRZ</a>) is currently not supported.</p>
+</div>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">IdCaptureSettings</span> <span class="n">settings</span> <span class="o">=</span> <span class="k">new</span> <span class="n">IdCaptureSettings</span><span class="p">();</span>
+<span class="n">settings</span><span class="p">.</span><span class="na">setSupportedDocuments</span><span class="p">(</span>
+        <span class="n">IdDocumentType</span><span class="p">.</span><span class="na">ID_CARD_VIZ</span><span class="p">,</span>
+        <span class="n">IdDocumentType</span><span class="p">.</span><span class="na">DL_VIZ</span><span class="p">,</span>
+        <span class="n">IdDocumentType</span><span class="p">.</span><span class="na">AAMVA_BARCODE</span>
+<span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="implement-the-listener">
+<h2>Implement the Listener<a class="headerlink" href="#implement-the-listener" title="Permalink to this headline">#</a></h2>
+<p>To receive scan results, implement <a class="reference internal" href="id-capture/api/id-capture-listener.html#interface-scandit.datacapture.id.IIdCaptureListener" title="IdCaptureListener interface">IdCaptureListener</a>. A result is delivered as <a class="reference internal" href="id-capture/api/captured-id.html#class-scandit.datacapture.id.CapturedId" title="CapturedId class">CapturedId</a>. This class contains data common for all kinds of personal identification documents. For more specific information use its non-<em>null</em> result properties (for example <a class="reference internal" href="id-capture/api/captured-id.html#property-scandit.datacapture.id.CapturedId.AamvaBarcode" title="CapturedId.aamvaBarcode property">CapturedId.aamvaBarcode</a>).</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">MyListener</span> <span class="kd">implements</span> <span class="n">IdCaptureListener</span> <span class="p">{</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onIdCaptured</span><span class="p">(</span>
+            <span class="nd">@NotNull</span> <span class="n">IdCapture</span> <span class="n">mode</span><span class="p">,</span>
+            <span class="nd">@NotNull</span> <span class="n">IdCaptureSession</span> <span class="n">session</span><span class="p">,</span>
+            <span class="nd">@NotNull</span> <span class="n">FrameData</span> <span class="n">data</span>
+    <span class="p">)</span> <span class="p">{</span>
+        <span class="n">CapturedId</span> <span class="n">capturedId</span> <span class="o">=</span> <span class="n">session</span><span class="p">.</span><span class="na">getNewlyCapturedId</span><span class="p">();</span>
+
+        <span class="c1">// The recognized fields of the captured Id can vary based on the type.</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">capturedId</span><span class="p">.</span><span class="na">getMrz</span><span class="p">()</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// Handle the information extracted.</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">capturedId</span><span class="p">.</span><span class="na">getViz</span><span class="p">()</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// Handle the information extracted.</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">capturedId</span><span class="p">.</span><span class="na">getAamvaBarcode</span><span class="p">()</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// Handle the information extracted.</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">capturedId</span><span class="p">.</span><span class="na">getUsUniformedServicesBarcode</span><span class="p">()</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// Handle the information extracted.</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onErrorEncountered</span><span class="p">(</span>
+            <span class="nd">@NotNull</span> <span class="n">IdCapture</span> <span class="n">mode</span><span class="p">,</span>
+            <span class="nd">@NotNull</span> <span class="n">Throwable</span> <span class="n">error</span><span class="p">,</span>
+            <span class="nd">@NotNull</span> <span class="n">IdCaptureSession</span> <span class="n">session</span><span class="p">,</span>
+            <span class="nd">@NotNull</span> <span class="n">FrameData</span> <span class="n">data</span>
+    <span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// Handle the error</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Create a new ID Capture mode with the chosen settings. Then register the listener:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">idCapture</span> <span class="o">=</span> <span class="n">IdCapture</span><span class="p">.</span><span class="na">forDataCaptureContext</span><span class="p">(</span><span class="n">dataCaptureContext</span><span class="p">,</span> <span class="n">settings</span><span class="p">);</span>
+<span class="n">idCapture</span><span class="p">.</span><span class="na">addListener</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="use-a-capture-view-to-visualize-the-scan-process">
+<h2>Use a Capture View to Visualize the Scan Process<a class="headerlink" href="#use-a-capture-view-to-visualize-the-scan-process" title="Permalink to this headline">#</a></h2>
+<p>When using the built-in camera as frame source, you will typically want to display the camera preview on the screen together with UI elements that guide the user through the capturing process. To do that, add a <a class="reference internal" href="core/api/ui/data-capture-view.html#class-scandit.datacapture.core.ui.DataCaptureView" title="DataCaptureView class">DataCaptureView</a> to your view hierarchy:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">DataCaptureView</span> <span class="n">dataCaptureView</span> <span class="o">=</span> <span class="n">DataCaptureView</span><span class="p">.</span><span class="na">newInstance</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="n">dataCaptureContext</span><span class="p">);</span>
+<span class="n">setContentView</span><span class="p">(</span><span class="n">dataCaptureView</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Then create an instance of <a class="reference internal" href="id-capture/api/ui/id-capture-overlay.html#class-scandit.datacapture.id.ui.IdCaptureOverlay" title="IdCaptureOverlay class">IdCaptureOverlay</a> attached to the view:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">IdCaptureOverlay</span> <span class="n">overlay</span> <span class="o">=</span> <span class="n">IdCaptureOverlay</span><span class="p">.</span><span class="na">newInstance</span><span class="p">(</span><span class="n">idCapture</span><span class="p">,</span> <span class="n">dataCaptureView</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>The overlay chooses the displayed UI automatically, based on the selected <a class="reference internal" href="id-capture/api/id-capture-settings.html#class-scandit.datacapture.id.IdCaptureSettings" title="IdCaptureSettings class">IdCaptureSettings</a>. If you prefer to show a different UI or to temporarily hide it, set the appropriate <a class="reference internal" href="id-capture/api/ui/id-capture-overlay.html#property-scandit.datacapture.id.ui.IdCaptureOverlay.IdLayout" title="IdCaptureOverlay.idLayout property">IdCaptureOverlay.idLayout</a>.</p>
+</div>
+<div class="section" id="turn-on-the-camera">
+<h2>Turn on the Camera<a class="headerlink" href="#turn-on-the-camera" title="Permalink to this headline">#</a></h2>
+<p>Finally, turn on the camera to start scanning:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">camera</span><span class="p">.</span><span class="na">switchToDesiredState</span><span class="p">(</span><span class="n">FrameSourceState</span><span class="p">.</span><span class="na">ON</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>And this is it. You can now scan documents.</p>
+</div>
+<div class="section" id="capture-both-the-front-and-the-back-side-of-documents">
+<h2>Capture both the front and the back side of documents<a class="headerlink" href="#capture-both-the-front-and-the-back-side-of-documents" title="Permalink to this headline">#</a></h2>
+<p>By default, when <a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.DlViz" title="IdDocumentType.DL_VIZ value">IdDocumentType.DL_VIZ</a> or <a class="reference internal" href="id-capture/api/id-document-type.html#value-scandit.datacapture.id.IdDocumentType.IdCardViz" title="IdDocumentType.ID_CARD_VIZ value">IdDocumentType.ID_CARD_VIZ</a> are selected, <em>Id Capture</em> scans only the front side of documents. Sometimes however, you may be interested in extracting combined information from both the front and the back side.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Capturing combined information from both sides of documents is possible only for their parts intended to be read by humans (for example Visual Inspection Zone (VIZ) of a Machine-Readable Travel Document (MRTD)). It is currently not possible to obtain a single result that would additionally contain the information parsed from Machine-Readable Zones (MRZ) or barcodes, such as PDF417.</p>
+</div>
+<p>First, enable scanning of both sides of documents in <a class="reference internal" href="id-capture/api/id-capture-settings.html#class-scandit.datacapture.id.IdCaptureSettings" title="IdCaptureSettings class">IdCaptureSettings</a>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">settings</span><span class="p">.</span><span class="na">setSupportedDocuments</span><span class="p">(</span><span class="n">IdDocumentType</span><span class="p">.</span><span class="na">ID_CARD_VIZ</span><span class="p">,</span> <span class="n">IdDocumentType</span><span class="p">.</span><span class="na">DL_VIZ</span><span class="p">);</span>
+<span class="n">settings</span><span class="p">.</span><span class="na">setSupportedSides</span><span class="p">(</span><span class="n">SupportedSides</span><span class="p">.</span><span class="na">FRONT_AND_BACK</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Start by scanning the front side of a document. After you receive the result in <a class="reference internal" href="id-capture/api/id-capture-listener.html#interface-scandit.datacapture.id.IIdCaptureListener" title="IdCaptureListener interface">IdCaptureListener</a>, inspect <a class="reference internal" href="id-capture/api/viz-result.html#property-scandit.datacapture.id.VizResult.IsBackSideCaptureSupported" title="VizResult.isBackSideCaptureSupported property">VizResult.isBackSideCaptureSupported</a>. If scanning of the back side of your document is supported, flip the document and capture the back side as well. The next result that you receive is a combined result that contains the information from both sides. You may verify this by checking <a class="reference internal" href="id-capture/api/viz-result.html#property-scandit.datacapture.id.VizResult.CapturedSides" title="VizResult.capturedSides property">VizResult.capturedSides</a>. After both sides of the document are scanned, you may proceed with another document.</p>
+<p>Sometimes, you may not be interested in scanning the back side of a document, after you completed the front scan. For example, your user may decide to cancel the process. Internally, <em>Id Capture</em> maintains the state of the scan, that helps it to provide better combined results. To abandon capturing the back of a document, reset this state by calling:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">idCapture</span><span class="p">.</span><span class="na">reset</span><span class="p">();</span>
+</pre></div>
+</div>
+<p>Otherwise, <em>Id Capture</em> may assume that the front side of a new document is actually the back side of an old one, and provide you with nonsensical results.</p>
+</div>
+<div class="section" id="supported-documents">
+<h2>Supported documents<a class="headerlink" href="#supported-documents" title="Permalink to this headline">#</a></h2>
+<p>You can find the list of supported documents <a class="reference internal" href="id-capture/supported-documents.html"><span class="doc">here</span></a>.</p>
+<div class="admonition-what-s-next admonition">
+<p class="admonition-title">What’s next?</p>
+<p>To dive further into the Scandit Data Capture SDK we recommend the following articles:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="id-capture/overview.html"><span class="doc">ScanditIdCapture</span></a></p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Scandit AG
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23556890-7', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

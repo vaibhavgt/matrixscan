@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"转到首页"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"完成"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"关闭"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"开启"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete 键"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter 键"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"空格键"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"搜索…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"分享对象"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"与<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="mb_action_hold_steady">持稳</string>
+    <string name="mb_action_move_closer">靠近一些</string>
+    <string name="mb_action_searching_document">正在查找文件……</string>
+    <string name="mb_activity_title_step_back_side">背面</string>
+    <string name="mb_activity_title_step_front_side">正面</string>
+    <string name="mb_autofocus_fail">相机无法对焦,请在其他光源下扫描。</string>
+    <string name="mb_blink_card_glare">当心闪光灯眩光。\n请轻轻移动您的身份证件，避免产生眩光。</string>
+    <string name="mb_blinkcard_card_not_fully_visible">保持卡片完全可见</string>
+    <string name="mb_blinkid_back_instructions_barcode">扫描条形码</string>
+    <string name="mb_blinkid_camera_flip_document">给文件翻页</string>
+    <string name="mb_blinkid_document_not_fully_visible">保持文档完全可见</string>
+    <string name="mb_blinkid_document_too_close_to_edge">从边缘移动文件</string>
+    <string name="mb_blinkid_front_instructions">扫描文件的\n正面</string>
+    <string name="mb_camera_not_allowed">权限设置不允许使用相机。</string>
+    <string name="mb_camera_not_ready">相机尚未准备好。</string>
+    <string name="mb_camera_permission_required">需要相机权限。</string>
+    <string name="mb_custom_ui_forbidden">许可证不允许自定义相机活动！</string>
+    <string name="mb_data_not_match_msg">请重新开始扫描过程。</string>
+    <string name="mb_data_not_match_retry_button">重试</string>
+    <string name="mb_data_not_match_title">页数不匹配</string>
+    <string name="mb_dismiss_error_dialog">关闭</string>
+    <string name="mb_edit_default_hint">必填</string>
+    <string name="mb_edit_error_dialog_msg">请填入所有必要信息。</string>
+    <string name="mb_edit_error_expired">您的卡片已到期。</string>
+    <string name="mb_edit_error_invalid_card_number">输入有效卡号。</string>
+    <string name="mb_edit_error_invalid_expiry_date">输入有效日期。</string>
+    <string name="mb_edit_error_invalid_iban">输入有效IBAN。</string>
+    <string name="mb_edit_error_invalid_security_code">输入完整安全码。</string>
+    <string name="mb_edit_error_required_field">此字段必填。</string>
+    <string name="mb_edit_results_card_number">卡号</string>
+    <string name="mb_edit_results_confirm">添加</string>
+    <string name="mb_edit_results_expiry">有效期</string>
+    <string name="mb_edit_results_iban">IBAN</string>
+    <string name="mb_edit_results_owner">持卡人姓名</string>
+    <string name="mb_edit_results_security_code">安全码</string>
+    <string name="mb_edit_results_title">您的卡片信息</string>
+    <string name="mb_enable_camera">启用相机</string>
+    <string name="mb_enable_permission_help">您将被引导至权限设置页面,需要您在页面中向本应用授予相机权限。</string>
+    <string name="mb_enable_permission_help_instant_app">请在应用权限设置中授予相机权限。</string>
+    <string name="mb_error_camera_high">靠近一些</string>
+    <string name="mb_error_camera_near">离远一些</string>
+    <string name="mb_error_initializing">无法初始化本地图库,请查看调试桥 (ADB) 错误日志以获取更多信息。</string>
+    <string name="mb_feature_unsupported_android_version"> Android 2.1 及以上版本支持此功能</string>
+    <string name="mb_feature_unsupported_autofocus">无自动对焦的相机不支持此功能</string>
+    <string name="mb_feature_unsupported_device">受您设备技术性能所限,此功能不受支持</string>
+    <string name="mb_flashlight_warning_message">当心闪光灯眩光。\n请轻轻移动您的身份证件,避免产生眩光。</string>
+    <string name="mb_instructions_flip_card">将卡片翻面</string>
+    <string name="mb_instructions_scan_front_side">扫描卡号</string>
+    <string name="mb_invalid_license">无效的许可证密钥！请查看调试桥 (ADB) 错误日志以获取更多信息。</string>
+    <string name="mb_licence_check_device_offline">检查网络连接</string>
+    <string name="mb_licence_check_failed">网络错误</string>
+    <string name="mb_licence_locked">扫描不可用</string>
+    <string name="mb_manual_entry">手动输入？</string>
+    <string name="mb_recognition_timeout_dialog_message">未能读取文件,请重试。</string>
+    <string name="mb_recognition_timeout_dialog_retry_button">重试</string>
+    <string name="mb_recognition_timeout_dialog_title">扫描失败</string>
+    <string name="mb_skip">跳过</string>
+    <string name="mb_splash_msg_id_back">身份证背面</string>
+    <string name="mb_splash_msg_id_front">身份证正面</string>
+    <string name="mb_tooltip_back_id">将身份证的<b>背面</b>置于框内,并等待自动扫描</string>
+    <string name="mb_tooltip_front_id">将身份证的<b>正面</b>置于框内,并等待自动扫描</string>
+    <string name="mb_tooltip_glare">稍稍移动证件,消除眩光。</string>
+    <string name="mb_unsupported_document_message">扫描支持文件类型的正面。</string>
+    <string name="mb_unsupported_document_title">未能识别文件</string>
+    <string name="mb_warning_title">警告</string>
+    <string msgid="730395136688082741" name="search_menu_title">"搜索"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

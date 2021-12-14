@@ -1,0 +1,36 @@
+com/scandit/datacapture/barcodecaptureviewssample/modes/splitview/SplitViewAdapter.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewAdapter
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewAdapter$ViewHolder
+com/scandit/datacapture/barcodecaptureviewssample/modes/splitview/SplitViewScanActivity.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewScanActivity
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewScanActivity$1
+com/scandit/datacapture/barcodecaptureviewssample/modes/fragment/FullscreenScanFragment.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.fragment.FullscreenScanFragment
+ com.scandit.datacapture.barcodecaptureviewssample.modes.fragment.FullscreenScanFragment$1
+com/scandit/datacapture/barcodecaptureviewssample/modes/base/CameraPermissionActivity.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.base.CameraPermissionActivity
+com/scandit/datacapture/barcodecaptureviewssample/modes/base/CameraPermissionFragment.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.base.CameraPermissionFragment
+com/scandit/datacapture/barcodecaptureviewssample/modes/splitview/SplitViewScanViewModel.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewScanViewModel
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewScanViewModel$1
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewScanViewModel$2
+ com.scandit.datacapture.barcodecaptureviewssample.modes.splitview.SplitViewScanViewModel$Listener
+com/scandit/datacapture/barcodecaptureviewssample/BuildConfig.java
+ com.scandit.datacapture.barcodecaptureviewssample.BuildConfig
+com/scandit/datacapture/barcodecaptureviewssample/modes/activity/FullscreenScanActivity.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.activity.FullscreenScanActivity
+ com.scandit.datacapture.barcodecaptureviewssample.modes.activity.FullscreenScanActivity$1
+com/scandit/datacapture/barcodecaptureviewssample/modes/ScanViewModel.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.ScanViewModel
+ com.scandit.datacapture.barcodecaptureviewssample.modes.ScanViewModel$1
+ com.scandit.datacapture.barcodecaptureviewssample.modes.ScanViewModel$ResultListener
+com/scandit/datacapture/barcodecaptureviewssample/MainActivity.java
+ com.scandit.datacapture.barcodecaptureviewssample.MainActivity
+ com.scandit.datacapture.barcodecaptureviewssample.MainActivity$1
+ com.scandit.datacapture.barcodecaptureviewssample.MainActivity$2
+ com.scandit.datacapture.barcodecaptureviewssample.MainActivity$3
+com/scandit/datacapture/barcodecaptureviewssample/models/DataCaptureManager.java
+ com.scandit.datacapture.barcodecaptureviewssample.models.DataCaptureManager
+com/scandit/datacapture/barcodecaptureviewssample/modes/fragment/FullscreenScanFragmentContainerActivity.java
+ com.scandit.datacapture.barcodecaptureviewssample.modes.fragment.FullscreenScanFragmentContainerActivity

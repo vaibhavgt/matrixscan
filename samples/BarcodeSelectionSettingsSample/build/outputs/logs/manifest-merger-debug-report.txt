@@ -1,0 +1,249 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:2:1-25:12
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.preference:preference:1.1.1] /home/vaibhav/.gradle/caches/transforms-3/4a86d8d25facd142e9b40b06c5aaeb6f/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/9690e465c22fdd42f2be3db70bea1162/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/ce6fb9458800692f916a8c229a8b5bff/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-3/0cf15156019362c936a24aa1e52dbc59/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/8a2b94264efc0d1e12ad562af30720fb/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/304ddf5e116109bd6e3118e400c54829/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/249b7abeb120660580e6260ce9f81384/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/1edb23031af12b74f3089f2b866edb72/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/vaibhav/.gradle/caches/transforms-3/2e4ad77a60b3bda784b2f4fc292f7f0c/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/068a6f521649e6a98269a457a88617ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/3a34c134ff955247bba7391f00cd6d3b/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/2cd6001a7e5d82c486696fd13bca9e73/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/ff3c758555b4ee5f7284436e02433435/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/901e7e1cf0e0a9c4a7977caf88c811d7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/145bf22d5e4f7e561e59ee4f96c35152/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/f3a093f28acea2fce2fba6e4025aef7d/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/ed3d64a4d1bb5cab7ad46c4b6b962d54/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/939cea2cda1bc97cb179307e68ace1d1/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/7c22dd331dd23677f0ef0f1d5798f9f9/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f7e3044fa78a66665828cac650976f7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/c04752c47eab034a13c5baed2e786c6a/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/37b9941e22aa0685aad14af7e580f1c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/ffd65a0fc1335a25d80ec62230368674/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/44b07138e1133f590fe46df862adb2f7/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/8fe226d11e56f10e42db18136aceffd2/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/542decc8fb4d96feeb2f2650e14b7afb/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/7e090854e6e2b60513ab36faf9c14ec7/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/f603b99e377637ff8904806ab2f24c6b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/e7672792d0d46ae43174e166e3feb0cb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/fc6b54aa56551a3711472eb2431484d8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/2c3998f54270e38a3014b61a42cb75bd/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/dffaed6664645d29b760a38a8a39cd27/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/c98c65bc59fa8253e4ee6107f9caff8c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/aecacf11d27830a82cfc49c6340e8a72/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vaibhav/.gradle/caches/transforms-3/eada28411885e0d9171a69b264b65927/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:3:11-75
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:5:5-66
+MERGED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:12:5-67
+MERGED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:18:5-23:19
+MERGED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:18:5-23:19
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:16:5-21:19
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:16:5-21:19
+MERGED from [com.google.android.material:material:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/9690e465c22fdd42f2be3db70bea1162/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/9690e465c22fdd42f2be3db70bea1162/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-3/0cf15156019362c936a24aa1e52dbc59/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-3/0cf15156019362c936a24aa1e52dbc59/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/44b07138e1133f590fe46df862adb2f7/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/44b07138e1133f590fe46df862adb2f7/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:12:9-40
+activity#com.scandit.datacapture.barcodeselectionsettingssample.BarcodeScanActivity
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:14:9-23:20
+	android:screenOrientation
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:16:13-45
+	android:label
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:15:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:21:27-74
+activity#com.scandit.datacapture.barcodeselectionsettingssample.settings.SettingsActivity
+ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:25:9-28:47
+	android:screenOrientation
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:28:13-45
+	android:label
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:27:13-45
+	android:theme
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml:25:19-60
+uses-sdk
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+MERGED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:7:5-9:41
+MERGED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:7:5-9:41
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:7:5-9:41
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.1.1] /home/vaibhav/.gradle/caches/transforms-3/4a86d8d25facd142e9b40b06c5aaeb6f/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/vaibhav/.gradle/caches/transforms-3/4a86d8d25facd142e9b40b06c5aaeb6f/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/9690e465c22fdd42f2be3db70bea1162/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/9690e465c22fdd42f2be3db70bea1162/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/ce6fb9458800692f916a8c229a8b5bff/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/ce6fb9458800692f916a8c229a8b5bff/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-3/0cf15156019362c936a24aa1e52dbc59/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-3/0cf15156019362c936a24aa1e52dbc59/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/8a2b94264efc0d1e12ad562af30720fb/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/8a2b94264efc0d1e12ad562af30720fb/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/304ddf5e116109bd6e3118e400c54829/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/304ddf5e116109bd6e3118e400c54829/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/249b7abeb120660580e6260ce9f81384/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/249b7abeb120660580e6260ce9f81384/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/1edb23031af12b74f3089f2b866edb72/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/1edb23031af12b74f3089f2b866edb72/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /home/vaibhav/.gradle/caches/transforms-3/2e4ad77a60b3bda784b2f4fc292f7f0c/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/vaibhav/.gradle/caches/transforms-3/2e4ad77a60b3bda784b2f4fc292f7f0c/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/068a6f521649e6a98269a457a88617ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/068a6f521649e6a98269a457a88617ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/3a34c134ff955247bba7391f00cd6d3b/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/3a34c134ff955247bba7391f00cd6d3b/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/2cd6001a7e5d82c486696fd13bca9e73/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/2cd6001a7e5d82c486696fd13bca9e73/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/ff3c758555b4ee5f7284436e02433435/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/ff3c758555b4ee5f7284436e02433435/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/901e7e1cf0e0a9c4a7977caf88c811d7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/901e7e1cf0e0a9c4a7977caf88c811d7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/145bf22d5e4f7e561e59ee4f96c35152/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/145bf22d5e4f7e561e59ee4f96c35152/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/f3a093f28acea2fce2fba6e4025aef7d/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/f3a093f28acea2fce2fba6e4025aef7d/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/ed3d64a4d1bb5cab7ad46c4b6b962d54/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/ed3d64a4d1bb5cab7ad46c4b6b962d54/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/939cea2cda1bc97cb179307e68ace1d1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/939cea2cda1bc97cb179307e68ace1d1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/7c22dd331dd23677f0ef0f1d5798f9f9/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/7c22dd331dd23677f0ef0f1d5798f9f9/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f7e3044fa78a66665828cac650976f7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/4f7e3044fa78a66665828cac650976f7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/c04752c47eab034a13c5baed2e786c6a/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/c04752c47eab034a13c5baed2e786c6a/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/587493a7b0c810530fabc15d96218f76/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/37b9941e22aa0685aad14af7e580f1c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/37b9941e22aa0685aad14af7e580f1c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/ffd65a0fc1335a25d80ec62230368674/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/ffd65a0fc1335a25d80ec62230368674/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/44b07138e1133f590fe46df862adb2f7/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibhav/.gradle/caches/transforms-3/44b07138e1133f590fe46df862adb2f7/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/8fe226d11e56f10e42db18136aceffd2/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/8fe226d11e56f10e42db18136aceffd2/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/542decc8fb4d96feeb2f2650e14b7afb/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/542decc8fb4d96feeb2f2650e14b7afb/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/7e090854e6e2b60513ab36faf9c14ec7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/7e090854e6e2b60513ab36faf9c14ec7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/f603b99e377637ff8904806ab2f24c6b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/f603b99e377637ff8904806ab2f24c6b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/e7672792d0d46ae43174e166e3feb0cb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/e7672792d0d46ae43174e166e3feb0cb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/fc6b54aa56551a3711472eb2431484d8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/fc6b54aa56551a3711472eb2431484d8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/2c3998f54270e38a3014b61a42cb75bd/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/2c3998f54270e38a3014b61a42cb75bd/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/dffaed6664645d29b760a38a8a39cd27/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/vaibhav/.gradle/caches/transforms-3/dffaed6664645d29b760a38a8a39cd27/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/c98c65bc59fa8253e4ee6107f9caff8c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vaibhav/.gradle/caches/transforms-3/c98c65bc59fa8253e4ee6107f9caff8c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/aecacf11d27830a82cfc49c6340e8a72/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/vaibhav/.gradle/caches/transforms-3/aecacf11d27830a82cfc49c6340e8a72/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vaibhav/.gradle/caches/transforms-3/eada28411885e0d9171a69b264b65927/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vaibhav/.gradle/caches/transforms-3/eada28411885e0d9171a69b264b65927/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+		ADDED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+		INJECTED from /home/vaibhav/arcore/scandit-datacapture-android-6.10.1/samples/BarcodeSelectionSettingsSample/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CAMERA
+ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:13:5-65
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:11:5-65
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:13:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:5-66
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:12:5-66
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:14:22-63
+uses-feature#0x00020000
+ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:5-54
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:14:5-54
+MERGED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:14:5-54
+	android:glEsVersion
+		ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:16:19-51
+provider#com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider
+ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:19:9-22:40
+	android:authorities
+		ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:21:13-84
+	android:exported
+		ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:ScanditCaptureCore:] /home/vaibhav/.gradle/caches/transforms-3/20eb46b46a38b22034f6eca9aa9e6c1f/transformed/jetified-ScanditCaptureCore/AndroidManifest.xml:20:13-107
+provider#com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider
+ADDED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:17:9-20:40
+	android:authorities
+		ADDED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:19:13-87
+	android:exported
+		ADDED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [:ScanditBarcodeCapture:] /home/vaibhav/.gradle/caches/transforms-3/3e3dbb7edc72d68a636514bf72e29f7f/transformed/jetified-ScanditBarcodeCapture/AndroidManifest.xml:18:13-113

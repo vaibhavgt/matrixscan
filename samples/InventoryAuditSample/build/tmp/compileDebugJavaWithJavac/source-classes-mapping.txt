@@ -1,0 +1,2 @@
+com/scandit/datacapture/inventoryauditsample/BuildConfig.java
+ com.scandit.datacapture.inventoryauditsample.BuildConfig
